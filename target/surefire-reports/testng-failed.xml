@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT" verbose="0">
+  <listeners>
+    <listener class-name="api.utilities.ExtentListenerClass"/>
+  </listeners>
+  <test thread-count="5" name="BingoAdminPanel(failed)" verbose="0">
+    <classes>
+      <class name="api.testcases.Adminpoweruptestcase">
+        <methods>
+          <include name="testadminpowerpdelete"/>
+          <include name="testadminpowerupupdate" invocation-numbers="0"/>
+          <include name="testadminpowerupfetch"/>
+          <include name="generateusertestdata"/>
+          <include name="testadminpowerupcreate" invocation-numbers="0 1 2"/>
+        </methods>
+      </class> <!-- api.testcases.Adminpoweruptestcase -->
+      <class name="api.testcases.Adminleaderboardtestcase">
+        <methods>
+          <include name="testadminleaderboard"/>
+          <include name="generateusertestdata"/>
+        </methods>
+      </class> <!-- api.testcases.Adminleaderboardtestcase -->
+      <class name="api.testcases.Adminspinrewardtestcase">
+        <methods>
+          <include name="testadminspinrewardcreate" invocation-numbers="0 1 2"/>
+          <include name="generateusertestdata"/>
+          <include name="testadminspinrewardupdate" invocation-numbers="0"/>
+          <include name="testadminspinrewardfetch"/>
+          <include name="testadminspinrewarddelete"/>
+        </methods>
+      </class> <!-- api.testcases.Adminspinrewardtestcase -->
+      <class name="api.testcases.Adminsignintestcase">
+        <methods>
+          <include name="testadminsignin" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- api.testcases.Adminsignintestcase -->
+      <class name="api.testcases.Admindailyrewardtestcase">
+        <methods>
+          <include name="testadmindailyrewardfetch"/>
+          <include name="generateusertestdata"/>
+          <include name="testadmindailyrewardupdate" invocation-numbers="0"/>
+          <include name="testadmindailyrewarddelete"/>
+          <include name="testadmindailyrewardcreate" invocation-numbers="0 1 2"/>
+        </methods>
+      </class> <!-- api.testcases.Admindailyrewardtestcase -->
+    </classes>
+  </test> <!-- BingoAdminPanel(failed) -->
+</suite> <!-- Failed suite [Suite] -->

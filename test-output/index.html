@@ -1,0 +1,1209 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite, 20 failed tests</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-Suite" class="navigator-link">
+              <span class="suite-name border-failed">Suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-Suite" class="navigator-link ">
+                    <span>D:\bingo API Automation\BingoAutomation\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-Suite" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-Suite" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-Suite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-Suite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-Suite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-Suite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">34 methods, 20 failed,   14 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods failed suite-Suite"> (hide)</a> <!-- hide-methods failed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods failed suite-Suite"> (show)</a> <!-- show-methods failed suite-Suite -->
+                    </span>
+                    <div class="method-list-content failed suite-Suite">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="api.testcases.Admindailyrewardtestcase" class="method navigator-link" hash-for-method="testadmindailyrewardcreate(38.0, PowerUp, Gems, 3.0)">testadmindailyrewardcreate(38.0, PowerUp, Gems, 3.0)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="api.testcases.Admindailyrewardtestcase" class="method navigator-link" hash-for-method="testadmindailyrewardcreate(40.0, Chest, T1Chest, 4.0)">testadmindailyrewardcreate(40.0, Chest, T1Chest, 4.0)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="api.testcases.Admindailyrewardtestcase" class="method navigator-link" hash-for-method="testadmindailyrewardcreate(39.0, Ticket, Ticket, 500.0)">testadmindailyrewardcreate(39.0, Ticket, Ticket, 500.0)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="api.testcases.Admindailyrewardtestcase" class="method navigator-link" hash-for-method="testadmindailyrewarddelete">testadmindailyrewarddelete</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="api.testcases.Admindailyrewardtestcase" class="method navigator-link" hash-for-method="testadmindailyrewardfetch">testadmindailyrewardfetch</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="api.testcases.Admindailyrewardtestcase" class="method navigator-link" hash-for-method="testadmindailyrewardupdate(1.0, PowerUp, X2PointsAll, 6.0)">testadmindailyrewardupdate(1.0, PowerUp, X2PointsAll, 6.0)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="api.testcases.Adminleaderboardtestcase" class="method navigator-link" hash-for-method="testadminleaderboard">testadminleaderboard</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="api.testcases.Adminpoweruptestcase" class="method navigator-link" hash-for-method="testadminpowerpdelete">testadminpowerpdelete</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="api.testcases.Adminpoweruptestcase" class="method navigator-link" hash-for-method="testadminpowerupcreate(New Powerup, New Powerup, https://gratisography.com/wp-content/uploads/2024/11/gratisography-augment...)">testadminpowerupcreate(New Powerup, New Powerup, https://gratisography.com/wp-content/uploads/2024/11/gratisography-augment...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="api.testcases.Adminpoweruptestcase" class="method navigator-link" hash-for-method="testadminpowerupcreate(New Powerup2, New Powerup2, https://cdn.pixabay.com/photo/2024/05/26/10/15/bird-8788491_1280.jpg, ht...)">testadminpowerupcreate(New Powerup2, New Powerup2, https://cdn.pixabay.com/photo/2024/05/26/10/15/bird-8788491_1280.jpg, ht...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="api.testcases.Adminpoweruptestcase" class="method navigator-link" hash-for-method="testadminpowerupcreate(New Powerup3, New Powerup3, https://images.ctfassets.net/hrltx12pl8hq/28ECAQiPJZ78hxatLTa7Ts/2f695d8...)">testadminpowerupcreate(New Powerup3, New Powerup3, https://images.ctfassets.net/hrltx12pl8hq/28ECAQiPJZ78hxatLTa7Ts/2f695d8...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="api.testcases.Adminpoweruptestcase" class="method navigator-link" hash-for-method="testadminpowerupfetch">testadminpowerupfetch</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="api.testcases.Adminpoweruptestcase" class="method navigator-link" hash-for-method="testadminpowerupupdate(New Powerup, https://gratisography.com/wp-content/uploads/2024/11/gratisography-augmented-reality-80...)">testadminpowerupupdate(New Powerup, https://gratisography.com/wp-content/uploads/2024/11/gratisography-augmented-reality-80...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="api.testcases.Adminsignintestcase" class="method navigator-link" hash-for-method="testadminsignin(admin@hpl.com, Ali12345?!)">testadminsignin(admin@hpl.com, Ali12345?!)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="api.testcases.Adminspinrewardtestcase" class="method navigator-link" hash-for-method="testadminspinrewardcreate(14.0, Ticket, Ticket, 60.0)">testadminspinrewardcreate(14.0, Ticket, Ticket, 60.0)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="api.testcases.Adminspinrewardtestcase" class="method navigator-link" hash-for-method="testadminspinrewardcreate(13.0, Ticket, Ticket, 500.0)">testadminspinrewardcreate(13.0, Ticket, Ticket, 500.0)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="api.testcases.Adminspinrewardtestcase" class="method navigator-link" hash-for-method="testadminspinrewardcreate(15.0, PowerUp, SingleDaub, 5.0)">testadminspinrewardcreate(15.0, PowerUp, SingleDaub, 5.0)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="api.testcases.Adminspinrewardtestcase" class="method navigator-link" hash-for-method="testadminspinrewarddelete">testadminspinrewarddelete</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="api.testcases.Adminspinrewardtestcase" class="method navigator-link" hash-for-method="testadminspinrewardfetch">testadminspinrewardfetch</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="api.testcases.Adminspinrewardtestcase" class="method navigator-link" hash-for-method="testadminspinrewardupdate(15.0, Ticket, Ticket, 100.0)">testadminspinrewardupdate(15.0, Ticket, Ticket, 100.0)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Suite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods passed suite-Suite"> (hide)</a> <!-- hide-methods passed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods passed suite-Suite"> (show)</a> <!-- show-methods passed suite-Suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Suite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="api.testcases.Admincurrencytestcase" class="method navigator-link" hash-for-method="testadmicurrencyupdate(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ1zwhySGCEBxRRFYIcQgvOLOpRGqrT3d7Qng&amp;s, https:...)">testadmicurrencyupdate(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ1zwhySGCEBxRRFYIcQgvOLOpRGqrT3d7Qng&s, https:...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="api.testcases.Adminavatartestcase" class="method navigator-link" hash-for-method="testadminavatarcreate(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR9SRRmhH4X5N2e4QalcoxVbzYsD44C-sQv-w&amp;s, false)">testadminavatarcreate(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR9SRRmhH4X5N2e4QalcoxVbzYsD44C-sQv-w&s, false)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="api.testcases.Adminavatartestcase" class="method navigator-link" hash-for-method="testadminavatarcreate(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ1zwhySGCEBxRRFYIcQgvOLOpRGqrT3d7Qng&amp;s, true)">testadminavatarcreate(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ1zwhySGCEBxRRFYIcQgvOLOpRGqrT3d7Qng&s, true)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="api.testcases.Adminavatartestcase" class="method navigator-link" hash-for-method="testadminavatardelete">testadminavatardelete</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="api.testcases.Adminavatartestcase" class="method navigator-link" hash-for-method="testadminavatarfetch">testadminavatarfetch</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="api.testcases.Adminavatartestcase" class="method navigator-link" hash-for-method="testadminavatarupdate(https://cdn.pixabay.com/photo/2018/08/04/11/30/draw-3583548_1280.png, true)">testadminavatarupdate(https://cdn.pixabay.com/photo/2018/08/04/11/30/draw-3583548_1280.png, true)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="api.testcases.Admincurrencytestcase" class="method navigator-link" hash-for-method="testadmincurrencyfetch">testadmincurrencyfetch</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="api.testcases.Admindashboardtestcase" class="method navigator-link" hash-for-method="testadmindashboard">testadmindashboard</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="api.testcases.Adminpointswagertestcase" class="method navigator-link" hash-for-method="testadminpointwagercreate(666765.0, 2.0, Ticket)">testadminpointwagercreate(666765.0, 2.0, Ticket)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="api.testcases.Adminpointswagertestcase" class="method navigator-link" hash-for-method="testadminpointwagerdelete">testadminpointwagerdelete</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="api.testcases.Adminpointswagertestcase" class="method navigator-link" hash-for-method="testadminpointwagerfetch">testadminpointwagerfetch</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="api.testcases.Adminpointswagertestcase" class="method navigator-link" hash-for-method="testadminpointwagerupdate(666765.0, 5.0, Ticket)">testadminpointwagerupdate(666765.0, 5.0, Ticket)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="api.testcases.Adminusertestcase" class="method navigator-link" hash-for-method="testadminuserfetch">testadminuserfetch</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="api.testcases.Adminusertestcase" class="method navigator-link" hash-for-method="testadminuserfetchbyid">testadminuserfetchbyid</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Suite" class="panel Suite">
+          <div class="suite-Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">api.testcases.Admindailyrewardtestcase</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testadmindailyrewardcreate(38.0, PowerUp, Gems, 3.0)">
+                  </a> <!-- testadmindailyrewardcreate(38.0, PowerUp, Gems, 3.0) -->
+                  <span class="method-name">testadmindailyrewardcreate</span>
+                  <span class="parameters">(38.0,PowerUp,Gems,3.0)</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [201] but found [401]
+	at api.testcases.Admindailyrewardtestcase.testadmindailyrewardcreate(Admindailyrewardtestcase.java:68)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+... Removed 32 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testadmindailyrewardcreate(40.0, Chest, T1Chest, 4.0)">
+                  </a> <!-- testadmindailyrewardcreate(40.0, Chest, T1Chest, 4.0) -->
+                  <span class="method-name">testadmindailyrewardcreate</span>
+                  <span class="parameters">(40.0,Chest,T1Chest,4.0)</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [201] but found [401]
+	at api.testcases.Admindailyrewardtestcase.testadmindailyrewardcreate(Admindailyrewardtestcase.java:68)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+... Removed 32 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testadmindailyrewardcreate(39.0, Ticket, Ticket, 500.0)">
+                  </a> <!-- testadmindailyrewardcreate(39.0, Ticket, Ticket, 500.0) -->
+                  <span class="method-name">testadmindailyrewardcreate</span>
+                  <span class="parameters">(39.0,Ticket,Ticket,500.0)</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [201] but found [401]
+	at api.testcases.Admindailyrewardtestcase.testadmindailyrewardcreate(Admindailyrewardtestcase.java:68)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+... Removed 32 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testadmindailyrewarddelete">
+                  </a> <!-- testadmindailyrewarddelete -->
+                  <span class="method-name">testadmindailyrewarddelete</span>
+                  <div class="stack-trace">java.lang.NullPointerException: Cannot invoke &quot;java.util.List.size()&quot; because &quot;ids&quot; is null
+	at api.testcases.Admindailyrewardtestcase.testadmindailyrewarddelete(Admindailyrewardtestcase.java:124)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+... Removed 25 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testadmindailyrewardfetch">
+                  </a> <!-- testadmindailyrewardfetch -->
+                  <span class="method-name">testadmindailyrewardfetch</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [200] but found [401]
+	at api.testcases.Admindailyrewardtestcase.testadmindailyrewardfetch(Admindailyrewardtestcase.java:84)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+... Removed 32 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testadmindailyrewardupdate(1.0, PowerUp, X2PointsAll, 6.0)">
+                  </a> <!-- testadmindailyrewardupdate(1.0, PowerUp, X2PointsAll, 6.0) -->
+                  <span class="method-name">testadmindailyrewardupdate</span>
+                  <span class="parameters">(1.0,PowerUp,X2PointsAll,6.0)</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [200] but found [401]
+	at api.testcases.Admindailyrewardtestcase.testadmindailyrewardupdate(Admindailyrewardtestcase.java:111)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+... Removed 32 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-failed -->
+          <div class="suite-Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">api.testcases.Adminspinrewardtestcase</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testadminspinrewardcreate(14.0, Ticket, Ticket, 60.0)">
+                  </a> <!-- testadminspinrewardcreate(14.0, Ticket, Ticket, 60.0) -->
+                  <span class="method-name">testadminspinrewardcreate</span>
+                  <span class="parameters">(14.0,Ticket,Ticket,60.0)</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [201] but found [401]
+	at api.testcases.Adminspinrewardtestcase.testadminspinrewardcreate(Adminspinrewardtestcase.java:67)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+... Removed 32 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testadminspinrewardcreate(13.0, Ticket, Ticket, 500.0)">
+                  </a> <!-- testadminspinrewardcreate(13.0, Ticket, Ticket, 500.0) -->
+                  <span class="method-name">testadminspinrewardcreate</span>
+                  <span class="parameters">(13.0,Ticket,Ticket,500.0)</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [201] but found [401]
+	at api.testcases.Adminspinrewardtestcase.testadminspinrewardcreate(Adminspinrewardtestcase.java:67)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+... Removed 32 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testadminspinrewardcreate(15.0, PowerUp, SingleDaub, 5.0)">
+                  </a> <!-- testadminspinrewardcreate(15.0, PowerUp, SingleDaub, 5.0) -->
+                  <span class="method-name">testadminspinrewardcreate</span>
+                  <span class="parameters">(15.0,PowerUp,SingleDaub,5.0)</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [201] but found [401]
+	at api.testcases.Adminspinrewardtestcase.testadminspinrewardcreate(Adminspinrewardtestcase.java:67)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+... Removed 32 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testadminspinrewarddelete">
+                  </a> <!-- testadminspinrewarddelete -->
+                  <span class="method-name">testadminspinrewarddelete</span>
+                  <div class="stack-trace">java.lang.NullPointerException: Cannot invoke &quot;java.util.List.size()&quot; because &quot;ids&quot; is null
+	at api.testcases.Adminspinrewardtestcase.testadminspinrewarddelete(Adminspinrewardtestcase.java:122)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+... Removed 25 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testadminspinrewardfetch">
+                  </a> <!-- testadminspinrewardfetch -->
+                  <span class="method-name">testadminspinrewardfetch</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [200] but found [401]
+	at api.testcases.Adminspinrewardtestcase.testadminspinrewardfetch(Adminspinrewardtestcase.java:83)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+... Removed 32 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testadminspinrewardupdate(15.0, Ticket, Ticket, 100.0)">
+                  </a> <!-- testadminspinrewardupdate(15.0, Ticket, Ticket, 100.0) -->
+                  <span class="method-name">testadminspinrewardupdate</span>
+                  <span class="parameters">(15.0,Ticket,Ticket,100.0)</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [200] but found [401]
+	at api.testcases.Adminspinrewardtestcase.testadminspinrewardupdate(Adminspinrewardtestcase.java:111)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+... Removed 32 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-failed -->
+          <div class="suite-Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">api.testcases.Adminpoweruptestcase</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testadminpowerpdelete">
+                  </a> <!-- testadminpowerpdelete -->
+                  <span class="method-name">testadminpowerpdelete</span>
+                  <div class="stack-trace">java.lang.NullPointerException: Cannot invoke &quot;java.util.List.size()&quot; because &quot;ids&quot; is null
+	at api.testcases.Adminpoweruptestcase.testadminpowerpdelete(Adminpoweruptestcase.java:127)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+... Removed 25 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testadminpowerupcreate(New Powerup, New Powerup, https://gratisography.com/wp-content/uploads/2024/11/gratisography-augment...)">
+                  </a> <!-- testadminpowerupcreate(New Powerup, New Powerup, https://gratisography.com/wp-content/uploads/2024/11/gratisography-augment...) -->
+                  <span class="method-name">testadminpowerupcreate</span>
+                  <span class="parameters">(New Powerup,New Powerup,https://gratisography.com/wp-content/uploads/2024/11/gratisography-augmented-reality-800x525.jpg,https://gratisography.com/wp-content/uploads/2024/11/gratisography-augmented-reality-800x525.jpg,Special,1.0,asd)</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [201] but found [401]
+	at api.testcases.Adminpoweruptestcase.testadminpowerupcreate(Adminpoweruptestcase.java:72)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+... Removed 32 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testadminpowerupcreate(New Powerup2, New Powerup2, https://cdn.pixabay.com/photo/2024/05/26/10/15/bird-8788491_1280.jpg, ht...)">
+                  </a> <!-- testadminpowerupcreate(New Powerup2, New Powerup2, https://cdn.pixabay.com/photo/2024/05/26/10/15/bird-8788491_1280.jpg, ht...) -->
+                  <span class="method-name">testadminpowerupcreate</span>
+                  <span class="parameters">(New Powerup2,New Powerup2,https://cdn.pixabay.com/photo/2024/05/26/10/15/bird-8788491_1280.jpg,https://cdn.pixabay.com/photo/2024/05/26/10/15/bird-8788491_1280.jpg,Rare,1.0,sdas)</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [201] but found [401]
+	at api.testcases.Adminpoweruptestcase.testadminpowerupcreate(Adminpoweruptestcase.java:72)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+... Removed 32 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testadminpowerupcreate(New Powerup3, New Powerup3, https://images.ctfassets.net/hrltx12pl8hq/28ECAQiPJZ78hxatLTa7Ts/2f695d8...)">
+                  </a> <!-- testadminpowerupcreate(New Powerup3, New Powerup3, https://images.ctfassets.net/hrltx12pl8hq/28ECAQiPJZ78hxatLTa7Ts/2f695d8...) -->
+                  <span class="method-name">testadminpowerupcreate</span>
+                  <span class="parameters">(New Powerup3,New Powerup3,https://images.ctfassets.net/hrltx12pl8hq/28ECAQiPJZ78hxatLTa7Ts/2f695d869736ae3b0de3e56ceaca3958/free-nature-images.jpg?fit=fill&w=1200&h=630,https://images.ctfassets.net/hrltx12pl8hq/28ECAQiPJZ78hxatLTa7Ts/2f695d869736ae3b0de3e56ceaca3958/free-nature-images.jpg?fit=fill&w=1200&h=630,Common,0.0,sdasdasddsa)</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [201] but found [401]
+	at api.testcases.Adminpoweruptestcase.testadminpowerupcreate(Adminpoweruptestcase.java:72)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+... Removed 32 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testadminpowerupfetch">
+                  </a> <!-- testadminpowerupfetch -->
+                  <span class="method-name">testadminpowerupfetch</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [200] but found [401]
+	at api.testcases.Adminpoweruptestcase.testadminpowerupfetch(Adminpoweruptestcase.java:88)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+... Removed 32 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testadminpowerupupdate(New Powerup, https://gratisography.com/wp-content/uploads/2024/11/gratisography-augmented-reality-80...)">
+                  </a> <!-- testadminpowerupupdate(New Powerup, https://gratisography.com/wp-content/uploads/2024/11/gratisography-augmented-reality-80...) -->
+                  <span class="method-name">testadminpowerupupdate</span>
+                  <span class="parameters">(New Powerup,https://gratisography.com/wp-content/uploads/2024/11/gratisography-augmented-reality-800x525.jpg,https://gratisography.com/wp-content/uploads/2024/11/gratisography-augmented-reality-800x525.jpg,lorem ipsum,Special,1.0)</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [200] but found [401]
+	at api.testcases.Adminpoweruptestcase.testadminpowerupupdate(Adminpoweruptestcase.java:117)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+... Removed 32 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-failed -->
+          <div class="suite-Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">api.testcases.Adminsignintestcase</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testadminsignin(admin@hpl.com, Ali12345?!)">
+                  </a> <!-- testadminsignin(admin@hpl.com, Ali12345?!) -->
+                  <span class="method-name">testadminsignin</span>
+                  <span class="parameters">(admin@hpl.com,Ali12345?!)</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [201] but found [429]
+	at api.testcases.Adminsignintestcase.testadminsignin(Adminsignintestcase.java:36)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+... Removed 32 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-failed -->
+          <div class="suite-Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">api.testcases.Adminleaderboardtestcase</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testadminleaderboard">
+                  </a> <!-- testadminleaderboard -->
+                  <span class="method-name">testadminleaderboard</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [200] but found [401]
+	at api.testcases.Adminleaderboardtestcase.testadminleaderboard(Adminleaderboardtestcase.java:48)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+... Removed 32 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-failed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">api.testcases.Adminusertestcase</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testadminuserfetch">
+                  </a> <!-- testadminuserfetch -->
+                  <span class="method-name">testadminuserfetch</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testadminuserfetchbyid">
+                  </a> <!-- testadminuserfetchbyid -->
+                  <span class="method-name">testadminuserfetchbyid</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">api.testcases.Admincurrencytestcase</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testadmicurrencyupdate(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ1zwhySGCEBxRRFYIcQgvOLOpRGqrT3d7Qng&amp;s, https:...)">
+                  </a> <!-- testadmicurrencyupdate(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ1zwhySGCEBxRRFYIcQgvOLOpRGqrT3d7Qng&s, https:...) -->
+                  <span class="method-name">testadmicurrencyupdate</span>
+                  <span class="parameters">(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ1zwhySGCEBxRRFYIcQgvOLOpRGqrT3d7Qng&s,https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ1zwhySGCEBxRRFYIcQgvOLOpRGqrT3d7Qng&s,lorem ipsum3sdas,Ticket,0.0)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testadmincurrencyfetch">
+                  </a> <!-- testadmincurrencyfetch -->
+                  <span class="method-name">testadmincurrencyfetch</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">api.testcases.Admindashboardtestcase</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testadmindashboard">
+                  </a> <!-- testadmindashboard -->
+                  <span class="method-name">testadmindashboard</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">api.testcases.Adminavatartestcase</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testadminavatarcreate(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR9SRRmhH4X5N2e4QalcoxVbzYsD44C-sQv-w&amp;s, false)">
+                  </a> <!-- testadminavatarcreate(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR9SRRmhH4X5N2e4QalcoxVbzYsD44C-sQv-w&s, false) -->
+                  <span class="method-name">testadminavatarcreate</span>
+                  <span class="parameters">(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR9SRRmhH4X5N2e4QalcoxVbzYsD44C-sQv-w&s,false)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testadminavatarcreate(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ1zwhySGCEBxRRFYIcQgvOLOpRGqrT3d7Qng&amp;s, true)">
+                  </a> <!-- testadminavatarcreate(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ1zwhySGCEBxRRFYIcQgvOLOpRGqrT3d7Qng&s, true) -->
+                  <span class="method-name">testadminavatarcreate</span>
+                  <span class="parameters">(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ1zwhySGCEBxRRFYIcQgvOLOpRGqrT3d7Qng&s,true)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testadminavatardelete">
+                  </a> <!-- testadminavatardelete -->
+                  <span class="method-name">testadminavatardelete</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testadminavatarfetch">
+                  </a> <!-- testadminavatarfetch -->
+                  <span class="method-name">testadminavatarfetch</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testadminavatarupdate(https://cdn.pixabay.com/photo/2018/08/04/11/30/draw-3583548_1280.png, true)">
+                  </a> <!-- testadminavatarupdate(https://cdn.pixabay.com/photo/2018/08/04/11/30/draw-3583548_1280.png, true) -->
+                  <span class="method-name">testadminavatarupdate</span>
+                  <span class="parameters">(https://cdn.pixabay.com/photo/2018/08/04/11/30/draw-3583548_1280.png,true)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">api.testcases.Adminpointswagertestcase</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testadminpointwagercreate(666765.0, 2.0, Ticket)">
+                  </a> <!-- testadminpointwagercreate(666765.0, 2.0, Ticket) -->
+                  <span class="method-name">testadminpointwagercreate</span>
+                  <span class="parameters">(666765.0,2.0,Ticket)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testadminpointwagerdelete">
+                  </a> <!-- testadminpointwagerdelete -->
+                  <span class="method-name">testadminpointwagerdelete</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testadminpointwagerfetch">
+                  </a> <!-- testadminpointwagerfetch -->
+                  <span class="method-name">testadminpointwagerfetch</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testadminpointwagerupdate(666765.0, 5.0, Ticket)">
+                  </a> <!-- testadminpointwagerupdate(666765.0, 5.0, Ticket) -->
+                  <span class="method-name">testadminpointwagerupdate</span>
+                  <span class="parameters">(666765.0,5.0,Ticket)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+        </div> <!-- panel Suite -->
+        <div panel-name="test-xml-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">D:\bingo API Automation\BingoAutomation\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;Suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;api.utilities.ExtentListenerClass&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;BingoAdminPanel&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;api.testcases.Adminavatartestcase&quot;/&gt;
+      &lt;class name=&quot;api.testcases.Admindashboardtestcase&quot;/&gt;
+      &lt;class name=&quot;api.testcases.Adminusertestcase&quot;/&gt;
+      &lt;class name=&quot;api.testcases.Admincurrencytestcase&quot;/&gt;
+      &lt;class name=&quot;api.testcases.Adminpointswagertestcase&quot;/&gt;
+      &lt;class name=&quot;api.testcases.Adminsignintestcase&quot;/&gt;
+      &lt;class name=&quot;api.testcases.Adminpoweruptestcase&quot;/&gt;
+      &lt;class name=&quot;api.testcases.Admindailyrewardtestcase&quot;/&gt;
+      &lt;class name=&quot;api.testcases.Adminleaderboardtestcase&quot;/&gt;
+      &lt;class name=&quot;api.testcases.Adminspinrewardtestcase&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- BingoAdminPanel --&gt;
+&lt;/suite&gt; &lt;!-- Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">BingoAdminPanel (10 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Suite');
+function tableData_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(34);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'testadminavatardelete')
+data.setCell(0, 2, 'api.testcases.Adminavatartestcase')
+data.setCell(0, 3, 1895);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'testadmindashboard')
+data.setCell(1, 2, 'api.testcases.Admindashboardtestcase')
+data.setCell(1, 3, 1413);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'testadminavatarupdate')
+data.setCell(2, 2, 'api.testcases.Adminavatartestcase')
+data.setCell(2, 3, 1389);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'testadmicurrencyupdate')
+data.setCell(3, 2, 'api.testcases.Admincurrencytestcase')
+data.setCell(3, 3, 1320);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'testadminspinrewardupdate')
+data.setCell(4, 2, 'api.testcases.Adminspinrewardtestcase')
+data.setCell(4, 3, 1290);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'testadminpowerupupdate')
+data.setCell(5, 2, 'api.testcases.Adminpoweruptestcase')
+data.setCell(5, 3, 1288);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'testadminuserfetchbyid')
+data.setCell(6, 2, 'api.testcases.Adminusertestcase')
+data.setCell(6, 3, 1287);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'testadmindailyrewardupdate')
+data.setCell(7, 2, 'api.testcases.Admindailyrewardtestcase')
+data.setCell(7, 3, 1269);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'testadminpointwagerupdate')
+data.setCell(8, 2, 'api.testcases.Adminpointswagertestcase')
+data.setCell(8, 3, 1264);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'testadminpointwagerdelete')
+data.setCell(9, 2, 'api.testcases.Adminpointswagertestcase')
+data.setCell(9, 3, 1253);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'testadminleaderboard')
+data.setCell(10, 2, 'api.testcases.Adminleaderboardtestcase')
+data.setCell(10, 3, 1236);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'testadminavatarcreate')
+data.setCell(11, 2, 'api.testcases.Adminavatartestcase')
+data.setCell(11, 3, 698);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'testadminsignin')
+data.setCell(12, 2, 'api.testcases.Adminsignintestcase')
+data.setCell(12, 3, 681);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'testadmindailyrewarddelete')
+data.setCell(13, 2, 'api.testcases.Admindailyrewardtestcase')
+data.setCell(13, 3, 679);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'testadminavatarfetch')
+data.setCell(14, 2, 'api.testcases.Adminavatartestcase')
+data.setCell(14, 3, 663);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'testadmindailyrewardcreate')
+data.setCell(15, 2, 'api.testcases.Admindailyrewardtestcase')
+data.setCell(15, 3, 656);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'testadminspinrewarddelete')
+data.setCell(16, 2, 'api.testcases.Adminspinrewardtestcase')
+data.setCell(16, 3, 650);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'testadminspinrewardfetch')
+data.setCell(17, 2, 'api.testcases.Adminspinrewardtestcase')
+data.setCell(17, 3, 648);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'testadminspinrewardcreate')
+data.setCell(18, 2, 'api.testcases.Adminspinrewardtestcase')
+data.setCell(18, 3, 645);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'testadminpowerpdelete')
+data.setCell(19, 2, 'api.testcases.Adminpoweruptestcase')
+data.setCell(19, 3, 641);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'testadminavatarcreate')
+data.setCell(20, 2, 'api.testcases.Adminavatartestcase')
+data.setCell(20, 3, 640);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'testadminpointwagerfetch')
+data.setCell(21, 2, 'api.testcases.Adminpointswagertestcase')
+data.setCell(21, 3, 638);
+data.setCell(22, 0, 22)
+data.setCell(22, 1, 'testadmindailyrewardcreate')
+data.setCell(22, 2, 'api.testcases.Admindailyrewardtestcase')
+data.setCell(22, 3, 637);
+data.setCell(23, 0, 23)
+data.setCell(23, 1, 'testadminpointwagercreate')
+data.setCell(23, 2, 'api.testcases.Adminpointswagertestcase')
+data.setCell(23, 3, 628);
+data.setCell(24, 0, 24)
+data.setCell(24, 1, 'testadmincurrencyfetch')
+data.setCell(24, 2, 'api.testcases.Admincurrencytestcase')
+data.setCell(24, 3, 626);
+data.setCell(25, 0, 25)
+data.setCell(25, 1, 'testadminpowerupcreate')
+data.setCell(25, 2, 'api.testcases.Adminpoweruptestcase')
+data.setCell(25, 3, 625);
+data.setCell(26, 0, 26)
+data.setCell(26, 1, 'testadminpowerupcreate')
+data.setCell(26, 2, 'api.testcases.Adminpoweruptestcase')
+data.setCell(26, 3, 624);
+data.setCell(27, 0, 27)
+data.setCell(27, 1, 'testadmindailyrewardcreate')
+data.setCell(27, 2, 'api.testcases.Admindailyrewardtestcase')
+data.setCell(27, 3, 623);
+data.setCell(28, 0, 28)
+data.setCell(28, 1, 'testadminuserfetch')
+data.setCell(28, 2, 'api.testcases.Adminusertestcase')
+data.setCell(28, 3, 617);
+data.setCell(29, 0, 29)
+data.setCell(29, 1, 'testadminpowerupfetch')
+data.setCell(29, 2, 'api.testcases.Adminpoweruptestcase')
+data.setCell(29, 3, 617);
+data.setCell(30, 0, 30)
+data.setCell(30, 1, 'testadminspinrewardcreate')
+data.setCell(30, 2, 'api.testcases.Adminspinrewardtestcase')
+data.setCell(30, 3, 612);
+data.setCell(31, 0, 31)
+data.setCell(31, 1, 'testadminpowerupcreate')
+data.setCell(31, 2, 'api.testcases.Adminpoweruptestcase')
+data.setCell(31, 3, 606);
+data.setCell(32, 0, 32)
+data.setCell(32, 1, 'testadminspinrewardcreate')
+data.setCell(32, 2, 'api.testcases.Adminspinrewardtestcase')
+data.setCell(32, 3, 606);
+data.setCell(33, 0, 33)
+data.setCell(33, 1, 'testadmindailyrewardfetch')
+data.setCell(33, 2, 'api.testcases.Admindailyrewardtestcase')
+data.setCell(33, 3, 600);
+window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 29 seconds</span>
+              <div id="times-div-Suite">
+              </div> <!-- times-div-Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">api.testcases.Adminavatartestcase</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">generateusertestdata</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">testadminavatarcreate(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ1zwhySGCEBxRRFYIcQgvOLOpRGqrT3d7Qng&s, true)</span>
+                <span class="method-start">10386 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testadminavatarcreate(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR9SRRmhH4X5N2e4QalcoxVbzYsD44C-sQv-w&s, false)</span>
+                <span class="method-start">11104 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testadminavatarfetch</span>
+                <span class="method-start">11750 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testadminavatarupdate(https://cdn.pixabay.com/photo/2018/08/04/11/30/draw-3583548_1280.png, true)</span>
+                <span class="method-start">12584 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testadminavatardelete</span>
+                <span class="method-start">13977 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">api.testcases.Admindashboardtestcase</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">generateusertestdata</span>
+                <span class="method-start">15883 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">testadmindashboard</span>
+                <span class="method-start">25898 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">api.testcases.Adminusertestcase</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">generateusertestdata</span>
+                <span class="method-start">27323 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">testadminuserfetch</span>
+                <span class="method-start">32078 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testadminuserfetchbyid</span>
+                <span class="method-start">32703 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">api.testcases.Admincurrencytestcase</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">generateusertestdata</span>
+                <span class="method-start">33993 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">testadmincurrencyfetch</span>
+                <span class="method-start">38755 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testadmicurrencyupdate(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ1zwhySGCEBxRRFYIcQgvOLOpRGqrT3d7Qng&s, https:...)</span>
+                <span class="method-start">39640 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">api.testcases.Adminpointswagertestcase</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">generateusertestdata</span>
+                <span class="method-start">40963 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">testadminpointwagercreate(666765.0, 2.0, Ticket)</span>
+                <span class="method-start">56971 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testadminpointwagerfetch</span>
+                <span class="method-start">57602 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testadminpointwagerupdate(666765.0, 5.0, Ticket)</span>
+                <span class="method-start">58382 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testadminpointwagerdelete</span>
+                <span class="method-start">59648 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">api.testcases.Adminsignintestcase</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">testadminsignin(admin@hpl.com, Ali12345?!)</span>
+                <span class="method-start">61013 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">api.testcases.Adminpoweruptestcase</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">generateusertestdata</span>
+                <span class="method-start">61698 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">testadminpowerupcreate(New Powerup, New Powerup, https://gratisography.com/wp-content/uploads/2024/11/gratisography-augment...)</span>
+                <span class="method-start">70198 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">testadminpowerupcreate(New Powerup2, New Powerup2, https://cdn.pixabay.com/photo/2024/05/26/10/15/bird-8788491_1280.jpg, ht...)</span>
+                <span class="method-start">70807 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">testadminpowerupcreate(New Powerup3, New Powerup3, https://images.ctfassets.net/hrltx12pl8hq/28ECAQiPJZ78hxatLTa7Ts/2f695d8...)</span>
+                <span class="method-start">71445 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">testadminpowerupfetch</span>
+                <span class="method-start">72073 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">testadminpowerupupdate(New Powerup, https://gratisography.com/wp-content/uploads/2024/11/gratisography-augmented-reality-80...)</span>
+                <span class="method-start">72866 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">testadminpowerpdelete</span>
+                <span class="method-start">74158 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">api.testcases.Admindailyrewardtestcase</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">generateusertestdata</span>
+                <span class="method-start">74803 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">testadmindailyrewardcreate(38.0, PowerUp, Gems, 3.0)</span>
+                <span class="method-start">82762 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">testadmindailyrewardcreate(39.0, Ticket, Ticket, 500.0)</span>
+                <span class="method-start">83424 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">testadmindailyrewardcreate(40.0, Chest, T1Chest, 4.0)</span>
+                <span class="method-start">84066 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">testadmindailyrewardfetch</span>
+                <span class="method-start">84696 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">testadmindailyrewardupdate(1.0, PowerUp, X2PointsAll, 6.0)</span>
+                <span class="method-start">85397 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">testadmindailyrewarddelete</span>
+                <span class="method-start">86677 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">api.testcases.Adminleaderboardtestcase</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">generateusertestdata</span>
+                <span class="method-start">87359 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">testadminleaderboard</span>
+                <span class="method-start">94365 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">api.testcases.Adminspinrewardtestcase</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">generateusertestdata</span>
+                <span class="method-start">95603 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">testadminspinrewardcreate(13.0, Ticket, Ticket, 500.0)</span>
+                <span class="method-start">103632 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">testadminspinrewardcreate(14.0, Ticket, Ticket, 60.0)</span>
+                <span class="method-start">104241 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">testadminspinrewardcreate(15.0, PowerUp, SingleDaub, 5.0)</span>
+                <span class="method-start">104889 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">testadminspinrewardfetch</span>
+                <span class="method-start">105507 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">testadminspinrewardupdate(15.0, Ticket, Ticket, 100.0)</span>
+                <span class="method-start">106227 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">testadminspinrewarddelete</span>
+                <span class="method-start">107529 ms</span>
+              </div> <!-- test-method -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>

@@ -1,0 +1,1470 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="34" passed="14" failed="20" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-07-11T12:23:51 PKT" name="Suite" finished-at="2025-07-11T12:25:40 PKT" duration-ms="108712">
+    <groups>
+    </groups>
+    <test started-at="2025-07-11T12:23:51 PKT" name="BingoAdminPanel" finished-at="2025-07-11T12:25:40 PKT" duration-ms="108712">
+      <class name="api.testcases.Adminspinrewardtestcase">
+        <test-method is-config="true" signature="generateusertestdata()[pri:0, instance:api.testcases.Adminspinrewardtestcase@7eac9008]" started-at="2025-07-11T12:25:27 PKT" name="generateusertestdata" finished-at="2025-07-11T12:25:35 PKT" duration-ms="7733" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- generateusertestdata -->
+        <test-method signature="testadminspinrewardcreate(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:api.testcases.Adminspinrewardtestcase@7eac9008]" started-at="2025-07-11T12:25:35 PKT" name="testadminspinrewardcreate" data-provider="Spinrewarddata" finished-at="2025-07-11T12:25:36 PKT" duration-ms="606" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[13.0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Ticket]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Ticket]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[500.0]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [201] but found [401]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [201] but found [401]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+at org.testng.Assert.assertEquals(Assert.java:132)
+at org.testng.Assert.assertEquals(Assert.java:1419)
+at org.testng.Assert.assertEquals(Assert.java:1383)
+at org.testng.Assert.assertEquals(Assert.java:1429)
+at api.testcases.Adminspinrewardtestcase.testadminspinrewardcreate(Adminspinrewardtestcase.java:67)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testadminspinrewardcreate -->
+        <test-method signature="testadminspinrewardcreate(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:api.testcases.Adminspinrewardtestcase@7eac9008]" started-at="2025-07-11T12:25:36 PKT" name="testadminspinrewardcreate" data-provider="Spinrewarddata" finished-at="2025-07-11T12:25:37 PKT" duration-ms="645" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[14.0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Ticket]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Ticket]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[60.0]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [201] but found [401]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [201] but found [401]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+at org.testng.Assert.assertEquals(Assert.java:132)
+at org.testng.Assert.assertEquals(Assert.java:1419)
+at org.testng.Assert.assertEquals(Assert.java:1383)
+at org.testng.Assert.assertEquals(Assert.java:1429)
+at api.testcases.Adminspinrewardtestcase.testadminspinrewardcreate(Adminspinrewardtestcase.java:67)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testadminspinrewardcreate -->
+        <test-method signature="testadminspinrewardcreate(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:api.testcases.Adminspinrewardtestcase@7eac9008]" started-at="2025-07-11T12:25:37 PKT" name="testadminspinrewardcreate" data-provider="Spinrewarddata" finished-at="2025-07-11T12:25:37 PKT" duration-ms="612" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[15.0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[PowerUp]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[SingleDaub]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[5.0]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [201] but found [401]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [201] but found [401]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+at org.testng.Assert.assertEquals(Assert.java:132)
+at org.testng.Assert.assertEquals(Assert.java:1419)
+at org.testng.Assert.assertEquals(Assert.java:1383)
+at org.testng.Assert.assertEquals(Assert.java:1429)
+at api.testcases.Adminspinrewardtestcase.testadminspinrewardcreate(Adminspinrewardtestcase.java:67)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testadminspinrewardcreate -->
+        <test-method signature="testadminspinrewardfetch()[pri:2, instance:api.testcases.Adminspinrewardtestcase@7eac9008]" started-at="2025-07-11T12:25:37 PKT" name="testadminspinrewardfetch" finished-at="2025-07-11T12:25:38 PKT" duration-ms="648" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [200] but found [401]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [200] but found [401]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+at org.testng.Assert.assertEquals(Assert.java:132)
+at org.testng.Assert.assertEquals(Assert.java:1419)
+at org.testng.Assert.assertEquals(Assert.java:1383)
+at org.testng.Assert.assertEquals(Assert.java:1429)
+at api.testcases.Adminspinrewardtestcase.testadminspinrewardfetch(Adminspinrewardtestcase.java:83)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testadminspinrewardfetch -->
+        <test-method signature="testadminspinrewardupdate(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:3, instance:api.testcases.Adminspinrewardtestcase@7eac9008]" started-at="2025-07-11T12:25:38 PKT" name="testadminspinrewardupdate" data-provider="Spinrewardupdatedata" finished-at="2025-07-11T12:25:39 PKT" duration-ms="1290" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[15.0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Ticket]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Ticket]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[100.0]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [200] but found [401]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [200] but found [401]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+at org.testng.Assert.assertEquals(Assert.java:132)
+at org.testng.Assert.assertEquals(Assert.java:1419)
+at org.testng.Assert.assertEquals(Assert.java:1383)
+at org.testng.Assert.assertEquals(Assert.java:1429)
+at api.testcases.Adminspinrewardtestcase.testadminspinrewardupdate(Adminspinrewardtestcase.java:111)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testadminspinrewardupdate -->
+        <test-method signature="testadminspinrewarddelete()[pri:4, instance:api.testcases.Adminspinrewardtestcase@7eac9008]" started-at="2025-07-11T12:25:39 PKT" name="testadminspinrewarddelete" finished-at="2025-07-11T12:25:40 PKT" duration-ms="650" status="FAIL">
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "java.util.List.size()" because "ids" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "java.util.List.size()" because "ids" is null
+at api.testcases.Adminspinrewardtestcase.testadminspinrewarddelete(Adminspinrewardtestcase.java:122)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testadminspinrewarddelete -->
+      </class> <!-- api.testcases.Adminspinrewardtestcase -->
+      <class name="api.testcases.Adminpointswagertestcase">
+        <test-method is-config="true" signature="generateusertestdata()[pri:0, instance:api.testcases.Adminpointswagertestcase@9d5509a]" started-at="2025-07-11T12:24:33 PKT" name="generateusertestdata" finished-at="2025-07-11T12:24:48 PKT" duration-ms="15730" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- generateusertestdata -->
+        <test-method signature="testadminpointwagercreate(java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:api.testcases.Adminpointswagertestcase@9d5509a]" started-at="2025-07-11T12:24:49 PKT" name="testadminpointwagercreate" data-provider="pointswagerdata" finished-at="2025-07-11T12:24:49 PKT" duration-ms="628" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[666765.0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[2.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Ticket]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testadminpointwagercreate -->
+        <test-method signature="testadminpointwagerfetch()[pri:2, instance:api.testcases.Adminpointswagertestcase@9d5509a]" started-at="2025-07-11T12:24:49 PKT" name="testadminpointwagerfetch" finished-at="2025-07-11T12:24:50 PKT" duration-ms="638" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testadminpointwagerfetch -->
+        <test-method signature="testadminpointwagerupdate(java.lang.String,java.lang.String,java.lang.String)[pri:3, instance:api.testcases.Adminpointswagertestcase@9d5509a]" started-at="2025-07-11T12:24:50 PKT" name="testadminpointwagerupdate" data-provider="pointswagerupdatedata" finished-at="2025-07-11T12:24:51 PKT" duration-ms="1264" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[666765.0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[5.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Ticket]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testadminpointwagerupdate -->
+        <test-method signature="testadminpointwagerdelete()[pri:4, instance:api.testcases.Adminpointswagertestcase@9d5509a]" started-at="2025-07-11T12:24:51 PKT" name="testadminpointwagerdelete" finished-at="2025-07-11T12:24:53 PKT" duration-ms="1253" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testadminpointwagerdelete -->
+      </class> <!-- api.testcases.Adminpointswagertestcase -->
+      <class name="api.testcases.Adminavatartestcase">
+        <test-method is-config="true" signature="generateusertestdata()[pri:0, instance:api.testcases.Adminavatartestcase@477b4cdf]" started-at="2025-07-11T12:23:52 PKT" name="generateusertestdata" finished-at="2025-07-11T12:24:01 PKT" duration-ms="9211" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- generateusertestdata -->
+        <test-method signature="testadminavatarcreate(java.lang.String,java.lang.String)[pri:1, instance:api.testcases.Adminavatartestcase@477b4cdf]" started-at="2025-07-11T12:24:02 PKT" name="testadminavatarcreate" data-provider="Avatardata" finished-at="2025-07-11T12:24:03 PKT" duration-ms="698" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ1zwhySGCEBxRRFYIcQgvOLOpRGqrT3d7Qng&s]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[true]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testadminavatarcreate -->
+        <test-method signature="testadminavatarcreate(java.lang.String,java.lang.String)[pri:1, instance:api.testcases.Adminavatartestcase@477b4cdf]" started-at="2025-07-11T12:24:03 PKT" name="testadminavatarcreate" data-provider="Avatardata" finished-at="2025-07-11T12:24:03 PKT" duration-ms="640" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR9SRRmhH4X5N2e4QalcoxVbzYsD44C-sQv-w&s]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testadminavatarcreate -->
+        <test-method signature="testadminavatarfetch()[pri:2, instance:api.testcases.Adminavatartestcase@477b4cdf]" started-at="2025-07-11T12:24:03 PKT" name="testadminavatarfetch" finished-at="2025-07-11T12:24:04 PKT" duration-ms="663" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testadminavatarfetch -->
+        <test-method signature="testadminavatarupdate(java.lang.String,java.lang.String)[pri:3, instance:api.testcases.Adminavatartestcase@477b4cdf]" started-at="2025-07-11T12:24:04 PKT" name="testadminavatarupdate" data-provider="Avatarupdatedata" finished-at="2025-07-11T12:24:06 PKT" duration-ms="1389" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://cdn.pixabay.com/photo/2018/08/04/11/30/draw-3583548_1280.png]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[true]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testadminavatarupdate -->
+        <test-method signature="testadminavatardelete()[pri:4, instance:api.testcases.Adminavatartestcase@477b4cdf]" started-at="2025-07-11T12:24:06 PKT" name="testadminavatardelete" finished-at="2025-07-11T12:24:08 PKT" duration-ms="1895" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testadminavatardelete -->
+      </class> <!-- api.testcases.Adminavatartestcase -->
+      <class name="api.testcases.Admindailyrewardtestcase">
+        <test-method is-config="true" signature="generateusertestdata()[pri:0, instance:api.testcases.Admindailyrewardtestcase@3cd3e762]" started-at="2025-07-11T12:25:06 PKT" name="generateusertestdata" finished-at="2025-07-11T12:25:14 PKT" duration-ms="7640" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- generateusertestdata -->
+        <test-method signature="testadmindailyrewardcreate(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:api.testcases.Admindailyrewardtestcase@3cd3e762]" started-at="2025-07-11T12:25:14 PKT" name="testadmindailyrewardcreate" data-provider="Dailyrewarddata" finished-at="2025-07-11T12:25:15 PKT" duration-ms="656" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[38.0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[PowerUp]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Gems]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[3.0]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [201] but found [401]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [201] but found [401]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+at org.testng.Assert.assertEquals(Assert.java:132)
+at org.testng.Assert.assertEquals(Assert.java:1419)
+at org.testng.Assert.assertEquals(Assert.java:1383)
+at org.testng.Assert.assertEquals(Assert.java:1429)
+at api.testcases.Admindailyrewardtestcase.testadmindailyrewardcreate(Admindailyrewardtestcase.java:68)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testadmindailyrewardcreate -->
+        <test-method signature="testadmindailyrewardcreate(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:api.testcases.Admindailyrewardtestcase@3cd3e762]" started-at="2025-07-11T12:25:15 PKT" name="testadmindailyrewardcreate" data-provider="Dailyrewarddata" finished-at="2025-07-11T12:25:16 PKT" duration-ms="637" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[39.0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Ticket]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Ticket]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[500.0]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [201] but found [401]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [201] but found [401]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+at org.testng.Assert.assertEquals(Assert.java:132)
+at org.testng.Assert.assertEquals(Assert.java:1419)
+at org.testng.Assert.assertEquals(Assert.java:1383)
+at org.testng.Assert.assertEquals(Assert.java:1429)
+at api.testcases.Admindailyrewardtestcase.testadmindailyrewardcreate(Admindailyrewardtestcase.java:68)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testadmindailyrewardcreate -->
+        <test-method signature="testadmindailyrewardcreate(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:api.testcases.Admindailyrewardtestcase@3cd3e762]" started-at="2025-07-11T12:25:16 PKT" name="testadmindailyrewardcreate" data-provider="Dailyrewarddata" finished-at="2025-07-11T12:25:16 PKT" duration-ms="623" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[40.0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Chest]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[T1Chest]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[4.0]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [201] but found [401]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [201] but found [401]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+at org.testng.Assert.assertEquals(Assert.java:132)
+at org.testng.Assert.assertEquals(Assert.java:1419)
+at org.testng.Assert.assertEquals(Assert.java:1383)
+at org.testng.Assert.assertEquals(Assert.java:1429)
+at api.testcases.Admindailyrewardtestcase.testadmindailyrewardcreate(Admindailyrewardtestcase.java:68)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testadmindailyrewardcreate -->
+        <test-method signature="testadmindailyrewardfetch()[pri:2, instance:api.testcases.Admindailyrewardtestcase@3cd3e762]" started-at="2025-07-11T12:25:16 PKT" name="testadmindailyrewardfetch" finished-at="2025-07-11T12:25:17 PKT" duration-ms="600" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [200] but found [401]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [200] but found [401]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+at org.testng.Assert.assertEquals(Assert.java:132)
+at org.testng.Assert.assertEquals(Assert.java:1419)
+at org.testng.Assert.assertEquals(Assert.java:1383)
+at org.testng.Assert.assertEquals(Assert.java:1429)
+at api.testcases.Admindailyrewardtestcase.testadmindailyrewardfetch(Admindailyrewardtestcase.java:84)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testadmindailyrewardfetch -->
+        <test-method signature="testadmindailyrewardupdate(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:3, instance:api.testcases.Admindailyrewardtestcase@3cd3e762]" started-at="2025-07-11T12:25:17 PKT" name="testadmindailyrewardupdate" data-provider="Dailyrewardupdatedata" finished-at="2025-07-11T12:25:18 PKT" duration-ms="1269" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1.0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[PowerUp]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[X2PointsAll]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[6.0]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [200] but found [401]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [200] but found [401]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+at org.testng.Assert.assertEquals(Assert.java:132)
+at org.testng.Assert.assertEquals(Assert.java:1419)
+at org.testng.Assert.assertEquals(Assert.java:1383)
+at org.testng.Assert.assertEquals(Assert.java:1429)
+at api.testcases.Admindailyrewardtestcase.testadmindailyrewardupdate(Admindailyrewardtestcase.java:111)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testadmindailyrewardupdate -->
+        <test-method signature="testadmindailyrewarddelete()[pri:4, instance:api.testcases.Admindailyrewardtestcase@3cd3e762]" started-at="2025-07-11T12:25:18 PKT" name="testadmindailyrewarddelete" finished-at="2025-07-11T12:25:19 PKT" duration-ms="679" status="FAIL">
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "java.util.List.size()" because "ids" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "java.util.List.size()" because "ids" is null
+at api.testcases.Admindailyrewardtestcase.testadmindailyrewarddelete(Admindailyrewardtestcase.java:124)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testadmindailyrewarddelete -->
+      </class> <!-- api.testcases.Admindailyrewardtestcase -->
+      <class name="api.testcases.Admincurrencytestcase">
+        <test-method is-config="true" signature="generateusertestdata()[pri:0, instance:api.testcases.Admincurrencytestcase@6f03482]" started-at="2025-07-11T12:24:26 PKT" name="generateusertestdata" finished-at="2025-07-11T12:24:30 PKT" duration-ms="4761" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- generateusertestdata -->
+        <test-method signature="testadmincurrencyfetch()[pri:1, instance:api.testcases.Admincurrencytestcase@6f03482]" started-at="2025-07-11T12:24:30 PKT" name="testadmincurrencyfetch" finished-at="2025-07-11T12:24:31 PKT" duration-ms="626" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testadmincurrencyfetch -->
+        <test-method signature="testadmicurrencyupdate(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:2, instance:api.testcases.Admincurrencytestcase@6f03482]" started-at="2025-07-11T12:24:31 PKT" name="testadmicurrencyupdate" data-provider="Currencydata" finished-at="2025-07-11T12:24:33 PKT" duration-ms="1320" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ1zwhySGCEBxRRFYIcQgvOLOpRGqrT3d7Qng&s]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ1zwhySGCEBxRRFYIcQgvOLOpRGqrT3d7Qng&s]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[lorem ipsum3sdas]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Ticket]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[0.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testadmicurrencyupdate -->
+      </class> <!-- api.testcases.Admincurrencytestcase -->
+      <class name="api.testcases.Adminpoweruptestcase">
+        <test-method is-config="true" signature="generateusertestdata()[pri:0, instance:api.testcases.Adminpoweruptestcase@3b0090a4]" started-at="2025-07-11T12:24:53 PKT" name="generateusertestdata" finished-at="2025-07-11T12:25:01 PKT" duration-ms="7659" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- generateusertestdata -->
+        <test-method signature="testadminpowerupcreate(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:api.testcases.Adminpoweruptestcase@3b0090a4]" started-at="2025-07-11T12:25:02 PKT" name="testadminpowerupcreate" data-provider="Powerupsdata" finished-at="2025-07-11T12:25:02 PKT" duration-ms="606" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[New Powerup]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[New Powerup]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[https://gratisography.com/wp-content/uploads/2024/11/gratisography-augmented-reality-800x525.jpg]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[https://gratisography.com/wp-content/uploads/2024/11/gratisography-augmented-reality-800x525.jpg]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Special]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[1.0]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[asd]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [201] but found [401]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [201] but found [401]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+at org.testng.Assert.assertEquals(Assert.java:132)
+at org.testng.Assert.assertEquals(Assert.java:1419)
+at org.testng.Assert.assertEquals(Assert.java:1383)
+at org.testng.Assert.assertEquals(Assert.java:1429)
+at api.testcases.Adminpoweruptestcase.testadminpowerupcreate(Adminpoweruptestcase.java:72)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testadminpowerupcreate -->
+        <test-method signature="testadminpowerupcreate(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:api.testcases.Adminpoweruptestcase@3b0090a4]" started-at="2025-07-11T12:25:02 PKT" name="testadminpowerupcreate" data-provider="Powerupsdata" finished-at="2025-07-11T12:25:03 PKT" duration-ms="624" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[New Powerup2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[New Powerup2]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[https://cdn.pixabay.com/photo/2024/05/26/10/15/bird-8788491_1280.jpg]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[https://cdn.pixabay.com/photo/2024/05/26/10/15/bird-8788491_1280.jpg]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Rare]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[1.0]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[sdas]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [201] but found [401]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [201] but found [401]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+at org.testng.Assert.assertEquals(Assert.java:132)
+at org.testng.Assert.assertEquals(Assert.java:1419)
+at org.testng.Assert.assertEquals(Assert.java:1383)
+at org.testng.Assert.assertEquals(Assert.java:1429)
+at api.testcases.Adminpoweruptestcase.testadminpowerupcreate(Adminpoweruptestcase.java:72)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testadminpowerupcreate -->
+        <test-method signature="testadminpowerupcreate(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:api.testcases.Adminpoweruptestcase@3b0090a4]" started-at="2025-07-11T12:25:03 PKT" name="testadminpowerupcreate" data-provider="Powerupsdata" finished-at="2025-07-11T12:25:04 PKT" duration-ms="625" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[New Powerup3]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[New Powerup3]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[https://images.ctfassets.net/hrltx12pl8hq/28ECAQiPJZ78hxatLTa7Ts/2f695d869736ae3b0de3e56ceaca3958/free-nature-images.jpg?fit=fill&w=1200&h=630]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[https://images.ctfassets.net/hrltx12pl8hq/28ECAQiPJZ78hxatLTa7Ts/2f695d869736ae3b0de3e56ceaca3958/free-nature-images.jpg?fit=fill&w=1200&h=630]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Common]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[0.0]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[sdasdasddsa]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [201] but found [401]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [201] but found [401]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+at org.testng.Assert.assertEquals(Assert.java:132)
+at org.testng.Assert.assertEquals(Assert.java:1419)
+at org.testng.Assert.assertEquals(Assert.java:1383)
+at org.testng.Assert.assertEquals(Assert.java:1429)
+at api.testcases.Adminpoweruptestcase.testadminpowerupcreate(Adminpoweruptestcase.java:72)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testadminpowerupcreate -->
+        <test-method signature="testadminpowerupfetch()[pri:2, instance:api.testcases.Adminpoweruptestcase@3b0090a4]" started-at="2025-07-11T12:25:04 PKT" name="testadminpowerupfetch" finished-at="2025-07-11T12:25:04 PKT" duration-ms="617" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [200] but found [401]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [200] but found [401]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+at org.testng.Assert.assertEquals(Assert.java:132)
+at org.testng.Assert.assertEquals(Assert.java:1419)
+at org.testng.Assert.assertEquals(Assert.java:1383)
+at org.testng.Assert.assertEquals(Assert.java:1429)
+at api.testcases.Adminpoweruptestcase.testadminpowerupfetch(Adminpoweruptestcase.java:88)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testadminpowerupfetch -->
+        <test-method signature="testadminpowerupupdate(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:3, instance:api.testcases.Adminpoweruptestcase@3b0090a4]" started-at="2025-07-11T12:25:05 PKT" name="testadminpowerupupdate" data-provider="Powerupsupdatedata" finished-at="2025-07-11T12:25:06 PKT" duration-ms="1288" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[New Powerup]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://gratisography.com/wp-content/uploads/2024/11/gratisography-augmented-reality-800x525.jpg]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[https://gratisography.com/wp-content/uploads/2024/11/gratisography-augmented-reality-800x525.jpg]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[lorem ipsum]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Special]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[1.0]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [200] but found [401]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [200] but found [401]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+at org.testng.Assert.assertEquals(Assert.java:132)
+at org.testng.Assert.assertEquals(Assert.java:1419)
+at org.testng.Assert.assertEquals(Assert.java:1383)
+at org.testng.Assert.assertEquals(Assert.java:1429)
+at api.testcases.Adminpoweruptestcase.testadminpowerupupdate(Adminpoweruptestcase.java:117)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testadminpowerupupdate -->
+        <test-method signature="testadminpowerpdelete()[pri:4, instance:api.testcases.Adminpoweruptestcase@3b0090a4]" started-at="2025-07-11T12:25:06 PKT" name="testadminpowerpdelete" finished-at="2025-07-11T12:25:06 PKT" duration-ms="641" status="FAIL">
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "java.util.List.size()" because "ids" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "java.util.List.size()" because "ids" is null
+at api.testcases.Adminpoweruptestcase.testadminpowerpdelete(Adminpoweruptestcase.java:127)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testadminpowerpdelete -->
+      </class> <!-- api.testcases.Adminpoweruptestcase -->
+      <class name="api.testcases.Adminsignintestcase">
+        <test-method signature="testadminsignin(java.lang.String,java.lang.String)[pri:0, instance:api.testcases.Adminsignintestcase@179ece50]" started-at="2025-07-11T12:24:53 PKT" name="testadminsignin" data-provider="Signindata" finished-at="2025-07-11T12:24:53 PKT" duration-ms="681" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin@hpl.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Ali12345?!]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [201] but found [429]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [201] but found [429]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+at org.testng.Assert.assertEquals(Assert.java:132)
+at org.testng.Assert.assertEquals(Assert.java:1419)
+at org.testng.Assert.assertEquals(Assert.java:1383)
+at org.testng.Assert.assertEquals(Assert.java:1429)
+at api.testcases.Adminsignintestcase.testadminsignin(Adminsignintestcase.java:36)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testadminsignin -->
+      </class> <!-- api.testcases.Adminsignintestcase -->
+      <class name="api.testcases.Admindashboardtestcase">
+        <test-method is-config="true" signature="generateusertestdata()[pri:0, instance:api.testcases.Admindashboardtestcase@1e800aaa]" started-at="2025-07-11T12:24:08 PKT" name="generateusertestdata" finished-at="2025-07-11T12:24:18 PKT" duration-ms="10014" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- generateusertestdata -->
+        <test-method signature="testadmindashboard()[pri:0, instance:api.testcases.Admindashboardtestcase@1e800aaa]" started-at="2025-07-11T12:24:18 PKT" name="testadmindashboard" finished-at="2025-07-11T12:24:19 PKT" duration-ms="1413" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testadmindashboard -->
+      </class> <!-- api.testcases.Admindashboardtestcase -->
+      <class name="api.testcases.Adminleaderboardtestcase">
+        <test-method is-config="true" signature="generateusertestdata()[pri:0, instance:api.testcases.Adminleaderboardtestcase@1fa121e2]" started-at="2025-07-11T12:25:19 PKT" name="generateusertestdata" finished-at="2025-07-11T12:25:26 PKT" duration-ms="7004" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- generateusertestdata -->
+        <test-method signature="testadminleaderboard()[pri:0, instance:api.testcases.Adminleaderboardtestcase@1fa121e2]" started-at="2025-07-11T12:25:26 PKT" name="testadminleaderboard" finished-at="2025-07-11T12:25:27 PKT" duration-ms="1236" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [200] but found [401]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [200] but found [401]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+at org.testng.Assert.assertEquals(Assert.java:132)
+at org.testng.Assert.assertEquals(Assert.java:1419)
+at org.testng.Assert.assertEquals(Assert.java:1383)
+at org.testng.Assert.assertEquals(Assert.java:1429)
+at api.testcases.Adminleaderboardtestcase.testadminleaderboard(Adminleaderboardtestcase.java:48)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testadminleaderboard -->
+      </class> <!-- api.testcases.Adminleaderboardtestcase -->
+      <class name="api.testcases.Adminusertestcase">
+        <test-method is-config="true" signature="generateusertestdata()[pri:0, instance:api.testcases.Adminusertestcase@185a6e9]" started-at="2025-07-11T12:24:19 PKT" name="generateusertestdata" finished-at="2025-07-11T12:24:24 PKT" duration-ms="4754" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- generateusertestdata -->
+        <test-method signature="testadminuserfetch()[pri:1, instance:api.testcases.Adminusertestcase@185a6e9]" started-at="2025-07-11T12:24:24 PKT" name="testadminuserfetch" finished-at="2025-07-11T12:24:24 PKT" duration-ms="617" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testadminuserfetch -->
+        <test-method signature="testadminuserfetchbyid()[pri:2, instance:api.testcases.Adminusertestcase@185a6e9]" started-at="2025-07-11T12:24:24 PKT" name="testadminuserfetchbyid" finished-at="2025-07-11T12:24:26 PKT" duration-ms="1287" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testadminuserfetchbyid -->
+      </class> <!-- api.testcases.Adminusertestcase -->
+    </test> <!-- BingoAdminPanel -->
+  </suite> <!-- Suite -->
+</testng-results>
