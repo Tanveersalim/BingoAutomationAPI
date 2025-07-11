@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="34" passed="34" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-07-11T12:32:06 PKT" name="Suite" finished-at="2025-07-11T12:34:20 PKT" duration-ms="134452">
+  <suite started-at="2025-07-11T13:42:15 PKT" name="Suite" finished-at="2025-07-11T13:44:43 PKT" duration-ms="148163">
     <groups>
     </groups>
-    <test started-at="2025-07-11T12:32:06 PKT" name="BingoAdminPanel" finished-at="2025-07-11T12:34:20 PKT" duration-ms="134452">
+    <test started-at="2025-07-11T13:42:15 PKT" name="BingoAdminPanel" finished-at="2025-07-11T13:44:43 PKT" duration-ms="148163">
       <class name="api.testcases.Adminspinrewardtestcase">
-        <test-method is-config="true" signature="generateusertestdata()[pri:0, instance:api.testcases.Adminspinrewardtestcase@79e2c065]" started-at="2025-07-11T12:34:06 PKT" name="generateusertestdata" finished-at="2025-07-11T12:34:14 PKT" duration-ms="7705" status="PASS">
+        <test-method is-config="true" signature="generateusertestdata()[pri:0, instance:api.testcases.Adminspinrewardtestcase@3e58a80e]" started-at="2025-07-11T13:44:28 PKT" name="generateusertestdata" finished-at="2025-07-11T13:44:35 PKT" duration-ms="7726" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- generateusertestdata -->
-        <test-method signature="testadminspinrewardcreate(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:api.testcases.Adminspinrewardtestcase@79e2c065]" started-at="2025-07-11T12:34:14 PKT" name="testadminspinrewardcreate" data-provider="Spinrewarddata" finished-at="2025-07-11T12:34:15 PKT" duration-ms="635" status="PASS">
+        <test-method signature="testadminspinrewardcreate(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:api.testcases.Adminspinrewardtestcase@3e58a80e]" started-at="2025-07-11T13:44:36 PKT" name="testadminspinrewardcreate" data-provider="Spinrewarddata" finished-at="2025-07-11T13:44:36 PKT" duration-ms="653" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -37,7 +37,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testadminspinrewardcreate -->
-        <test-method signature="testadminspinrewardcreate(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:api.testcases.Adminspinrewardtestcase@79e2c065]" started-at="2025-07-11T12:34:15 PKT" name="testadminspinrewardcreate" data-provider="Spinrewarddata" finished-at="2025-07-11T12:34:15 PKT" duration-ms="660" status="PASS">
+        <test-method signature="testadminspinrewardcreate(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:api.testcases.Adminspinrewardtestcase@3e58a80e]" started-at="2025-07-11T13:44:36 PKT" name="testadminspinrewardcreate" data-provider="Spinrewarddata" finished-at="2025-07-11T13:44:37 PKT" duration-ms="713" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -63,7 +63,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testadminspinrewardcreate -->
-        <test-method signature="testadminspinrewardcreate(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:api.testcases.Adminspinrewardtestcase@79e2c065]" started-at="2025-07-11T12:34:15 PKT" name="testadminspinrewardcreate" data-provider="Spinrewarddata" finished-at="2025-07-11T12:34:16 PKT" duration-ms="615" status="PASS">
+        <test-method signature="testadminspinrewardcreate(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:api.testcases.Adminspinrewardtestcase@3e58a80e]" started-at="2025-07-11T13:44:37 PKT" name="testadminspinrewardcreate" data-provider="Spinrewarddata" finished-at="2025-07-11T13:44:38 PKT" duration-ms="615" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -89,11 +89,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testadminspinrewardcreate -->
-        <test-method signature="testadminspinrewardfetch()[pri:2, instance:api.testcases.Adminspinrewardtestcase@79e2c065]" started-at="2025-07-11T12:34:16 PKT" name="testadminspinrewardfetch" finished-at="2025-07-11T12:34:17 PKT" duration-ms="639" status="PASS">
+        <test-method signature="testadminspinrewardfetch()[pri:2, instance:api.testcases.Adminspinrewardtestcase@3e58a80e]" started-at="2025-07-11T13:44:38 PKT" name="testadminspinrewardfetch" finished-at="2025-07-11T13:44:38 PKT" duration-ms="697" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testadminspinrewardfetch -->
-        <test-method signature="testadminspinrewardupdate(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:3, instance:api.testcases.Adminspinrewardtestcase@79e2c065]" started-at="2025-07-11T12:34:17 PKT" name="testadminspinrewardupdate" data-provider="Spinrewardupdatedata" finished-at="2025-07-11T12:34:18 PKT" duration-ms="1309" status="PASS">
+        <test-method signature="testadminspinrewardupdate(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:3, instance:api.testcases.Adminspinrewardtestcase@3e58a80e]" started-at="2025-07-11T13:44:39 PKT" name="testadminspinrewardupdate" data-provider="Spinrewardupdatedata" finished-at="2025-07-11T13:44:40 PKT" duration-ms="1367" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -119,17 +119,17 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testadminspinrewardupdate -->
-        <test-method signature="testadminspinrewarddelete()[pri:4, instance:api.testcases.Adminspinrewardtestcase@79e2c065]" started-at="2025-07-11T12:34:18 PKT" name="testadminspinrewarddelete" finished-at="2025-07-11T12:34:20 PKT" duration-ms="2551" status="PASS">
+        <test-method signature="testadminspinrewarddelete()[pri:4, instance:api.testcases.Adminspinrewardtestcase@3e58a80e]" started-at="2025-07-11T13:44:40 PKT" name="testadminspinrewarddelete" finished-at="2025-07-11T13:44:43 PKT" duration-ms="3348" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testadminspinrewarddelete -->
       </class> <!-- api.testcases.Adminspinrewardtestcase -->
       <class name="api.testcases.Adminpointswagertestcase">
-        <test-method is-config="true" signature="generateusertestdata()[pri:0, instance:api.testcases.Adminpointswagertestcase@72d1ad2e]" started-at="2025-07-11T12:32:47 PKT" name="generateusertestdata" finished-at="2025-07-11T12:33:03 PKT" duration-ms="15739" status="PASS">
+        <test-method is-config="true" signature="generateusertestdata()[pri:0, instance:api.testcases.Adminpointswagertestcase@1fa268de]" started-at="2025-07-11T13:43:02 PKT" name="generateusertestdata" finished-at="2025-07-11T13:43:18 PKT" duration-ms="15957" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- generateusertestdata -->
-        <test-method signature="testadminpointwagercreate(java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:api.testcases.Adminpointswagertestcase@72d1ad2e]" started-at="2025-07-11T12:33:03 PKT" name="testadminpointwagercreate" data-provider="pointswagerdata" finished-at="2025-07-11T12:33:04 PKT" duration-ms="646" status="PASS">
+        <test-method signature="testadminpointwagercreate(java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:api.testcases.Adminpointswagertestcase@1fa268de]" started-at="2025-07-11T13:43:19 PKT" name="testadminpointwagercreate" data-provider="pointswagerdata" finished-at="2025-07-11T13:43:20 PKT" duration-ms="919" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -150,11 +150,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testadminpointwagercreate -->
-        <test-method signature="testadminpointwagerfetch()[pri:2, instance:api.testcases.Adminpointswagertestcase@72d1ad2e]" started-at="2025-07-11T12:33:04 PKT" name="testadminpointwagerfetch" finished-at="2025-07-11T12:33:05 PKT" duration-ms="718" status="PASS">
+        <test-method signature="testadminpointwagerfetch()[pri:2, instance:api.testcases.Adminpointswagertestcase@1fa268de]" started-at="2025-07-11T13:43:20 PKT" name="testadminpointwagerfetch" finished-at="2025-07-11T13:43:20 PKT" duration-ms="751" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testadminpointwagerfetch -->
-        <test-method signature="testadminpointwagerupdate(java.lang.String,java.lang.String,java.lang.String)[pri:3, instance:api.testcases.Adminpointswagertestcase@72d1ad2e]" started-at="2025-07-11T12:33:05 PKT" name="testadminpointwagerupdate" data-provider="pointswagerupdatedata" finished-at="2025-07-11T12:33:06 PKT" duration-ms="1306" status="PASS">
+        <test-method signature="testadminpointwagerupdate(java.lang.String,java.lang.String,java.lang.String)[pri:3, instance:api.testcases.Adminpointswagertestcase@1fa268de]" started-at="2025-07-11T13:43:21 PKT" name="testadminpointwagerupdate" data-provider="pointswagerupdatedata" finished-at="2025-07-11T13:43:22 PKT" duration-ms="1372" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -175,17 +175,17 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testadminpointwagerupdate -->
-        <test-method signature="testadminpointwagerdelete()[pri:4, instance:api.testcases.Adminpointswagertestcase@72d1ad2e]" started-at="2025-07-11T12:33:06 PKT" name="testadminpointwagerdelete" finished-at="2025-07-11T12:33:07 PKT" duration-ms="1272" status="PASS">
+        <test-method signature="testadminpointwagerdelete()[pri:4, instance:api.testcases.Adminpointswagertestcase@1fa268de]" started-at="2025-07-11T13:43:22 PKT" name="testadminpointwagerdelete" finished-at="2025-07-11T13:43:24 PKT" duration-ms="1841" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testadminpointwagerdelete -->
       </class> <!-- api.testcases.Adminpointswagertestcase -->
       <class name="api.testcases.Adminavatartestcase">
-        <test-method is-config="true" signature="generateusertestdata()[pri:0, instance:api.testcases.Adminavatartestcase@dd8ba08]" started-at="2025-07-11T12:32:06 PKT" name="generateusertestdata" finished-at="2025-07-11T12:32:16 PKT" duration-ms="9513" status="PASS">
+        <test-method is-config="true" signature="generateusertestdata()[pri:0, instance:api.testcases.Adminavatartestcase@3bb9a3ff]" started-at="2025-07-11T13:42:16 PKT" name="generateusertestdata" finished-at="2025-07-11T13:42:27 PKT" duration-ms="11071" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- generateusertestdata -->
-        <test-method signature="testadminavatarcreate(java.lang.String,java.lang.String)[pri:1, instance:api.testcases.Adminavatartestcase@dd8ba08]" started-at="2025-07-11T12:32:17 PKT" name="testadminavatarcreate" data-provider="Avatardata" finished-at="2025-07-11T12:32:18 PKT" duration-ms="688" status="PASS">
+        <test-method signature="testadminavatarcreate(java.lang.String,java.lang.String)[pri:1, instance:api.testcases.Adminavatartestcase@3bb9a3ff]" started-at="2025-07-11T13:42:28 PKT" name="testadminavatarcreate" data-provider="Avatardata" finished-at="2025-07-11T13:42:29 PKT" duration-ms="719" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -201,7 +201,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testadminavatarcreate -->
-        <test-method signature="testadminavatarcreate(java.lang.String,java.lang.String)[pri:1, instance:api.testcases.Adminavatartestcase@dd8ba08]" started-at="2025-07-11T12:32:18 PKT" name="testadminavatarcreate" data-provider="Avatardata" finished-at="2025-07-11T12:32:18 PKT" duration-ms="673" status="PASS">
+        <test-method signature="testadminavatarcreate(java.lang.String,java.lang.String)[pri:1, instance:api.testcases.Adminavatartestcase@3bb9a3ff]" started-at="2025-07-11T13:42:29 PKT" name="testadminavatarcreate" data-provider="Avatardata" finished-at="2025-07-11T13:42:30 PKT" duration-ms="972" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -217,11 +217,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testadminavatarcreate -->
-        <test-method signature="testadminavatarfetch()[pri:2, instance:api.testcases.Adminavatartestcase@dd8ba08]" started-at="2025-07-11T12:32:18 PKT" name="testadminavatarfetch" finished-at="2025-07-11T12:32:19 PKT" duration-ms="698" status="PASS">
+        <test-method signature="testadminavatarfetch()[pri:2, instance:api.testcases.Adminavatartestcase@3bb9a3ff]" started-at="2025-07-11T13:42:30 PKT" name="testadminavatarfetch" finished-at="2025-07-11T13:42:31 PKT" duration-ms="846" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testadminavatarfetch -->
-        <test-method signature="testadminavatarupdate(java.lang.String,java.lang.String)[pri:3, instance:api.testcases.Adminavatartestcase@dd8ba08]" started-at="2025-07-11T12:32:19 PKT" name="testadminavatarupdate" data-provider="Avatarupdatedata" finished-at="2025-07-11T12:32:21 PKT" duration-ms="1405" status="PASS">
+        <test-method signature="testadminavatarupdate(java.lang.String,java.lang.String)[pri:3, instance:api.testcases.Adminavatartestcase@3bb9a3ff]" started-at="2025-07-11T13:42:31 PKT" name="testadminavatarupdate" data-provider="Avatarupdatedata" finished-at="2025-07-11T13:42:33 PKT" duration-ms="1761" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -237,17 +237,17 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testadminavatarupdate -->
-        <test-method signature="testadminavatardelete()[pri:4, instance:api.testcases.Adminavatartestcase@dd8ba08]" started-at="2025-07-11T12:32:21 PKT" name="testadminavatardelete" finished-at="2025-07-11T12:32:23 PKT" duration-ms="1878" status="PASS">
+        <test-method signature="testadminavatardelete()[pri:4, instance:api.testcases.Adminavatartestcase@3bb9a3ff]" started-at="2025-07-11T13:42:33 PKT" name="testadminavatardelete" finished-at="2025-07-11T13:42:35 PKT" duration-ms="2298" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testadminavatardelete -->
       </class> <!-- api.testcases.Adminavatartestcase -->
       <class name="api.testcases.Admindailyrewardtestcase">
-        <test-method is-config="true" signature="generateusertestdata()[pri:0, instance:api.testcases.Admindailyrewardtestcase@38c6f217]" started-at="2025-07-11T12:33:43 PKT" name="generateusertestdata" finished-at="2025-07-11T12:33:51 PKT" duration-ms="7705" status="PASS">
+        <test-method is-config="true" signature="generateusertestdata()[pri:0, instance:api.testcases.Admindailyrewardtestcase@a514af7]" started-at="2025-07-11T13:44:03 PKT" name="generateusertestdata" finished-at="2025-07-11T13:44:11 PKT" duration-ms="7822" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- generateusertestdata -->
-        <test-method signature="testadmindailyrewardcreate(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:api.testcases.Admindailyrewardtestcase@38c6f217]" started-at="2025-07-11T12:33:51 PKT" name="testadmindailyrewardcreate" data-provider="Dailyrewarddata" finished-at="2025-07-11T12:33:52 PKT" duration-ms="613" status="PASS">
+        <test-method signature="testadmindailyrewardcreate(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:api.testcases.Admindailyrewardtestcase@a514af7]" started-at="2025-07-11T13:44:11 PKT" name="testadmindailyrewardcreate" data-provider="Dailyrewarddata" finished-at="2025-07-11T13:44:12 PKT" duration-ms="856" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -273,7 +273,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testadmindailyrewardcreate -->
-        <test-method signature="testadmindailyrewardcreate(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:api.testcases.Admindailyrewardtestcase@38c6f217]" started-at="2025-07-11T12:33:52 PKT" name="testadmindailyrewardcreate" data-provider="Dailyrewarddata" finished-at="2025-07-11T12:33:53 PKT" duration-ms="622" status="PASS">
+        <test-method signature="testadmindailyrewardcreate(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:api.testcases.Admindailyrewardtestcase@a514af7]" started-at="2025-07-11T13:44:12 PKT" name="testadmindailyrewardcreate" data-provider="Dailyrewarddata" finished-at="2025-07-11T13:44:13 PKT" duration-ms="787" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -299,7 +299,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testadmindailyrewardcreate -->
-        <test-method signature="testadmindailyrewardcreate(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:api.testcases.Admindailyrewardtestcase@38c6f217]" started-at="2025-07-11T12:33:53 PKT" name="testadmindailyrewardcreate" data-provider="Dailyrewarddata" finished-at="2025-07-11T12:33:53 PKT" duration-ms="634" status="PASS">
+        <test-method signature="testadmindailyrewardcreate(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:api.testcases.Admindailyrewardtestcase@a514af7]" started-at="2025-07-11T13:44:13 PKT" name="testadmindailyrewardcreate" data-provider="Dailyrewarddata" finished-at="2025-07-11T13:44:13 PKT" duration-ms="655" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -325,11 +325,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testadmindailyrewardcreate -->
-        <test-method signature="testadmindailyrewardfetch()[pri:2, instance:api.testcases.Admindailyrewardtestcase@38c6f217]" started-at="2025-07-11T12:33:53 PKT" name="testadmindailyrewardfetch" finished-at="2025-07-11T12:33:54 PKT" duration-ms="646" status="PASS">
+        <test-method signature="testadmindailyrewardfetch()[pri:2, instance:api.testcases.Admindailyrewardtestcase@a514af7]" started-at="2025-07-11T13:44:13 PKT" name="testadmindailyrewardfetch" finished-at="2025-07-11T13:44:14 PKT" duration-ms="806" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testadmindailyrewardfetch -->
-        <test-method signature="testadmindailyrewardupdate(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:3, instance:api.testcases.Admindailyrewardtestcase@38c6f217]" started-at="2025-07-11T12:33:54 PKT" name="testadmindailyrewardupdate" data-provider="Dailyrewardupdatedata" finished-at="2025-07-11T12:33:55 PKT" duration-ms="1303" status="PASS">
+        <test-method signature="testadmindailyrewardupdate(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:3, instance:api.testcases.Admindailyrewardtestcase@a514af7]" started-at="2025-07-11T13:44:14 PKT" name="testadmindailyrewardupdate" data-provider="Dailyrewardupdatedata" finished-at="2025-07-11T13:44:16 PKT" duration-ms="1670" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -355,21 +355,21 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testadmindailyrewardupdate -->
-        <test-method signature="testadmindailyrewarddelete()[pri:4, instance:api.testcases.Admindailyrewardtestcase@38c6f217]" started-at="2025-07-11T12:33:55 PKT" name="testadmindailyrewarddelete" finished-at="2025-07-11T12:33:58 PKT" duration-ms="2532" status="PASS">
+        <test-method signature="testadmindailyrewarddelete()[pri:4, instance:api.testcases.Admindailyrewardtestcase@a514af7]" started-at="2025-07-11T13:44:16 PKT" name="testadmindailyrewarddelete" finished-at="2025-07-11T13:44:19 PKT" duration-ms="2967" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testadmindailyrewarddelete -->
       </class> <!-- api.testcases.Admindailyrewardtestcase -->
       <class name="api.testcases.Admincurrencytestcase">
-        <test-method is-config="true" signature="generateusertestdata()[pri:0, instance:api.testcases.Admincurrencytestcase@595b007d]" started-at="2025-07-11T12:32:41 PKT" name="generateusertestdata" finished-at="2025-07-11T12:32:45 PKT" duration-ms="4736" status="PASS">
+        <test-method is-config="true" signature="generateusertestdata()[pri:0, instance:api.testcases.Admincurrencytestcase@359f7cdf]" started-at="2025-07-11T13:42:54 PKT" name="generateusertestdata" finished-at="2025-07-11T13:42:59 PKT" duration-ms="5039" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- generateusertestdata -->
-        <test-method signature="testadmincurrencyfetch()[pri:1, instance:api.testcases.Admincurrencytestcase@595b007d]" started-at="2025-07-11T12:32:45 PKT" name="testadmincurrencyfetch" finished-at="2025-07-11T12:32:46 PKT" duration-ms="628" status="PASS">
+        <test-method signature="testadmincurrencyfetch()[pri:1, instance:api.testcases.Admincurrencytestcase@359f7cdf]" started-at="2025-07-11T13:42:59 PKT" name="testadmincurrencyfetch" finished-at="2025-07-11T13:43:00 PKT" duration-ms="876" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testadmincurrencyfetch -->
-        <test-method signature="testadmicurrencyupdate(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:2, instance:api.testcases.Admincurrencytestcase@595b007d]" started-at="2025-07-11T12:32:46 PKT" name="testadmicurrencyupdate" data-provider="Currencydata" finished-at="2025-07-11T12:32:47 PKT" duration-ms="1289" status="PASS">
+        <test-method signature="testadmicurrencyupdate(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:2, instance:api.testcases.Admincurrencytestcase@359f7cdf]" started-at="2025-07-11T13:43:00 PKT" name="testadmicurrencyupdate" data-provider="Currencydata" finished-at="2025-07-11T13:43:02 PKT" duration-ms="1857" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -402,11 +402,11 @@
         </test-method> <!-- testadmicurrencyupdate -->
       </class> <!-- api.testcases.Admincurrencytestcase -->
       <class name="api.testcases.Adminpoweruptestcase">
-        <test-method is-config="true" signature="generateusertestdata()[pri:0, instance:api.testcases.Adminpoweruptestcase@399f45b1]" started-at="2025-07-11T12:33:28 PKT" name="generateusertestdata" finished-at="2025-07-11T12:33:36 PKT" duration-ms="7715" status="PASS">
+        <test-method is-config="true" signature="generateusertestdata()[pri:0, instance:api.testcases.Adminpoweruptestcase@4466af20]" started-at="2025-07-11T13:43:45 PKT" name="generateusertestdata" finished-at="2025-07-11T13:43:53 PKT" duration-ms="7709" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- generateusertestdata -->
-        <test-method signature="testadminpowerupcreate(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:api.testcases.Adminpoweruptestcase@399f45b1]" started-at="2025-07-11T12:33:37 PKT" name="testadminpowerupcreate" data-provider="Powerupsdata" finished-at="2025-07-11T12:33:37 PKT" duration-ms="652" status="PASS">
+        <test-method signature="testadminpowerupcreate(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:api.testcases.Adminpoweruptestcase@4466af20]" started-at="2025-07-11T13:43:54 PKT" name="testadminpowerupcreate" data-provider="Powerupsdata" finished-at="2025-07-11T13:43:54 PKT" duration-ms="635" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -447,7 +447,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testadminpowerupcreate -->
-        <test-method signature="testadminpowerupcreate(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:api.testcases.Adminpoweruptestcase@399f45b1]" started-at="2025-07-11T12:33:37 PKT" name="testadminpowerupcreate" data-provider="Powerupsdata" finished-at="2025-07-11T12:33:38 PKT" duration-ms="650" status="PASS">
+        <test-method signature="testadminpowerupcreate(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:api.testcases.Adminpoweruptestcase@4466af20]" started-at="2025-07-11T13:43:54 PKT" name="testadminpowerupcreate" data-provider="Powerupsdata" finished-at="2025-07-11T13:43:55 PKT" duration-ms="674" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -488,7 +488,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testadminpowerupcreate -->
-        <test-method signature="testadminpowerupcreate(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:api.testcases.Adminpoweruptestcase@399f45b1]" started-at="2025-07-11T12:33:38 PKT" name="testadminpowerupcreate" data-provider="Powerupsdata" finished-at="2025-07-11T12:33:39 PKT" duration-ms="640" status="PASS">
+        <test-method signature="testadminpowerupcreate(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:api.testcases.Adminpoweruptestcase@4466af20]" started-at="2025-07-11T13:43:55 PKT" name="testadminpowerupcreate" data-provider="Powerupsdata" finished-at="2025-07-11T13:43:56 PKT" duration-ms="709" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -529,11 +529,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testadminpowerupcreate -->
-        <test-method signature="testadminpowerupfetch()[pri:2, instance:api.testcases.Adminpoweruptestcase@399f45b1]" started-at="2025-07-11T12:33:39 PKT" name="testadminpowerupfetch" finished-at="2025-07-11T12:33:39 PKT" duration-ms="661" status="PASS">
+        <test-method signature="testadminpowerupfetch()[pri:2, instance:api.testcases.Adminpoweruptestcase@4466af20]" started-at="2025-07-11T13:43:56 PKT" name="testadminpowerupfetch" finished-at="2025-07-11T13:43:57 PKT" duration-ms="749" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testadminpowerupfetch -->
-        <test-method signature="testadminpowerupupdate(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:3, instance:api.testcases.Adminpoweruptestcase@399f45b1]" started-at="2025-07-11T12:33:39 PKT" name="testadminpowerupupdate" data-provider="Powerupsupdatedata" finished-at="2025-07-11T12:33:41 PKT" duration-ms="1301" status="PASS">
+        <test-method signature="testadminpowerupupdate(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:3, instance:api.testcases.Adminpoweruptestcase@4466af20]" started-at="2025-07-11T13:43:57 PKT" name="testadminpowerupupdate" data-provider="Powerupsupdatedata" finished-at="2025-07-11T13:43:59 PKT" duration-ms="2099" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -569,13 +569,13 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testadminpowerupupdate -->
-        <test-method signature="testadminpowerpdelete()[pri:4, instance:api.testcases.Adminpoweruptestcase@399f45b1]" started-at="2025-07-11T12:33:41 PKT" name="testadminpowerpdelete" finished-at="2025-07-11T12:33:43 PKT" duration-ms="2592" status="PASS">
+        <test-method signature="testadminpowerpdelete()[pri:4, instance:api.testcases.Adminpoweruptestcase@4466af20]" started-at="2025-07-11T13:43:59 PKT" name="testadminpowerpdelete" finished-at="2025-07-11T13:44:03 PKT" duration-ms="3629" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testadminpowerpdelete -->
       </class> <!-- api.testcases.Adminpoweruptestcase -->
       <class name="api.testcases.Adminsignintestcase">
-        <test-method signature="testadminsignin(java.lang.String,java.lang.String)[pri:0, instance:api.testcases.Adminsignintestcase@2d7275fc]" started-at="2025-07-11T12:33:08 PKT" name="testadminsignin" data-provider="Signindata" finished-at="2025-07-11T12:33:28 PKT" duration-ms="20738" status="PASS">
+        <test-method signature="testadminsignin(java.lang.String,java.lang.String)[pri:0, instance:api.testcases.Adminsignintestcase@4f6ee6e4]" started-at="2025-07-11T13:43:24 PKT" name="testadminsignin" data-provider="Signindata" finished-at="2025-07-11T13:43:45 PKT" duration-ms="20963" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -593,35 +593,35 @@
         </test-method> <!-- testadminsignin -->
       </class> <!-- api.testcases.Adminsignintestcase -->
       <class name="api.testcases.Admindashboardtestcase">
-        <test-method is-config="true" signature="generateusertestdata()[pri:0, instance:api.testcases.Admindashboardtestcase@16293aa2]" started-at="2025-07-11T12:32:23 PKT" name="generateusertestdata" finished-at="2025-07-11T12:32:33 PKT" duration-ms="10011" status="PASS">
+        <test-method is-config="true" signature="generateusertestdata()[pri:0, instance:api.testcases.Admindashboardtestcase@6356695f]" started-at="2025-07-11T13:42:35 PKT" name="generateusertestdata" finished-at="2025-07-11T13:42:45 PKT" duration-ms="10011" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- generateusertestdata -->
-        <test-method signature="testadmindashboard()[pri:0, instance:api.testcases.Admindashboardtestcase@16293aa2]" started-at="2025-07-11T12:32:33 PKT" name="testadmindashboard" finished-at="2025-07-11T12:32:34 PKT" duration-ms="1314" status="PASS">
+        <test-method signature="testadmindashboard()[pri:0, instance:api.testcases.Admindashboardtestcase@6356695f]" started-at="2025-07-11T13:42:45 PKT" name="testadmindashboard" finished-at="2025-07-11T13:42:47 PKT" duration-ms="1865" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testadmindashboard -->
       </class> <!-- api.testcases.Admindashboardtestcase -->
       <class name="api.testcases.Adminleaderboardtestcase">
-        <test-method is-config="true" signature="generateusertestdata()[pri:0, instance:api.testcases.Adminleaderboardtestcase@478190fc]" started-at="2025-07-11T12:33:58 PKT" name="generateusertestdata" finished-at="2025-07-11T12:34:05 PKT" duration-ms="7013" status="PASS">
+        <test-method is-config="true" signature="generateusertestdata()[pri:0, instance:api.testcases.Adminleaderboardtestcase@6b927fb]" started-at="2025-07-11T13:44:19 PKT" name="generateusertestdata" finished-at="2025-07-11T13:44:26 PKT" duration-ms="7007" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- generateusertestdata -->
-        <test-method signature="testadminleaderboard()[pri:0, instance:api.testcases.Adminleaderboardtestcase@478190fc]" started-at="2025-07-11T12:34:05 PKT" name="testadminleaderboard" finished-at="2025-07-11T12:34:06 PKT" duration-ms="1296" status="PASS">
+        <test-method signature="testadminleaderboard()[pri:0, instance:api.testcases.Adminleaderboardtestcase@6b927fb]" started-at="2025-07-11T13:44:26 PKT" name="testadminleaderboard" finished-at="2025-07-11T13:44:28 PKT" duration-ms="1616" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testadminleaderboard -->
       </class> <!-- api.testcases.Adminleaderboardtestcase -->
       <class name="api.testcases.Adminusertestcase">
-        <test-method is-config="true" signature="generateusertestdata()[pri:0, instance:api.testcases.Adminusertestcase@5158b42f]" started-at="2025-07-11T12:32:34 PKT" name="generateusertestdata" finished-at="2025-07-11T12:32:39 PKT" duration-ms="4729" status="PASS">
+        <test-method is-config="true" signature="generateusertestdata()[pri:0, instance:api.testcases.Adminusertestcase@4f18837a]" started-at="2025-07-11T13:42:47 PKT" name="generateusertestdata" finished-at="2025-07-11T13:42:52 PKT" duration-ms="4917" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- generateusertestdata -->
-        <test-method signature="testadminuserfetch()[pri:1, instance:api.testcases.Adminusertestcase@5158b42f]" started-at="2025-07-11T12:32:39 PKT" name="testadminuserfetch" finished-at="2025-07-11T12:32:39 PKT" duration-ms="643" status="PASS">
+        <test-method signature="testadminuserfetch()[pri:1, instance:api.testcases.Adminusertestcase@4f18837a]" started-at="2025-07-11T13:42:52 PKT" name="testadminuserfetch" finished-at="2025-07-11T13:42:53 PKT" duration-ms="690" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testadminuserfetch -->
-        <test-method signature="testadminuserfetchbyid()[pri:2, instance:api.testcases.Adminusertestcase@5158b42f]" started-at="2025-07-11T12:32:39 PKT" name="testadminuserfetchbyid" finished-at="2025-07-11T12:32:41 PKT" duration-ms="1356" status="PASS">
+        <test-method signature="testadminuserfetchbyid()[pri:2, instance:api.testcases.Adminusertestcase@4f18837a]" started-at="2025-07-11T13:42:53 PKT" name="testadminuserfetchbyid" finished-at="2025-07-11T13:42:54 PKT" duration-ms="1475" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testadminuserfetchbyid -->

@@ -1,5 +1,0 @@
-# Created at 2025-07-11T12:32:05.305
-Boot Manifest-JAR contains absolute paths in classpath 'D:\bingo API Automation\BingoAutomation\target\test-classes'
-Hint: <argLine>-Djdk.net.URLClassPath.disableClassPathURLCheck=true</argLine>
-'other' has different root
-
