@@ -1,0 +1,3704 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="166.929" tests="34" errors="0" skipped="0" failures="1">
+  <properties>
+    <property name="java.specification.version" value="17"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="D:\bingo API Automation\BingoAutomation\target\test-classes;D:\bingo API Automation\BingoAutomation\target\classes;C:\Users\Tanveer Salim\.m2\repository\io\rest-assured\rest-assured\5.5.0\rest-assured-5.5.0.jar;C:\Users\Tanveer Salim\.m2\repository\org\apache\groovy\groovy\4.0.22\groovy-4.0.22.jar;C:\Users\Tanveer Salim\.m2\repository\org\apache\groovy\groovy-xml\4.0.22\groovy-xml-4.0.22.jar;C:\Users\Tanveer Salim\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\Tanveer Salim\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\Tanveer Salim\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\Tanveer Salim\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\Tanveer Salim\.m2\repository\org\hamcrest\hamcrest\2.2\hamcrest-2.2.jar;C:\Users\Tanveer Salim\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\Tanveer Salim\.m2\repository\io\rest-assured\json-path\5.5.0\json-path-5.5.0.jar;C:\Users\Tanveer Salim\.m2\repository\org\apache\groovy\groovy-json\4.0.22\groovy-json-4.0.22.jar;C:\Users\Tanveer Salim\.m2\repository\io\rest-assured\rest-assured-common\5.5.0\rest-assured-common-5.5.0.jar;C:\Users\Tanveer Salim\.m2\repository\io\rest-assured\xml-path\5.5.0\xml-path-5.5.0.jar;C:\Users\Tanveer Salim\.m2\repository\org\testng\testng\7.9.0\testng-7.9.0.jar;C:\Users\Tanveer Salim\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\Tanveer Salim\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\Tanveer Salim\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;C:\Users\Tanveer Salim\.m2\repository\com\github\scribejava\scribejava-apis\8.3.1\scribejava-apis-8.3.1.jar;C:\Users\Tanveer Salim\.m2\repository\com\github\scribejava\scribejava-core\8.3.1\scribejava-core-8.3.1.jar;C:\Users\Tanveer Salim\.m2\repository\com\github\scribejava\scribejava-java8\8.3.1\scribejava-java8-8.3.1.jar;C:\Users\Tanveer Salim\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.12.3\jackson-databind-2.12.3.jar;C:\Users\Tanveer Salim\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.12.3\jackson-annotations-2.12.3.jar;C:\Users\Tanveer Salim\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.12.3\jackson-core-2.12.3.jar;C:\Users\Tanveer Salim\.m2\repository\io\rest-assured\json-schema-validator\5.5.0\json-schema-validator-5.5.0.jar;C:\Users\Tanveer Salim\.m2\repository\com\github\java-json-tools\json-schema-validator\2.2.14\json-schema-validator-2.2.14.jar;C:\Users\Tanveer Salim\.m2\repository\com\github\java-json-tools\jackson-coreutils-equivalence\1.0\jackson-coreutils-equivalence-1.0.jar;C:\Users\Tanveer Salim\.m2\repository\com\github\java-json-tools\jackson-coreutils\2.0\jackson-coreutils-2.0.jar;C:\Users\Tanveer Salim\.m2\repository\com\github\java-json-tools\msg-simple\1.2\msg-simple-1.2.jar;C:\Users\Tanveer Salim\.m2\repository\com\github\java-json-tools\btf\1.3\btf-1.3.jar;C:\Users\Tanveer Salim\.m2\repository\com\github\java-json-tools\json-schema-core\1.2.14\json-schema-core-1.2.14.jar;C:\Users\Tanveer Salim\.m2\repository\com\github\java-json-tools\uri-template\0.10\uri-template-0.10.jar;C:\Users\Tanveer Salim\.m2\repository\org\mozilla\rhino\1.7.7.2\rhino-1.7.7.2.jar;C:\Users\Tanveer Salim\.m2\repository\com\sun\mail\mailapi\1.6.2\mailapi-1.6.2.jar;C:\Users\Tanveer Salim\.m2\repository\joda-time\joda-time\2.10.5\joda-time-2.10.5.jar;C:\Users\Tanveer Salim\.m2\repository\com\googlecode\libphonenumber\libphonenumber\8.11.1\libphonenumber-8.11.1.jar;C:\Users\Tanveer Salim\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\Tanveer Salim\.m2\repository\net\sf\jopt-simple\jopt-simple\5.0.4\jopt-simple-5.0.4.jar;C:\Users\Tanveer Salim\.m2\repository\com\google\guava\guava\33.2.1-jre\guava-33.2.1-jre.jar;C:\Users\Tanveer Salim\.m2\repository\com\google\guava\failureaccess\1.0.2\failureaccess-1.0.2.jar;C:\Users\Tanveer Salim\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\Tanveer Salim\.m2\repository\org\checkerframework\checker-qual\3.42.0\checker-qual-3.42.0.jar;C:\Users\Tanveer Salim\.m2\repository\com\google\errorprone\error_prone_annotations\2.26.1\error_prone_annotations-2.26.1.jar;C:\Users\Tanveer Salim\.m2\repository\com\google\j2objc\j2objc-annotations\3.0.0\j2objc-annotations-3.0.0.jar;C:\Users\Tanveer Salim\.m2\repository\com\aventstack\extentreports\5.0.9\extentreports-5.0.9.jar;C:\Users\Tanveer Salim\.m2\repository\io\reactivex\rxjava3\rxjava\3.0.4\rxjava-3.0.4.jar;C:\Users\Tanveer Salim\.m2\repository\org\reactivestreams\reactive-streams\1.0.3\reactive-streams-1.0.3.jar;C:\Users\Tanveer Salim\.m2\repository\org\freemarker\freemarker\2.3.30\freemarker-2.3.30.jar;C:\Users\Tanveer Salim\.m2\repository\com\google\code\gson\gson\2.8.6\gson-2.8.6.jar;C:\Users\Tanveer Salim\.m2\repository\org\apache\poi\poi\5.2.3\poi-5.2.3.jar;C:\Users\Tanveer Salim\.m2\repository\commons-codec\commons-codec\1.15\commons-codec-1.15.jar;C:\Users\Tanveer Salim\.m2\repository\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar;C:\Users\Tanveer Salim\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\Users\Tanveer Salim\.m2\repository\commons-io\commons-io\2.11.0\commons-io-2.11.0.jar;C:\Users\Tanveer Salim\.m2\repository\com\zaxxer\SparseBitSet\1.2\SparseBitSet-1.2.jar;C:\Users\Tanveer Salim\.m2\repository\org\apache\poi\poi-ooxml\5.2.3\poi-ooxml-5.2.3.jar;C:\Users\Tanveer Salim\.m2\repository\org\apache\poi\poi-ooxml-lite\5.2.3\poi-ooxml-lite-5.2.3.jar;C:\Users\Tanveer Salim\.m2\repository\org\apache\xmlbeans\xmlbeans\5.1.1\xmlbeans-5.1.1.jar;C:\Users\Tanveer Salim\.m2\repository\org\apache\commons\commons-compress\1.21\commons-compress-1.21.jar;C:\Users\Tanveer Salim\.m2\repository\com\github\virtuald\curvesapi\1.07\curvesapi-1.07.jar;C:\Users\Tanveer Salim\.m2\repository\org\apache\logging\log4j\log4j-core\2.17.2\log4j-core-2.17.2.jar;C:\Users\Tanveer Salim\.m2\repository\org\apache\logging\log4j\log4j-api\2.17.2\log4j-api-2.17.2.jar;C:\Users\Tanveer Salim\.m2\repository\com\github\javafaker\javafaker\1.0.2\javafaker-1.0.2.jar;C:\Users\Tanveer Salim\.m2\repository\org\apache\commons\commons-lang3\3.5\commons-lang3-3.5.jar;C:\Users\Tanveer Salim\.m2\repository\org\yaml\snakeyaml\1.23\snakeyaml-1.23-android.jar;C:\Users\Tanveer Salim\.m2\repository\com\github\mifmif\generex\1.0.2\generex-1.0.2.jar;C:\Users\Tanveer Salim\.m2\repository\dk\brics\automaton\automaton\1.11-8\automaton-1.11-8.jar;C:\Users\Tanveer Salim\.m2\repository\org\projectlombok\lombok\1.18.22\lombok-1.18.22.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="Asia/Karachi"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="java.vm.specification.version" value="17"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-17\bin"/>
+    <property name="sun.java.command" value="C:\Users\Tanveer Salim\AppData\Local\Temp\surefire4499121137001359275\surefirebooter-20250711140319152_3.jar C:\Users\Tanveer Salim\AppData\Local\Temp\surefire4499121137001359275 2025-07-11T14-03-18_763-jvmRun1 surefire-20250711140319152_1tmp surefire_0-20250711140319152_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="D:\bingo API Automation\BingoAutomation\target\test-classes;D:\bingo API Automation\BingoAutomation\target\classes;C:\Users\Tanveer Salim\.m2\repository\io\rest-assured\rest-assured\5.5.0\rest-assured-5.5.0.jar;C:\Users\Tanveer Salim\.m2\repository\org\apache\groovy\groovy\4.0.22\groovy-4.0.22.jar;C:\Users\Tanveer Salim\.m2\repository\org\apache\groovy\groovy-xml\4.0.22\groovy-xml-4.0.22.jar;C:\Users\Tanveer Salim\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\Tanveer Salim\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\Tanveer Salim\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\Tanveer Salim\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\Tanveer Salim\.m2\repository\org\hamcrest\hamcrest\2.2\hamcrest-2.2.jar;C:\Users\Tanveer Salim\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\Tanveer Salim\.m2\repository\io\rest-assured\json-path\5.5.0\json-path-5.5.0.jar;C:\Users\Tanveer Salim\.m2\repository\org\apache\groovy\groovy-json\4.0.22\groovy-json-4.0.22.jar;C:\Users\Tanveer Salim\.m2\repository\io\rest-assured\rest-assured-common\5.5.0\rest-assured-common-5.5.0.jar;C:\Users\Tanveer Salim\.m2\repository\io\rest-assured\xml-path\5.5.0\xml-path-5.5.0.jar;C:\Users\Tanveer Salim\.m2\repository\org\testng\testng\7.9.0\testng-7.9.0.jar;C:\Users\Tanveer Salim\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\Tanveer Salim\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\Tanveer Salim\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;C:\Users\Tanveer Salim\.m2\repository\com\github\scribejava\scribejava-apis\8.3.1\scribejava-apis-8.3.1.jar;C:\Users\Tanveer Salim\.m2\repository\com\github\scribejava\scribejava-core\8.3.1\scribejava-core-8.3.1.jar;C:\Users\Tanveer Salim\.m2\repository\com\github\scribejava\scribejava-java8\8.3.1\scribejava-java8-8.3.1.jar;C:\Users\Tanveer Salim\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.12.3\jackson-databind-2.12.3.jar;C:\Users\Tanveer Salim\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.12.3\jackson-annotations-2.12.3.jar;C:\Users\Tanveer Salim\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.12.3\jackson-core-2.12.3.jar;C:\Users\Tanveer Salim\.m2\repository\io\rest-assured\json-schema-validator\5.5.0\json-schema-validator-5.5.0.jar;C:\Users\Tanveer Salim\.m2\repository\com\github\java-json-tools\json-schema-validator\2.2.14\json-schema-validator-2.2.14.jar;C:\Users\Tanveer Salim\.m2\repository\com\github\java-json-tools\jackson-coreutils-equivalence\1.0\jackson-coreutils-equivalence-1.0.jar;C:\Users\Tanveer Salim\.m2\repository\com\github\java-json-tools\jackson-coreutils\2.0\jackson-coreutils-2.0.jar;C:\Users\Tanveer Salim\.m2\repository\com\github\java-json-tools\msg-simple\1.2\msg-simple-1.2.jar;C:\Users\Tanveer Salim\.m2\repository\com\github\java-json-tools\btf\1.3\btf-1.3.jar;C:\Users\Tanveer Salim\.m2\repository\com\github\java-json-tools\json-schema-core\1.2.14\json-schema-core-1.2.14.jar;C:\Users\Tanveer Salim\.m2\repository\com\github\java-json-tools\uri-template\0.10\uri-template-0.10.jar;C:\Users\Tanveer Salim\.m2\repository\org\mozilla\rhino\1.7.7.2\rhino-1.7.7.2.jar;C:\Users\Tanveer Salim\.m2\repository\com\sun\mail\mailapi\1.6.2\mailapi-1.6.2.jar;C:\Users\Tanveer Salim\.m2\repository\joda-time\joda-time\2.10.5\joda-time-2.10.5.jar;C:\Users\Tanveer Salim\.m2\repository\com\googlecode\libphonenumber\libphonenumber\8.11.1\libphonenumber-8.11.1.jar;C:\Users\Tanveer Salim\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\Tanveer Salim\.m2\repository\net\sf\jopt-simple\jopt-simple\5.0.4\jopt-simple-5.0.4.jar;C:\Users\Tanveer Salim\.m2\repository\com\google\guava\guava\33.2.1-jre\guava-33.2.1-jre.jar;C:\Users\Tanveer Salim\.m2\repository\com\google\guava\failureaccess\1.0.2\failureaccess-1.0.2.jar;C:\Users\Tanveer Salim\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\Tanveer Salim\.m2\repository\org\checkerframework\checker-qual\3.42.0\checker-qual-3.42.0.jar;C:\Users\Tanveer Salim\.m2\repository\com\google\errorprone\error_prone_annotations\2.26.1\error_prone_annotations-2.26.1.jar;C:\Users\Tanveer Salim\.m2\repository\com\google\j2objc\j2objc-annotations\3.0.0\j2objc-annotations-3.0.0.jar;C:\Users\Tanveer Salim\.m2\repository\com\aventstack\extentreports\5.0.9\extentreports-5.0.9.jar;C:\Users\Tanveer Salim\.m2\repository\io\reactivex\rxjava3\rxjava\3.0.4\rxjava-3.0.4.jar;C:\Users\Tanveer Salim\.m2\repository\org\reactivestreams\reactive-streams\1.0.3\reactive-streams-1.0.3.jar;C:\Users\Tanveer Salim\.m2\repository\org\freemarker\freemarker\2.3.30\freemarker-2.3.30.jar;C:\Users\Tanveer Salim\.m2\repository\com\google\code\gson\gson\2.8.6\gson-2.8.6.jar;C:\Users\Tanveer Salim\.m2\repository\org\apache\poi\poi\5.2.3\poi-5.2.3.jar;C:\Users\Tanveer Salim\.m2\repository\commons-codec\commons-codec\1.15\commons-codec-1.15.jar;C:\Users\Tanveer Salim\.m2\repository\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar;C:\Users\Tanveer Salim\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\Users\Tanveer Salim\.m2\repository\commons-io\commons-io\2.11.0\commons-io-2.11.0.jar;C:\Users\Tanveer Salim\.m2\repository\com\zaxxer\SparseBitSet\1.2\SparseBitSet-1.2.jar;C:\Users\Tanveer Salim\.m2\repository\org\apache\poi\poi-ooxml\5.2.3\poi-ooxml-5.2.3.jar;C:\Users\Tanveer Salim\.m2\repository\org\apache\poi\poi-ooxml-lite\5.2.3\poi-ooxml-lite-5.2.3.jar;C:\Users\Tanveer Salim\.m2\repository\org\apache\xmlbeans\xmlbeans\5.1.1\xmlbeans-5.1.1.jar;C:\Users\Tanveer Salim\.m2\repository\org\apache\commons\commons-compress\1.21\commons-compress-1.21.jar;C:\Users\Tanveer Salim\.m2\repository\com\github\virtuald\curvesapi\1.07\curvesapi-1.07.jar;C:\Users\Tanveer Salim\.m2\repository\org\apache\logging\log4j\log4j-core\2.17.2\log4j-core-2.17.2.jar;C:\Users\Tanveer Salim\.m2\repository\org\apache\logging\log4j\log4j-api\2.17.2\log4j-api-2.17.2.jar;C:\Users\Tanveer Salim\.m2\repository\com\github\javafaker\javafaker\1.0.2\javafaker-1.0.2.jar;C:\Users\Tanveer Salim\.m2\repository\org\apache\commons\commons-lang3\3.5\commons-lang3-3.5.jar;C:\Users\Tanveer Salim\.m2\repository\org\yaml\snakeyaml\1.23\snakeyaml-1.23-android.jar;C:\Users\Tanveer Salim\.m2\repository\com\github\mifmif\generex\1.0.2\generex-1.0.2.jar;C:\Users\Tanveer Salim\.m2\repository\dk\brics\automaton\automaton\1.11-8\automaton-1.11-8.jar;C:\Users\Tanveer Salim\.m2\repository\org\projectlombok\lombok\1.18.22\lombok-1.18.22.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\Tanveer Salim"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2024-07-16"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-17"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="D:\bingo API Automation\BingoAutomation"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\Tanveer Salim\AppData\Local\Temp\surefire4499121137001359275\surefirebooter-20250711140319152_3.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="17.0.12+8-LTS-286"/>
+    <property name="user.name" value="Tanveer Salim"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\Tanveer Salim\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\TANVEE~1\AppData\Local\Temp\"/>
+    <property name="java.version" value="17.0.12"/>
+    <property name="user.dir" value="D:\bingo API Automation\BingoAutomation"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-17\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\apache-maven-3.9.10\bin;C:\apache-maven-3.9.10\bin;C:\apache-maven-3.9.10\bin;C:\Program Files\Git\cmd;C:\Program Files\Java\jdk-17\bin;C:\Program Files\Java\jdk-17\bin;C:\Users\Tanveer Salim\AppData\Local\Microsoft\WindowsApps;;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="17.0.12+8-LTS-286"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="61.0"/>
+  </properties>
+  <testcase name="testadminavatarcreate[https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ1zwhySGCEBxRRFYIcQgvOLOpRGqrT3d7Qng&amp;s, true](1)" classname="api.testcases.Adminavatartestcase" time="0.742">
+    <system-out><![CDATA[On Start method invoked....
+HTTP/1.1 201 Created
+Server: nginx/1.18.0 (Ubuntu)
+Date: Fri, 11 Jul 2025 09:03:02 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 680
+Connection: keep-alive
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+X-RateLimit-Limit-short: 1
+X-RateLimit-Remaining-short: 0
+X-RateLimit-Reset-short: 3
+X-RateLimit-Limit-long: 5
+X-RateLimit-Remaining-long: 4
+X-RateLimit-Reset-long: 60
+ETag: W/"2a8-9Qw5FT15Oj2xGXsSxtFeTDhTgeU"
+
+{
+    "message": "Login Successfully",
+    "data": {
+        "_id": "6834761c8d7b62f1c97fe2c1",
+        "userName": "Admin",
+        "email": "admin@hpl.com",
+        "accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2ODM0NzYxYzhkN2I2MmYxYzk3ZmUyYzEiLCJzZXNzaW9uSWQiOiI2ODcwZDM0NmUzZTZjMmNkNDUwNzA2YWYiLCJ1c2VyVHlwZSI6IkFkbWluIiwiaWF0IjoxNzUyMjI0NTgyLCJleHAiOjE3NTIzMTA5ODJ9.pdiqjkzl2s_A9CANLNktp2b0UpEyTdafJ3Uld3InCQY",
+        "refreshToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzZXNzaW9uSWQiOiI2ODcwZDM0NmUzZTZjMmNkNDUwNzA2YWYiLCJoYXNoIjoiNmMxZGM2YzY1ZWZmNDEzMDAxMTliNjU3ZjFhMTQ5MDNhZGE1OGY1MjlmMWQ5YTBjMWE3NjgwZTlmYWU4ZTRjNyIsImlhdCI6MTc1MjIyNDU4MiwiZXhwIjoxNzU0ODE2NTgyfQ.oSI59K1dMVaIwxJM4Klum2S4BSzpQLU0ND6BVKop-0w"
+    }
+}
+[INFO ] 2025-07-11 14:03:31.845 [main] BingoAutomation - User Sign In Successfully
+[DEBUG] 2025-07-11 14:03:32.155 [main] PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+[DEBUG] 2025-07-11 14:03:32.162 [main] PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+[DEBUG] 2025-07-11 14:03:33.213 [main] PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+[DEBUG] 2025-07-11 14:03:33.216 [main] PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+[DEBUG] 2025-07-11 14:03:33.276 [main] PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+[DEBUG] 2025-07-11 14:03:33.278 [main] PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+[DEBUG] 2025-07-11 14:03:33.371 [main] PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+[DEBUG] 2025-07-11 14:03:33.373 [main] PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+[DEBUG] 2025-07-11 14:03:33.427 [main] PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+[DEBUG] 2025-07-11 14:03:33.429 [main] PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+[DEBUG] 2025-07-11 14:03:33.463 [main] PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+[DEBUG] 2025-07-11 14:03:33.464 [main] PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+Name of test method started:testadminavatarcreate
+setAvatarUrl: https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ1zwhySGCEBxRRFYIcQgvOLOpRGqrT3d7Qng&s
+setDefault: true
+HTTP/1.1 201 Created
+Server: nginx/1.18.0 (Ubuntu)
+Date: Fri, 11 Jul 2025 09:03:06 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 292
+Connection: keep-alive
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+X-RateLimit-Limit-short: 10
+X-RateLimit-Remaining-short: 9
+X-RateLimit-Reset-short: 1
+X-RateLimit-Limit-long: 10000
+X-RateLimit-Remaining-long: 9999
+X-RateLimit-Reset-long: 10
+ETag: W/"124-AgjyPfFGOBUAHQDn4mQS5q7NrIU"
+
+{
+    "message": "avatar Created Successfully",
+    "data": {
+        "avatarUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ1zwhySGCEBxRRFYIcQgvOLOpRGqrT3d7Qng&s",
+        "default": false,
+        "_id": "6870d34ae3e6c2cd450706b1",
+        "createdAt": "2025-07-11T09:03:06.253Z",
+        "updatedAt": "2025-07-11T09:03:06.253Z",
+        "__v": 0
+    }
+}
+[INFO ] 2025-07-11 14:03:34.211 [main] BingoAutomation - Avatar Created Successfully
+Name of test method sucessfully executed:testadminavatarcreate
+]]></system-out>
+    <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+]]></system-err>
+  </testcase>
+  <testcase name="testadminavatarcreate[https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR9SRRmhH4X5N2e4QalcoxVbzYsD44C-sQv-w&amp;s, false](2)" classname="api.testcases.Adminavatartestcase" time="0.704">
+    <system-out><![CDATA[Name of test method started:testadminavatarcreate
+setAvatarUrl: https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR9SRRmhH4X5N2e4QalcoxVbzYsD44C-sQv-w&s
+setDefault: false
+HTTP/1.1 201 Created
+Server: nginx/1.18.0 (Ubuntu)
+Date: Fri, 11 Jul 2025 09:03:07 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 292
+Connection: keep-alive
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+X-RateLimit-Limit-short: 10
+X-RateLimit-Remaining-short: 8
+X-RateLimit-Reset-short: 1
+X-RateLimit-Limit-long: 10000
+X-RateLimit-Remaining-long: 9998
+X-RateLimit-Reset-long: 10
+ETag: W/"124-2m9M0ODH9P9nTDigiovrn3R5Ztw"
+
+{
+    "message": "avatar Created Successfully",
+    "data": {
+        "avatarUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR9SRRmhH4X5N2e4QalcoxVbzYsD44C-sQv-w&s",
+        "default": false,
+        "_id": "6870d34be3e6c2cd450706b3",
+        "createdAt": "2025-07-11T09:03:07.012Z",
+        "updatedAt": "2025-07-11T09:03:07.012Z",
+        "__v": 0
+    }
+}
+[INFO ] 2025-07-11 14:03:34.966 [main] BingoAutomation - Avatar Created Successfully
+Name of test method sucessfully executed:testadminavatarcreate
+]]></system-out>
+  </testcase>
+  <testcase name="testadminavatarfetch" classname="api.testcases.Adminavatartestcase" time="0.818">
+    <system-out><![CDATA[Name of test method started:testadminavatarfetch
+HTTP/1.1 200 OK
+Server: nginx/1.18.0 (Ubuntu)
+Date: Fri, 11 Jul 2025 09:03:07 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 2146
+Connection: keep-alive
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+X-RateLimit-Limit-short: 10
+X-RateLimit-Remaining-short: 9
+X-RateLimit-Reset-short: 1
+X-RateLimit-Limit-long: 10000
+X-RateLimit-Remaining-long: 9999
+X-RateLimit-Reset-long: 10
+ETag: W/"862-cFUyyoN42Ass3Sb84M9T6PLZ0Kw"
+
+{
+    "message": "avatars Fetched Successfully",
+    "data": [
+        {
+            "_id": "6851867d283cf14e7d4943ea",
+            "avatarUrl": "https://cubixco.s3.us-west-2.amazonaws.com/bingo-game-seeders/1750171904072_avatar1.webp",
+            "default": false,
+            "__v": 0,
+            "createdAt": "2025-06-17T15:15:09.195Z",
+            "updatedAt": "2025-06-24T09:15:57.232Z"
+        },
+        {
+            "_id": "6851867d283cf14e7d4943eb",
+            "avatarUrl": "https://cubixco.s3.us-west-2.amazonaws.com/bingo-game-seeders/1750169069605_avatar2.webp",
+            "default": true,
+            "__v": 0,
+            "createdAt": "2025-06-17T15:15:09.196Z",
+            "updatedAt": "2025-07-04T10:49:12.362Z"
+        },
+        {
+            "_id": "6870d120e3e6c2cd45070584",
+            "avatarUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ1zwhySGCEBxRRFYIcQgvOLOpRGqrT3d7Qng&s",
+            "default": false,
+            "createdAt": "2025-07-11T08:53:52.455Z",
+            "updatedAt": "2025-07-11T08:53:52.455Z",
+            "__v": 0
+        },
+        {
+            "_id": "6870d121e3e6c2cd45070586",
+            "avatarUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR9SRRmhH4X5N2e4QalcoxVbzYsD44C-sQv-w&s",
+            "default": false,
+            "createdAt": "2025-07-11T08:53:53.401Z",
+            "updatedAt": "2025-07-11T08:53:53.401Z",
+            "__v": 0
+        },
+        {
+            "_id": "6870d21ee3e6c2cd4507061a",
+            "avatarUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ1zwhySGCEBxRRFYIcQgvOLOpRGqrT3d7Qng&s",
+            "default": false,
+            "createdAt": "2025-07-11T08:58:06.280Z",
+            "updatedAt": "2025-07-11T08:58:06.280Z",
+            "__v": 0
+        },
+        {
+            "_id": "6870d21fe3e6c2cd4507061c",
+            "avatarUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR9SRRmhH4X5N2e4QalcoxVbzYsD44C-sQv-w&s",
+            "default": false,
+            "createdAt": "2025-07-11T08:58:07.205Z",
+            "updatedAt": "2025-07-11T08:58:07.205Z",
+            "__v": 0
+        },
+        {
+            "_id": "6870d34ae3e6c2cd450706b1",
+            "avatarUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ1zwhySGCEBxRRFYIcQgvOLOpRGqrT3d7Qng&s",
+            "default": false,
+            "createdAt": "2025-07-11T09:03:06.253Z",
+            "updatedAt": "2025-07-11T09:03:06.253Z",
+            "__v": 0
+        },
+        {
+            "_id": "6870d34be3e6c2cd450706b3",
+            "avatarUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR9SRRmhH4X5N2e4QalcoxVbzYsD44C-sQv-w&s",
+            "default": false,
+            "createdAt": "2025-07-11T09:03:07.012Z",
+            "updatedAt": "2025-07-11T09:03:07.012Z",
+            "__v": 0
+        }
+    ],
+    "page": {
+        "totalDocs": 8,
+        "limit": 10,
+        "totalPages": 1,
+        "page": 1,
+        "pagingCounter": 1,
+        "hasPrevPage": false,
+        "hasNextPage": false,
+        "prevPage": 0,
+        "nextPage": 2,
+        "total": 8
+    }
+}
+[INFO ] 2025-07-11 14:03:35.701 [main] BingoAutomation - Avatar Get Successfully
+Name of test method sucessfully executed:testadminavatarfetch
+]]></system-out>
+  </testcase>
+  <testcase name="testadminavatarupdate[https://cdn.pixabay.com/photo/2018/08/04/11/30/draw-3583548_1280.png, true](1)" classname="api.testcases.Adminavatartestcase" time="1.622">
+    <system-out><![CDATA[[DEBUG] 2025-07-11 14:03:35.713 [main] PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+[DEBUG] 2025-07-11 14:03:35.718 [main] PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+[DEBUG] 2025-07-11 14:03:35.750 [main] PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+[DEBUG] 2025-07-11 14:03:35.751 [main] PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+[DEBUG] 2025-07-11 14:03:35.796 [main] PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+[DEBUG] 2025-07-11 14:03:35.797 [main] PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+[DEBUG] 2025-07-11 14:03:35.846 [main] PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+[DEBUG] 2025-07-11 14:03:35.850 [main] PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+Name of test method started:testadminavatarupdate
+HTTP/1.1 200 OK
+Server: nginx/1.18.0 (Ubuntu)
+Date: Fri, 11 Jul 2025 09:03:09 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 268
+Connection: keep-alive
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+X-RateLimit-Limit-short: 10
+X-RateLimit-Remaining-short: 9
+X-RateLimit-Reset-short: 1
+X-RateLimit-Limit-long: 10000
+X-RateLimit-Remaining-long: 9999
+X-RateLimit-Reset-long: 10
+ETag: W/"10c-5i2GfFquFP+EyeVX2snEmHFs/Uo"
+
+{
+    "message": "avatar Updated Successfully",
+    "data": {
+        "_id": "6870d121e3e6c2cd45070586",
+        "avatarUrl": "https://cdn.pixabay.com/photo/2018/08/04/11/30/draw-3583548_1280.png",
+        "default": false,
+        "createdAt": "2025-07-11T08:53:53.401Z",
+        "updatedAt": "2025-07-11T09:03:09.502Z",
+        "__v": 0
+    }
+}
+[INFO ] 2025-07-11 14:03:37.519 [main] BingoAutomation - Avatar Updated Successfully
+Name of test method sucessfully executed:testadminavatarupdate
+]]></system-out>
+  </testcase>
+  <testcase name="testadminavatardelete" classname="api.testcases.Adminavatartestcase" time="2.38">
+    <system-out><![CDATA[Name of test method started:testadminavatardelete
+setAvatarUrl: 6870d120e3e6c2cd45070584
+HTTP/1.1 200 OK
+Server: nginx/1.18.0 (Ubuntu)
+Date: Fri, 11 Jul 2025 09:03:11 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 292
+Connection: keep-alive
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+X-RateLimit-Limit-short: 10
+X-RateLimit-Remaining-short: 9
+X-RateLimit-Reset-short: 1
+X-RateLimit-Limit-long: 10000
+X-RateLimit-Remaining-long: 9999
+X-RateLimit-Reset-long: 10
+ETag: W/"124-RPEQ4nsTTzMw8jtptUbFCTI9Qjg"
+
+{
+    "message": "avatar Deleted Successfully",
+    "data": {
+        "_id": "6870d120e3e6c2cd45070584",
+        "avatarUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ1zwhySGCEBxRRFYIcQgvOLOpRGqrT3d7Qng&s",
+        "default": false,
+        "createdAt": "2025-07-11T08:53:52.455Z",
+        "updatedAt": "2025-07-11T08:53:52.455Z",
+        "__v": 0
+    }
+}
+setAvatarUrl: 6870d121e3e6c2cd45070586
+HTTP/1.1 200 OK
+Server: nginx/1.18.0 (Ubuntu)
+Date: Fri, 11 Jul 2025 09:03:11 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 268
+Connection: keep-alive
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+X-RateLimit-Limit-short: 10
+X-RateLimit-Remaining-short: 8
+X-RateLimit-Reset-short: 1
+X-RateLimit-Limit-long: 10000
+X-RateLimit-Remaining-long: 9998
+X-RateLimit-Reset-long: 10
+ETag: W/"10c-6HRvhLKm2QoSxB2Vqa2dvYYNvfM"
+
+{
+    "message": "avatar Deleted Successfully",
+    "data": {
+        "_id": "6870d121e3e6c2cd45070586",
+        "avatarUrl": "https://cdn.pixabay.com/photo/2018/08/04/11/30/draw-3583548_1280.png",
+        "default": false,
+        "createdAt": "2025-07-11T08:53:53.401Z",
+        "updatedAt": "2025-07-11T09:03:09.502Z",
+        "__v": 0
+    }
+}
+[INFO ] 2025-07-11 14:03:39.894 [main] BingoAutomation - Avatar Deleted Successfully
+Name of test method sucessfully executed:testadminavatardelete
+]]></system-out>
+  </testcase>
+  <testcase name="testadmindashboard" classname="api.testcases.Admindashboardtestcase" time="1.657">
+    <system-out><![CDATA[Name of test method started:testadmindashboard
+HTTP/1.1 201 Created
+Server: nginx/1.18.0 (Ubuntu)
+Date: Fri, 11 Jul 2025 09:03:22 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 680
+Connection: keep-alive
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+X-RateLimit-Limit-short: 1
+X-RateLimit-Remaining-short: 0
+X-RateLimit-Reset-short: 3
+X-RateLimit-Limit-long: 5
+X-RateLimit-Remaining-long: 3
+X-RateLimit-Reset-long: 40
+ETag: W/"2a8-58skDQO/lgCOq3O6pSTClTj5Is4"
+
+{
+    "message": "Login Successfully",
+    "data": {
+        "_id": "6834761c8d7b62f1c97fe2c1",
+        "userName": "Admin",
+        "email": "admin@hpl.com",
+        "accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2ODM0NzYxYzhkN2I2MmYxYzk3ZmUyYzEiLCJzZXNzaW9uSWQiOiI2ODcwZDM1YWUzZTZjMmNkNDUwNzA2YzMiLCJ1c2VyVHlwZSI6IkFkbWluIiwiaWF0IjoxNzUyMjI0NjAyLCJleHAiOjE3NTIzMTEwMDJ9.zZwmVrzRzzW4HSHffAFBUuDKYxc045Ac_aU3idW3gJE",
+        "refreshToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzZXNzaW9uSWQiOiI2ODcwZDM1YWUzZTZjMmNkNDUwNzA2YzMiLCJoYXNoIjoiYjUzYWMwYzg5YWRjODUzY2MyMTkxOWQ4N2VhZjhlNjA1OWMxYjQ5NWExYmI0NDA2OGZjOTYwMmY1YmQyYmEzNyIsImlhdCI6MTc1MjIyNDYwMiwiZXhwIjoxNzU0ODE2NjAyfQ.NAfvek4TCLTAT-uND98Rda-VAe2OpXOoy-ilQzjIoVU"
+    }
+}
+[INFO ] 2025-07-11 14:03:50.723 [main] BingoAutomation - User Sign In Successfully
+HTTP/1.1 200 OK
+Server: nginx/1.18.0 (Ubuntu)
+Date: Fri, 11 Jul 2025 09:03:23 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 138
+Connection: keep-alive
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+X-RateLimit-Limit-short: 10
+X-RateLimit-Remaining-short: 9
+X-RateLimit-Reset-short: 1
+X-RateLimit-Limit-long: 10000
+X-RateLimit-Remaining-long: 9999
+X-RateLimit-Reset-long: 10
+ETag: W/"8a-5GiwzssmxhJIL/eSbhNOj9M63uA"
+
+{
+    "message": "Dashboard Data Fetched Successfully",
+    "data": {
+        "totalUsers": 22,
+        "monthlyCounts": [
+            0,
+            0,
+            0,
+            0,
+            10,
+            9,
+            3,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "totalRevenue": 55.18
+    }
+}
+[INFO ] 2025-07-11 14:03:51.565 [main] BingoAutomation - Dashboard Get Successfully
+Name of test method sucessfully executed:testadmindashboard
+]]></system-out>
+  </testcase>
+  <testcase name="testadminuserfetch" classname="api.testcases.Adminusertestcase" time="0.994">
+    <system-out><![CDATA[HTTP/1.1 201 Created
+Server: nginx/1.18.0 (Ubuntu)
+Date: Fri, 11 Jul 2025 09:03:28 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 680
+Connection: keep-alive
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+X-RateLimit-Limit-short: 1
+X-RateLimit-Remaining-short: 0
+X-RateLimit-Reset-short: 3
+X-RateLimit-Limit-long: 5
+X-RateLimit-Remaining-long: 2
+X-RateLimit-Reset-long: 35
+ETag: W/"2a8-hWDr2di42lbyCoX81KwcGc5fMcQ"
+
+{
+    "message": "Login Successfully",
+    "data": {
+        "_id": "6834761c8d7b62f1c97fe2c1",
+        "userName": "Admin",
+        "email": "admin@hpl.com",
+        "accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2ODM0NzYxYzhkN2I2MmYxYzk3ZmUyYzEiLCJzZXNzaW9uSWQiOiI2ODcwZDM2MGUzZTZjMmNkNDUwNzA2Y2IiLCJ1c2VyVHlwZSI6IkFkbWluIiwiaWF0IjoxNzUyMjI0NjA4LCJleHAiOjE3NTIzMTEwMDh9.maxkaZUdW8rjVGyq7yppT9TG3ws1nhcptoVRFwS0OeM",
+        "refreshToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzZXNzaW9uSWQiOiI2ODcwZDM2MGUzZTZjMmNkNDUwNzA2Y2IiLCJoYXNoIjoiNzQyYzI1YWU4MmZlZjhmNDY0YmMzNzFhYzQ5MGVmOWQwZDA0MWZlNmNlOTY5YjEzM2MyZDlkYjAzMWJiZTBiYiIsImlhdCI6MTc1MjIyNDYwOCwiZXhwIjoxNzU0ODE2NjA4fQ.RMtVgH7vJzIYAV0yu2VHh8fYT6kbrIj8BEvTUenwiH0"
+    }
+}
+[INFO ] 2025-07-11 14:03:56.355 [main] BingoAutomation - User Sign In Successfully
+Name of test method started:testadminuserfetch
+HTTP/1.1 200 OK
+Server: nginx/1.18.0 (Ubuntu)
+Date: Fri, 11 Jul 2025 09:03:29 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 7328
+Connection: keep-alive
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+X-RateLimit-Limit-short: 10
+X-RateLimit-Remaining-short: 9
+X-RateLimit-Reset-short: 1
+X-RateLimit-Limit-long: 10000
+X-RateLimit-Remaining-long: 9999
+X-RateLimit-Reset-long: 10
+ETag: W/"1ca0-ywSBd7VpZQb+fHVYqsozxPS2bwc"
+
+{
+    "message": "Users fetched successfully",
+    "data": [
+        {
+            "_id": "6835662827dea4dea95d913f",
+            "signupType": "Email",
+            "email": "absar.aamir@cubixlabs.com",
+            "__v": 0,
+            "avatarUrl": "https://cubixco.s3.us-west-2.amazonaws.com/bingo-game-seeders/1750169069605_avatar2.webp",
+            "createdAt": "2025-05-27T07:13:44.476Z",
+            "dailyRewardsDates": [
+                
+            ],
+            "gameStats": {
+                "roundPlayed": 1,
+                "tournamentsPlayed": 3,
+                "bingos": 0,
+                "bestRanking": 0,
+                "totalScore": 72500
+            },
+            "isBlocked": false,
+            "isEligibleForLoginRewards": false,
+            "isVerified": true,
+            "loginStreakClaimableHpl": 0,
+            "loginStreaks": [
+                
+            ],
+            "powerUps": {
+                "SingleDaub": 19,
+                "MultipleDaub": 3,
+                "InstaBingo": 1,
+                "X2PointsMultiplier": 3,
+                "X2PointsAll": 0,
+                "Gems": 1
+            },
+            "rewardsHplToken": 0,
+            "spinTheWheelDate": null,
+            "tickets": 2437,
+            "updatedAt": "2025-07-08T11:51:53.449Z",
+            "userType": "User",
+            "userName": "DONE"
+        },
+        {
+            "_id": "68359d791e01dc4e2965ba67",
+            "email": "a1@getnada.com",
+            "signupType": "Email",
+            "__v": 0,
+            "avatarUrl": "https://cubixco.s3.us-west-2.amazonaws.com/bingo-game/1749199594689_avatar1.webp",
+            "createdAt": "2025-05-07T13:06:05.105Z",
+            "dailyRewardsDates": [
+                "2025-06-03T14:32:50.172Z",
+                "2025-06-03T14:32:53.228Z",
+                "2025-06-03T14:33:02.984Z",
+                "2025-06-03T14:33:09.859Z",
+                "2025-06-03T14:33:13.012Z"
+            ],
+            "isBlocked": false,
+            "isVerified": true,
+            "powerUps": {
+                "SingleDaub": 112,
+                "MultipleDaub": 115,
+                "InstBingo": 100,
+                "X2PointsMultiplier": 119,
+                "X2PointsAll": 98,
+                "Gems": 106,
+                "InstaBingo": 111
+            },
+            "rewardsHplToken": 4666.67,
+            "spinTheWheelDate": "2025-06-03T14:33:59.659Z",
+            "tickets": 5726,
+            "updatedAt": "2025-06-12T16:10:41.180Z",
+            "userType": "User",
+            "userName": "A1",
+            "gameStats": {
+                "roundPlayed": 10,
+                "tournamentsPlayed": 29,
+                "bingos": 8,
+                "bestRanking": 0,
+                "totalScore": 111800
+            },
+            "isEligibleForLoginRewards": false,
+            "loginStreaks": [
+                "2025-06-12"
+            ]
+        },
+        {
+            "_id": "68359e131e01dc4e2965ba68",
+            "email": "a2@getnada.com",
+            "signupType": "Email",
+            "__v": 0,
+            "avatarUrl": "https://cubixco.s3.us-west-2.amazonaws.com/bingo-game/1749199594689_avatar1.webp",
+            "createdAt": "2025-05-07T13:06:05.105Z",
+            "dailyRewardsDates": [
+                "2025-06-19T11:49:18.198Z"
+            ],
+            "isBlocked": false,
+            "isVerified": true,
+            "powerUps": {
+                "SingleDaub": 108,
+                "MultipleDaub": 83,
+                "InstBingo": 1,
+                "X2PointsMultiplier": 128,
+                "X2PointsAll": 57,
+                "Gems": 77,
+                "InstaBingo": 68
+            },
+            "rewardsHplToken": 0,
+            "spinTheWheelDate": "2025-06-19T11:49:33.481Z",
+            "tickets": 73037,
+            "updatedAt": "2025-06-19T11:49:33.481Z",
+            "userType": "User",
+            "userName": "A2",
+            "gameStats": {
+                "roundPlayed": 31,
+                "tournamentsPlayed": 46,
+                "bingos": 25,
+                "bestRanking": 0,
+                "totalScore": 418000
+            },
+            "isEligibleForLoginRewards": false,
+            "loginStreaks": [
+                "2025-06-16"
+            ]
+        },
+        {
+            "_id": "68359e1f1e01dc4e2965ba69",
+            "email": "a3@getnada.com",
+            "signupType": "Email",
+            "__v": 0,
+            "avatarUrl": "https://cubixco.s3.us-west-2.amazonaws.com/bingo-game/1749199594689_avatar1.webp",
+            "createdAt": "2025-05-07T13:06:05.105Z",
+            "dailyRewardsDates": [
+                
+            ],
+            "isBlocked": false,
+            "isVerified": true,
+            "powerUps": {
+                "SingleDaub": 1,
+                "MultipleDaub": 1,
+                "InstBingo": 1,
+                "X2PointsMultiplier": 1,
+                "X2PointsAll": 1,
+                "Gems": 1
+            },
+            "rewardsHplToken": 0,
+            "spinTheWheelDate": null,
+            "tickets": 99750,
+            "updatedAt": "2025-06-10T13:55:35.866Z",
+            "userType": "User",
+            "userName": "A3",
+            "gameStats": {
+                "roundPlayed": 0,
+                "tournamentsPlayed": 2,
+                "bingos": 0,
+                "bestRanking": 0,
+                "totalScore": 0
+            },
+            "isEligibleForLoginRewards": false,
+            "loginStreaks": [
+                "2025-06-10"
+            ]
+        },
+        {
+            "_id": "68359e2e1e01dc4e2965ba6a",
+            "email": "a4@getnada.com",
+            "signupType": "Email",
+            "__v": 0,
+            "avatarUrl": "https://cubixco.s3.us-west-2.amazonaws.com/bingo-game/1749199594689_avatar1.webp",
+            "createdAt": "2025-05-07T13:06:05.105Z",
+            "dailyRewardsDates": [
+                "2025-07-07T12:32:33.987Z"
+            ],
+            "isBlocked": false,
+            "isVerified": true,
+            "powerUps": {
+                "SingleDaub": 239,
+                "MultipleDaub": 207,
+                "InstBingo": 1,
+                "X2PointsMultiplier": 199,
+                "X2PointsAll": 8,
+                "Gems": 76,
+                "InstaBingo": 83
+            },
+            "rewardsHplToken": 0,
+            "spinTheWheelDate": "2025-07-07T10:00:11.991Z",
+            "tickets": 65512,
+            "updatedAt": "2025-07-08T09:06:29.442Z",
+            "userType": "User",
+            "userName": "A4",
+            "gameStats": {
+                "roundPlayed": 82,
+                "tournamentsPlayed": 122,
+                "bingos": 33,
+                "bestRanking": 0,
+                "totalScore": 1386400
+            },
+            "isEligibleForLoginRewards": false,
+            "loginStreaks": [
+                "2025-06-10"
+            ]
+        },
+        {
+            "_id": "6835acfa1e01dc4e2965ba6b",
+            "email": "a11@getnada.com",
+            "signupType": "Email",
+            "__v": 0,
+            "avatarUrl": "https://cubixco.s3.us-west-2.amazonaws.com/bingo-game/1749199594689_avatar1.webp",
+            "createdAt": "2025-05-07T13:06:05.105Z",
+            "dailyRewardsDates": [
+                
+            ],
+            "isBlocked": false,
+            "isVerified": true,
+            "powerUps": {
+                "SingleDaub": 1,
+                "MultipleDaub": 1,
+                "InstBingo": 1,
+                "X2PointsMultiplier": 1,
+                "X2PointsAll": 1,
+                "Gems": 1
+            },
+            "rewardsHplToken": 0,
+            "spinTheWheelDate": null,
+            "tickets": 100000,
+            "updatedAt": "2025-05-27T12:17:38.989Z",
+            "userType": "User",
+            "userName": "A11",
+            "gameStats": {
+                "tournamentsPlayed": 1
+            }
+        },
+        {
+            "_id": "6836ea0e8622394ccaeef6aa",
+            "email": "a100@getnada.com",
+            "signupType": "Email",
+            "__v": 0,
+            "avatarUrl": "https://cubixco.s3.us-west-2.amazonaws.com/bingo-game/1749199594689_avatar1.webp",
+            "createdAt": "2025-05-07T13:06:05.105Z",
+            "dailyRewardsDates": [
+                
+            ],
+            "isBlocked": false,
+            "isVerified": true,
+            "powerUps": {
+                "SingleDaub": 1,
+                "MultipleDaub": 1,
+                "InstBingo": 1,
+                "X2PointsMultiplier": 1,
+                "X2PointsAll": 1,
+                "Gems": 1
+            },
+            "rewardsHplToken": 0,
+            "spinTheWheelDate": null,
+            "tickets": 100000,
+            "updatedAt": "2025-05-28T10:53:48.789Z",
+            "userType": "User",
+            "userName": "A100",
+            "gameStats": {
+                "tournamentsPlayed": 2
+            }
+        },
+        {
+            "_id": "683846f1f6aa6e7f2ddf4009",
+            "signupType": "Email",
+            "email": "sami.ahmed@cubixlabs.com",
+            "__v": 0,
+            "avatarUrl": "https://cubixco.s3.us-west-2.amazonaws.com/bingo-game/1749199594689_avatar1.webp",
+            "createdAt": "2025-05-29T11:37:21.251Z",
+            "dailyRewardsDates": [
+                
+            ],
+            "gameStats": {
+                "roundPlayed": 0,
+                "tournamentsPlayed": 0,
+                "bingos": 0,
+                "bestRanking": 0,
+                "totalScore": 0
+            },
+            "isBlocked": false,
+            "isEligibleForLoginRewards": false,
+            "isVerified": true,
+            "loginStreakClaimableHpl": 0,
+            "loginStreaks": [
+                
+            ],
+            "powerUps": {
+                "SingleDaub": 1,
+                "MultipleDaub": 1,
+                "InstaBingo": 1,
+                "X2PointsMultiplier": 1,
+                "X2PointsAll": 1,
+                "Gems": 1
+            },
+            "rewardsHplToken": 0,
+            "spinTheWheelDate": null,
+            "tickets": 1000,
+            "updatedAt": "2025-06-10T13:43:55.166Z",
+            "userType": "User",
+            "userName": "Sami Ahmed"
+        },
+        {
+            "_id": "683ec1a214c7b3bf9a885786",
+            "email": "mehran.khan@cubixlabs.com",
+            "socialId": "115169291566750939033",
+            "signupType": "Gmail",
+            "userType": "User",
+            "isBlocked": false,
+            "isVerified": false,
+            "avatarUrl": "https://cubixco.s3.us-west-2.amazonaws.com/bingo-game/1749199594689_avatar1.webp",
+            "tickets": 8800,
+            "rewardsHplToken": 0,
+            "spinTheWheelDate": null,
+            "dailyRewardsDates": [
+                
+            ],
+            "loginStreaks": [
+                
+            ],
+            "isEligibleForLoginRewards": false,
+            "loginStreakClaimableHpl": 0,
+            "powerUps": {
+                "SingleDaub": 6,
+                "MultipleDaub": 16,
+                "InstaBingo": 4,
+                "X2PointsMultiplier": 6,
+                "X2PointsAll": 3,
+                "Gems": 4
+            },
+            "gameStats": {
+                "roundPlayed": 0,
+                "tournamentsPlayed": 1,
+                "bingos": 0,
+                "bestRanking": 0,
+                "totalScore": 0
+            },
+            "createdAt": "2025-06-03T09:34:26.535Z",
+            "updatedAt": "2025-07-07T14:55:41.686Z",
+            "__v": 0,
+            "userName": "MehranKhan"
+        },
+        {
+            "_id": "68496c6805e16b4df4609f57",
+            "email": "a401@getnada.com",
+            "signupType": "Email",
+            "__v": 0,
+            "avatarUrl": "https://cubixco.s3.us-west-2.amazonaws.com/bingo-game/1749199594689_avatar1.webp",
+            "createdAt": "2025-05-07T13:06:05.105Z",
+            "dailyRewardsDates": [
+                
+            ],
+            "isBlocked": false,
+            "isVerified": true,
+            "powerUps": {
+                "SingleDaub": 189,
+                "MultipleDaub": 158,
+                "InstBingo": 1,
+                "X2PointsMultiplier": 146,
+                "X2PointsAll": 19,
+                "Gems": 68,
+                "InstaBingo": 83
+            },
+            "rewardsHplToken": 0,
+            "spinTheWheelDate": "2025-06-06T14:08:46.376Z",
+            "tickets": 85315,
+            "updatedAt": "2025-06-10T14:40:00.431Z",
+            "userType": "User",
+            "userName": "A401",
+            "gameStats": {
+                "roundPlayed": 25,
+                "tournamentsPlayed": 33,
+                "bingos": 25,
+                "bestRanking": 0,
+                "totalScore": 468300
+            },
+            "isEligibleForLoginRewards": false,
+            "loginStreaks": [
+                "2025-06-10"
+            ]
+        }
+    ],
+    "page": {
+        "totalDocs": 22,
+        "limit": 10,
+        "totalPages": 3,
+        "page": 1,
+        "pagingCounter": 1,
+        "hasPrevPage": false,
+        "hasNextPage": true,
+        "prevPage": 0,
+        "nextPage": 2,
+        "total": 22
+    }
+}
+[INFO ] 2025-07-11 14:03:57.317 [main] BingoAutomation - User Data Get Successfully
+Name of test method sucessfully executed:testadminuserfetch
+]]></system-out>
+  </testcase>
+  <testcase name="testadminuserfetchbyid" classname="api.testcases.Adminusertestcase" time="1.688">
+    <system-out><![CDATA[Name of test method started:testadminuserfetchbyid
+HTTP/1.1 200 OK
+Server: nginx/1.18.0 (Ubuntu)
+Date: Fri, 11 Jul 2025 09:03:31 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 834
+Connection: keep-alive
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+X-RateLimit-Limit-short: 10
+X-RateLimit-Remaining-short: 9
+X-RateLimit-Reset-short: 1
+X-RateLimit-Limit-long: 10000
+X-RateLimit-Remaining-long: 9999
+X-RateLimit-Reset-long: 10
+ETag: W/"342-5fCuuP6M291cyhX4lUVHre1RgmI"
+
+{
+    "message": "Users fetched successfully",
+    "data": {
+        "loginStreakClaimableHpl": 0,
+        "_id": "68359e131e01dc4e2965ba68",
+        "email": "a2@getnada.com",
+        "signupType": "Email",
+        "__v": 0,
+        "avatarUrl": "https://cubixco.s3.us-west-2.amazonaws.com/bingo-game/1749199594689_avatar1.webp",
+        "createdAt": "2025-05-07T13:06:05.105Z",
+        "dailyRewardsDates": [
+            "2025-06-19T11:49:18.198Z"
+        ],
+        "isBlocked": false,
+        "isVerified": true,
+        "powerUps": {
+            "SingleDaub": 108,
+            "MultipleDaub": 83,
+            "InstBingo": 1,
+            "X2PointsMultiplier": 128,
+            "X2PointsAll": 57,
+            "Gems": 77,
+            "InstaBingo": 68
+        },
+        "rewardsHplToken": 0,
+        "spinTheWheelDate": "2025-06-19T11:49:33.481Z",
+        "tickets": 73037,
+        "updatedAt": "2025-06-19T11:49:33.481Z",
+        "userType": "User",
+        "userName": "A2",
+        "gameStats": {
+            "roundPlayed": 31,
+            "tournamentsPlayed": 46,
+            "bingos": 25,
+            "bestRanking": 0,
+            "totalScore": 418000
+        },
+        "isEligibleForLoginRewards": false,
+        "loginStreaks": [
+            "2025-06-16"
+        ]
+    }
+}
+[INFO ] 2025-07-11 14:03:59.126 [main] BingoAutomation - User Data GetbyID Successfully
+Name of test method sucessfully executed:testadminuserfetchbyid
+]]></system-out>
+  </testcase>
+  <testcase name="testadmincurrencyfetch" classname="api.testcases.Admincurrencytestcase" time="0.818">
+    <system-out><![CDATA[HTTP/1.1 201 Created
+Server: nginx/1.18.0 (Ubuntu)
+Date: Fri, 11 Jul 2025 09:03:35 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 680
+Connection: keep-alive
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+X-RateLimit-Limit-short: 1
+X-RateLimit-Remaining-short: 0
+X-RateLimit-Reset-short: 3
+X-RateLimit-Limit-long: 5
+X-RateLimit-Remaining-long: 1
+X-RateLimit-Reset-long: 27
+ETag: W/"2a8-RJ+cxkHtQw/jcUAeU7YMs7aQEXc"
+
+{
+    "message": "Login Successfully",
+    "data": {
+        "_id": "6834761c8d7b62f1c97fe2c1",
+        "userName": "Admin",
+        "email": "admin@hpl.com",
+        "accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2ODM0NzYxYzhkN2I2MmYxYzk3ZmUyYzEiLCJzZXNzaW9uSWQiOiI2ODcwZDM2N2UzZTZjMmNkNDUwNzA2ZDMiLCJ1c2VyVHlwZSI6IkFkbWluIiwiaWF0IjoxNzUyMjI0NjE1LCJleHAiOjE3NTIzMTEwMTV9.6q4o7l98c-v79CR1ziTadarcSR7zavNORttC5i-2Ue8",
+        "refreshToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzZXNzaW9uSWQiOiI2ODcwZDM2N2UzZTZjMmNkNDUwNzA2ZDMiLCJoYXNoIjoiNzAwYmI5NjYwMmZkY2I1MDY2ODMwZWJkZTM4MmU3N2RlMGQ3MWYyYTU1YmQ2ZjJkNTYwNTJjZjc0NDg5MDYxYiIsImlhdCI6MTc1MjIyNDYxNSwiZXhwIjoxNzU0ODE2NjE1fQ.5VcyG0U-NlapCpTZtrWV2TELn-939pwB0n_J6nEc5p0"
+    }
+}
+[INFO ] 2025-07-11 14:04:03.917 [main] BingoAutomation - User Sign In Successfully
+Name of test method started:testadmincurrencyfetch
+HTTP/1.1 200 OK
+Server: nginx/1.18.0 (Ubuntu)
+Date: Fri, 11 Jul 2025 09:03:36 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 625
+Connection: keep-alive
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+X-RateLimit-Limit-short: 10
+X-RateLimit-Remaining-short: 9
+X-RateLimit-Reset-short: 1
+X-RateLimit-Limit-long: 10000
+X-RateLimit-Remaining-long: 9999
+X-RateLimit-Reset-long: 10
+ETag: W/"271-Lv2ILfe+zrb9oyjaI2wJaDSsn+s"
+
+{
+    "message": "Currencies fetched successfully",
+    "data": [
+        {
+            "_id": "686bd803f2aadbe8dafe3caa",
+            "shortCode": "Ticket",
+            "name": "Ticket",
+            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ1zwhySGCEBxRRFYIcQgvOLOpRGqrT3d7Qng&s",
+            "imageLarge": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ1zwhySGCEBxRRFYIcQgvOLOpRGqrT3d7Qng&s",
+            "description": "lorem ipsum3sdas",
+            "defaultCount": 0,
+            "__v": 0,
+            "createdAt": "2025-07-07T14:21:55.810Z",
+            "updatedAt": "2025-07-11T08:58:38.964Z"
+        }
+    ],
+    "page": {
+        "totalDocs": 1,
+        "limit": 10,
+        "totalPages": 1,
+        "page": 1,
+        "pagingCounter": 1,
+        "hasPrevPage": false,
+        "hasNextPage": false,
+        "prevPage": 0,
+        "nextPage": 2,
+        "total": 1
+    }
+}
+[INFO ] 2025-07-11 14:04:04.758 [main] BingoAutomation - Currency Get Successfully
+Name of test method sucessfully executed:testadmincurrencyfetch
+]]></system-out>
+  </testcase>
+  <testcase name="testadmicurrencyupdate[https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ1zwhySGCEBxRRFYIcQgvOLOpRGqrT3d7Qng&amp;s, https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ1zwhySGCEBxRRFYIcQgvOLOpRGqrT3d7Qng&amp;s, lorem ipsum3sdas, Ticket, 0.0](1)" classname="api.testcases.Admincurrencytestcase" time="1.872">
+    <system-out><![CDATA[[DEBUG] 2025-07-11 14:04:04.792 [main] PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+[DEBUG] 2025-07-11 14:04:04.796 [main] PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+[DEBUG] 2025-07-11 14:04:04.931 [main] PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+[DEBUG] 2025-07-11 14:04:04.935 [main] PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+[DEBUG] 2025-07-11 14:04:04.972 [main] PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+[DEBUG] 2025-07-11 14:04:04.974 [main] PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+[DEBUG] 2025-07-11 14:04:05.003 [main] PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+[DEBUG] 2025-07-11 14:04:05.006 [main] PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+[DEBUG] 2025-07-11 14:04:05.046 [main] PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+[DEBUG] 2025-07-11 14:04:05.048 [main] PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+[DEBUG] 2025-07-11 14:04:05.081 [main] PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+[DEBUG] 2025-07-11 14:04:05.083 [main] PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+[DEBUG] 2025-07-11 14:04:05.131 [main] PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+[DEBUG] 2025-07-11 14:04:05.134 [main] PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+Name of test method started:testadmicurrencyupdate
+HTTP/1.1 200 OK
+Server: nginx/1.18.0 (Ubuntu)
+Date: Fri, 11 Jul 2025 09:03:39 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 469
+Connection: keep-alive
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+X-RateLimit-Limit-short: 10
+X-RateLimit-Remaining-short: 9
+X-RateLimit-Reset-short: 1
+X-RateLimit-Limit-long: 10000
+X-RateLimit-Remaining-long: 9999
+X-RateLimit-Reset-long: 10
+ETag: W/"1d5-N8QowjV4I7YU4+R/KLECIaeu+14"
+
+{
+    "message": "Currency updated successfully",
+    "data": {
+        "_id": "686bd803f2aadbe8dafe3caa",
+        "shortCode": "Ticket",
+        "name": "Ticket",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ1zwhySGCEBxRRFYIcQgvOLOpRGqrT3d7Qng&s",
+        "imageLarge": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ1zwhySGCEBxRRFYIcQgvOLOpRGqrT3d7Qng&s",
+        "description": "lorem ipsum3sdas",
+        "defaultCount": 0,
+        "__v": 0,
+        "createdAt": "2025-07-07T14:21:55.810Z",
+        "updatedAt": "2025-07-11T09:03:39.070Z"
+    }
+}
+[INFO ] 2025-07-11 14:04:07.043 [main] BingoAutomation - Currency Updated Successfully
+Name of test method sucessfully executed:testadmicurrencyupdate
+]]></system-out>
+  </testcase>
+  <testcase name="testadminpointwagercreate[666765.0, 2.0, Ticket](1)" classname="api.testcases.Adminpointswagertestcase" time="0.707">
+    <system-out><![CDATA[HTTP/1.1 201 Created
+Server: nginx/1.18.0 (Ubuntu)
+Date: Fri, 11 Jul 2025 09:03:54 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 680
+Connection: keep-alive
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+X-RateLimit-Limit-short: 1
+X-RateLimit-Remaining-short: 0
+X-RateLimit-Reset-short: 3
+X-RateLimit-Limit-long: 5
+X-RateLimit-Remaining-long: 0
+X-RateLimit-Reset-long: 8
+ETag: W/"2a8-Bc3uzOLCKsXsLL0MN00iJL5RGB8"
+
+{
+    "message": "Login Successfully",
+    "data": {
+        "_id": "6834761c8d7b62f1c97fe2c1",
+        "userName": "Admin",
+        "email": "admin@hpl.com",
+        "accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2ODM0NzYxYzhkN2I2MmYxYzk3ZmUyYzEiLCJzZXNzaW9uSWQiOiI2ODcwZDM3YWUzZTZjMmNkNDUwNzA2ZGQiLCJ1c2VyVHlwZSI6IkFkbWluIiwiaWF0IjoxNzUyMjI0NjM0LCJleHAiOjE3NTIzMTEwMzR9.4IleXxw0047wGkEiYroA03dvJrkbHaCtmQDBoJ6fkbo",
+        "refreshToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzZXNzaW9uSWQiOiI2ODcwZDM3YWUzZTZjMmNkNDUwNzA2ZGQiLCJoYXNoIjoiMzFkMDFhZmI0MTI5YzdiYzFhY2M1OTQ1ZTU0Mzc1MGE2ZGM1ZGM2YWUyMDM1OTg3Yzk0YjFkNmNjN2NmZjZhZiIsImlhdCI6MTc1MjIyNDYzNCwiZXhwIjoxNzU0ODE2NjM0fQ.-PpjidnoSwsXnt4bFFygz374gtU1kjCFZ01XvcjhvUA"
+    }
+}
+[INFO ] 2025-07-11 14:04:22.753 [main] BingoAutomation - User Sign In Successfully
+[DEBUG] 2025-07-11 14:04:22.781 [main] PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+[DEBUG] 2025-07-11 14:04:22.782 [main] PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+[DEBUG] 2025-07-11 14:04:22.807 [main] PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+[DEBUG] 2025-07-11 14:04:22.809 [main] PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+[DEBUG] 2025-07-11 14:04:22.848 [main] PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+[DEBUG] 2025-07-11 14:04:22.850 [main] PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+[DEBUG] 2025-07-11 14:04:22.889 [main] PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+[DEBUG] 2025-07-11 14:04:22.892 [main] PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+[DEBUG] 2025-07-11 14:04:22.932 [main] PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+[DEBUG] 2025-07-11 14:04:22.935 [main] PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+Name of test method started:testadminpointwagercreate
+HTTP/1.1 201 Created
+Server: nginx/1.18.0 (Ubuntu)
+Date: Fri, 11 Jul 2025 09:03:55 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 143
+Connection: keep-alive
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+X-RateLimit-Limit-short: 10
+X-RateLimit-Remaining-short: 9
+X-RateLimit-Reset-short: 1
+X-RateLimit-Limit-long: 10000
+X-RateLimit-Remaining-long: 9999
+X-RateLimit-Reset-long: 10
+ETag: W/"8f-YC+7PAEm+c4g/6uOd0jaV5cSV2c"
+
+{
+    "message": "Ticket Wager created successfully",
+    "data": {
+        "count": 666765,
+        "multiplier": 2,
+        "type": "Ticket",
+        "_id": "6870d37be3e6c2cd450706df",
+        "__v": 0
+    }
+}
+[INFO ] 2025-07-11 14:04:23.697 [main] BingoAutomation - Points Wager Created Successfully
+Name of test method sucessfully executed:testadminpointwagercreate
+]]></system-out>
+  </testcase>
+  <testcase name="testadminpointwagerfetch" classname="api.testcases.Adminpointswagertestcase" time="0.723">
+    <system-out><![CDATA[Name of test method started:testadminpointwagerfetch
+HTTP/1.1 200 OK
+Server: nginx/1.18.0 (Ubuntu)
+Date: Fri, 11 Jul 2025 09:03:56 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 1599
+Connection: keep-alive
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+X-RateLimit-Limit-short: 10
+X-RateLimit-Remaining-short: 9
+X-RateLimit-Reset-short: 1
+X-RateLimit-Limit-long: 10000
+X-RateLimit-Remaining-long: 9999
+X-RateLimit-Reset-long: 10
+ETag: W/"63f-Eb7GHfuSGk+EUO/9YowsFYlnJbk"
+
+{
+    "message": "Ticket Wagers fetched successfully",
+    "data": [
+        {
+            "_id": "682efee66558207f3f09e9aa",
+            "count": 1,
+            "multiplier": 2,
+            "type": "Card",
+            "__v": 0
+        },
+        {
+            "_id": "682efee66558207f3f09e9ab",
+            "count": 2,
+            "multiplier": 1.25,
+            "type": "Card",
+            "__v": 0
+        },
+        {
+            "_id": "682efee66558207f3f09e9ac",
+            "count": 3,
+            "multiplier": 1.5,
+            "type": "Card",
+            "__v": 0
+        },
+        {
+            "_id": "682efee66558207f3f09e9ad",
+            "count": 4,
+            "multiplier": 2,
+            "type": "Card",
+            "__v": 0
+        },
+        {
+            "_id": "682efee66558207f3f09e9ae",
+            "count": 1,
+            "multiplier": 1.5,
+            "type": "Streak",
+            "__v": 0
+        },
+        {
+            "_id": "682efee66558207f3f09e9af",
+            "count": 2,
+            "multiplier": 1.75,
+            "type": "Streak",
+            "__v": 0
+        },
+        {
+            "_id": "682efee66558207f3f09e9b0",
+            "count": 3,
+            "multiplier": 2,
+            "type": "Streak",
+            "__v": 0
+        },
+        {
+            "_id": "686e3906316b2576c6cbc8f4",
+            "count": 4,
+            "multiplier": 1.5,
+            "type": "Streak",
+            "__v": 0
+        },
+        {
+            "_id": "682efee66558207f3f09e9a3",
+            "count": 1000,
+            "multiplier": 1.4,
+            "type": "Ticket",
+            "__v": 0
+        },
+        {
+            "_id": "682efee66558207f3f09e9a4",
+            "count": 2000,
+            "multiplier": 1.6,
+            "type": "Ticket",
+            "__v": 0
+        },
+        {
+            "_id": "682efee66558207f3f09e9a5",
+            "count": 3000,
+            "multiplier": 1.8,
+            "type": "Ticket",
+            "__v": 0
+        },
+        {
+            "_id": "682efee66558207f3f09e9a6",
+            "count": 4500,
+            "multiplier": 2,
+            "type": "Ticket",
+            "__v": 0
+        },
+        {
+            "_id": "682efee66558207f3f09e9a7",
+            "count": 5625,
+            "multiplier": 2.2,
+            "type": "Ticket",
+            "__v": 0
+        },
+        {
+            "_id": "682efee66558207f3f09e9a8",
+            "count": 6750,
+            "multiplier": 2.4,
+            "type": "Ticket",
+            "__v": 0
+        },
+        {
+            "_id": "682efee66558207f3f09e9a9",
+            "count": 12000,
+            "multiplier": 2.6,
+            "type": "Ticket",
+            "__v": 0
+        },
+        {
+            "_id": "6870d37be3e6c2cd450706df",
+            "count": 666765,
+            "multiplier": 2,
+            "type": "Ticket",
+            "__v": 0
+        }
+    ],
+    "page": {
+        "totalDocs": 16,
+        "limit": 100,
+        "totalPages": 1,
+        "page": 1,
+        "pagingCounter": 1,
+        "hasPrevPage": false,
+        "hasNextPage": false,
+        "prevPage": 0,
+        "nextPage": 2,
+        "total": 16
+    }
+}
+[INFO ] 2025-07-11 14:04:24.417 [main] BingoAutomation - Points Wager Get Successfully
+Name of test method sucessfully executed:testadminpointwagerfetch
+]]></system-out>
+  </testcase>
+  <testcase name="testadminpointwagerupdate[666765.0, 5.0, Ticket](1)" classname="api.testcases.Adminpointswagertestcase" time="1.555">
+    <system-out><![CDATA[[DEBUG] 2025-07-11 14:04:24.430 [main] PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+[DEBUG] 2025-07-11 14:04:24.431 [main] PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+[DEBUG] 2025-07-11 14:04:24.474 [main] PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+[DEBUG] 2025-07-11 14:04:24.475 [main] PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+[DEBUG] 2025-07-11 14:04:24.506 [main] PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+[DEBUG] 2025-07-11 14:04:24.508 [main] PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+[DEBUG] 2025-07-11 14:04:24.577 [main] PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+[DEBUG] 2025-07-11 14:04:24.578 [main] PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+[DEBUG] 2025-07-11 14:04:24.615 [main] PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+[DEBUG] 2025-07-11 14:04:24.617 [main] PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+Name of test method started:testadminpointwagerupdate
+HTTP/1.1 200 OK
+Server: nginx/1.18.0 (Ubuntu)
+Date: Fri, 11 Jul 2025 09:03:58 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 143
+Connection: keep-alive
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+X-RateLimit-Limit-short: 10
+X-RateLimit-Remaining-short: 9
+X-RateLimit-Reset-short: 1
+X-RateLimit-Limit-long: 10000
+X-RateLimit-Remaining-long: 9999
+X-RateLimit-Reset-long: 10
+ETag: W/"8f-4hFLNX4OO21Qvwj019rLXR8VpU0"
+
+{
+    "message": "Ticket Wager updated successfully",
+    "data": {
+        "_id": "6870d37be3e6c2cd450706df",
+        "count": 666765,
+        "multiplier": 5,
+        "type": "Ticket",
+        "__v": 0
+    }
+}
+[INFO ] 2025-07-11 14:04:26.190 [main] BingoAutomation - Points Wager Updated Successfully
+Name of test method sucessfully executed:testadminpointwagerupdate
+]]></system-out>
+  </testcase>
+  <testcase name="testadminpointwagerdelete" classname="api.testcases.Adminpointswagertestcase" time="3.33">
+    <system-out><![CDATA[Name of test method started:testadminpointwagerdelete
+HTTP/1.1 200 OK
+Server: nginx/1.18.0 (Ubuntu)
+Date: Fri, 11 Jul 2025 09:04:01 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 143
+Connection: keep-alive
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+X-RateLimit-Limit-short: 10
+X-RateLimit-Remaining-short: 9
+X-RateLimit-Reset-short: 1
+X-RateLimit-Limit-long: 10000
+X-RateLimit-Remaining-long: 9999
+X-RateLimit-Reset-long: 10
+ETag: W/"8f-Drm9lvjKl1cOKs/fqm/7VIgyyAA"
+
+{
+    "message": "Ticket Wager deleted successfully",
+    "data": {
+        "_id": "6870d37be3e6c2cd450706df",
+        "count": 666765,
+        "multiplier": 5,
+        "type": "Ticket",
+        "__v": 0
+    }
+}
+[INFO ] 2025-07-11 14:04:29.551 [main] BingoAutomation - Points Wager Deleted Successfully
+Name of test method sucessfully executed:testadminpointwagerdelete
+]]></system-out>
+  </testcase>
+  <testcase name="testadminsignin[admin@hpl.com, Ali12345?!](1)" classname="api.testcases.Adminsignintestcase" time="20.919">
+    <system-out><![CDATA[[DEBUG] 2025-07-11 14:04:29.564 [main] PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+[DEBUG] 2025-07-11 14:04:29.566 [main] PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+[DEBUG] 2025-07-11 14:04:29.567 [main] PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+[DEBUG] 2025-07-11 14:04:29.609 [main] PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+[DEBUG] 2025-07-11 14:04:29.611 [main] PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+[DEBUG] 2025-07-11 14:04:29.612 [main] PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+[DEBUG] 2025-07-11 14:04:29.637 [main] PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+[DEBUG] 2025-07-11 14:04:29.638 [main] PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+[DEBUG] 2025-07-11 14:04:29.640 [main] PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+[DEBUG] 2025-07-11 14:04:29.663 [main] PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+[DEBUG] 2025-07-11 14:04:29.664 [main] PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+[DEBUG] 2025-07-11 14:04:29.665 [main] PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+Name of test method started:testadminsignin
+HTTP/1.1 201 Created
+Server: nginx/1.18.0 (Ubuntu)
+Date: Fri, 11 Jul 2025 09:04:22 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 680
+Connection: keep-alive
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+X-RateLimit-Limit-short: 1
+X-RateLimit-Remaining-short: 0
+X-RateLimit-Reset-short: 3
+X-RateLimit-Limit-long: 5
+X-RateLimit-Remaining-long: 0
+X-RateLimit-Reset-long: 60
+ETag: W/"2a8-mG1qcEOP42BzOMbRfT8KVLUFxoI"
+
+{
+    "message": "Login Successfully",
+    "data": {
+        "_id": "6834761c8d7b62f1c97fe2c1",
+        "userName": "Admin",
+        "email": "admin@hpl.com",
+        "accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2ODM0NzYxYzhkN2I2MmYxYzk3ZmUyYzEiLCJzZXNzaW9uSWQiOiI2ODcwZDM5NmUzZTZjMmNkNDUwNzA2ZWUiLCJ1c2VyVHlwZSI6IkFkbWluIiwiaWF0IjoxNzUyMjI0NjYyLCJleHAiOjE3NTIzMTEwNjJ9.Zij3VHwsNhA7PGIu_-LJMyisMUtzWOo_9-jczZejHSU",
+        "refreshToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzZXNzaW9uSWQiOiI2ODcwZDM5NmUzZTZjMmNkNDUwNzA2ZWUiLCJoYXNoIjoiZjgxMzI3Y2ZlNTM1YTVmMjMwMzM4YjdlYjFjNGI3YjFjYzY5N2FjNzc3OWNhZWY3NjVkYWEyOGYyNzFlNmU1MSIsImlhdCI6MTc1MjIyNDY2MiwiZXhwIjoxNzU0ODE2NjYyfQ.G4He18kKHThCNviatvi31ozSktk_cXICI6GNfyoEByI"
+    }
+}
+[INFO ] 2025-07-11 14:04:50.605 [main] BingoAutomation - User Sign In Successfully
+Name of test method sucessfully executed:testadminsignin
+]]></system-out>
+  </testcase>
+  <testcase name="testadminpowerupcreate[New Powerup, New Powerup, https://gratisography.com/wp-content/uploads/2024/11/gratisography-augmented-reality-800x525.jpg, https://gratisography.com/wp-content/uploads/2024/11/gratisography-augmented-reality-800x525.jpg, Special, 1.0, asd](1)" classname="api.testcases.Adminpoweruptestcase" time="0.976">
+    <system-out><![CDATA[HTTP/1.1 201 Created
+Server: nginx/1.18.0 (Ubuntu)
+Date: Fri, 11 Jul 2025 09:04:30 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 680
+Connection: keep-alive
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+X-RateLimit-Limit-short: 1
+X-RateLimit-Remaining-short: 0
+X-RateLimit-Reset-short: 3
+X-RateLimit-Limit-long: 5
+X-RateLimit-Remaining-long: 1
+X-RateLimit-Reset-long: 53
+ETag: W/"2a8-5bQFjqxUEdN0N7cLgiOT8V4pGsM"
+
+{
+    "message": "Login Successfully",
+    "data": {
+        "_id": "6834761c8d7b62f1c97fe2c1",
+        "userName": "Admin",
+        "email": "admin@hpl.com",
+        "accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2ODM0NzYxYzhkN2I2MmYxYzk3ZmUyYzEiLCJzZXNzaW9uSWQiOiI2ODcwZDM5ZWUzZTZjMmNkNDUwNzA2ZjMiLCJ1c2VyVHlwZSI6IkFkbWluIiwiaWF0IjoxNzUyMjI0NjcwLCJleHAiOjE3NTIzMTEwNzB9.GCFdJlEjIi1XjFpNBSZIfzAhzYEYORKNTOd_mUchajQ",
+        "refreshToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzZXNzaW9uSWQiOiI2ODcwZDM5ZWUzZTZjMmNkNDUwNzA2ZjMiLCJoYXNoIjoiMmM1ZTdhMjU5YjY2MTY3ZDQ3MWE5ZTE5MDRmYjQ2ZGY1MTA3MGM1OTQxYzRiZTNmMGQ5MTkzYWRmODUxNWFhMCIsImlhdCI6MTc1MjIyNDY3MCwiZXhwIjoxNzU0ODE2NjcwfQ.Nc3-1gBfxaqEuqwc-6BqMyHQ685vNyky3jDWe5llhJs"
+    }
+}
+[INFO ] 2025-07-11 14:04:58.379 [main] BingoAutomation - User Sign In Successfully
+[DEBUG] 2025-07-11 14:04:58.451 [main] PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+[DEBUG] 2025-07-11 14:04:58.455 [main] PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+[DEBUG] 2025-07-11 14:04:58.599 [main] PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+[DEBUG] 2025-07-11 14:04:58.600 [main] PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+[DEBUG] 2025-07-11 14:04:58.632 [main] PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+[DEBUG] 2025-07-11 14:04:58.634 [main] PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+[DEBUG] 2025-07-11 14:04:58.662 [main] PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+[DEBUG] 2025-07-11 14:04:58.663 [main] PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+[DEBUG] 2025-07-11 14:04:58.699 [main] PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+[DEBUG] 2025-07-11 14:04:58.700 [main] PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+[DEBUG] 2025-07-11 14:04:58.723 [main] PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+[DEBUG] 2025-07-11 14:04:58.724 [main] PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+[DEBUG] 2025-07-11 14:04:58.762 [main] PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+[DEBUG] 2025-07-11 14:04:58.764 [main] PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+[DEBUG] 2025-07-11 14:04:58.797 [main] PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+[DEBUG] 2025-07-11 14:04:58.798 [main] PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+[DEBUG] 2025-07-11 14:04:58.824 [main] PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+[DEBUG] 2025-07-11 14:04:58.825 [main] PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+[DEBUG] 2025-07-11 14:04:58.859 [main] PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+[DEBUG] 2025-07-11 14:04:58.860 [main] PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+[DEBUG] 2025-07-11 14:04:58.881 [main] PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+[DEBUG] 2025-07-11 14:04:58.883 [main] PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+[DEBUG] 2025-07-11 14:04:58.908 [main] PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+[DEBUG] 2025-07-11 14:04:58.909 [main] PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+[DEBUG] 2025-07-11 14:04:58.933 [main] PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+[DEBUG] 2025-07-11 14:04:58.934 [main] PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+[DEBUG] 2025-07-11 14:04:58.967 [main] PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+[DEBUG] 2025-07-11 14:04:58.970 [main] PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+[DEBUG] 2025-07-11 14:04:59.001 [main] PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+[DEBUG] 2025-07-11 14:04:59.002 [main] PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+[DEBUG] 2025-07-11 14:04:59.025 [main] PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+[DEBUG] 2025-07-11 14:04:59.026 [main] PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+[DEBUG] 2025-07-11 14:04:59.048 [main] PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+[DEBUG] 2025-07-11 14:04:59.049 [main] PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+[DEBUG] 2025-07-11 14:04:59.086 [main] PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+[DEBUG] 2025-07-11 14:04:59.088 [main] PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+[DEBUG] 2025-07-11 14:04:59.106 [main] PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+[DEBUG] 2025-07-11 14:04:59.107 [main] PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+[DEBUG] 2025-07-11 14:04:59.126 [main] PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+[DEBUG] 2025-07-11 14:04:59.127 [main] PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+[DEBUG] 2025-07-11 14:04:59.148 [main] PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+[DEBUG] 2025-07-11 14:04:59.149 [main] PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+[DEBUG] 2025-07-11 14:04:59.182 [main] PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+[DEBUG] 2025-07-11 14:04:59.183 [main] PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+[DEBUG] 2025-07-11 14:04:59.203 [main] PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+[DEBUG] 2025-07-11 14:04:59.205 [main] PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+Name of test method started:testadminpowerupcreate
+HTTP/1.1 201 Created
+Server: nginx/1.18.0 (Ubuntu)
+Date: Fri, 11 Jul 2025 09:04:32 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 492
+Connection: keep-alive
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+X-RateLimit-Limit-short: 10
+X-RateLimit-Remaining-short: 9
+X-RateLimit-Reset-short: 1
+X-RateLimit-Limit-long: 10000
+X-RateLimit-Remaining-long: 9999
+X-RateLimit-Reset-long: 10
+ETag: W/"1ec-YwBVvftq6mCPq6QuK0WO5/l9UOU"
+
+{
+    "message": "PowerUp Created Successfully",
+    "data": {
+        "shortCode": "New Powerup",
+        "name": "New Powerup",
+        "image": "https://gratisography.com/wp-content/uploads/2024/11/gratisography-augmented-reality-800x525.jpg",
+        "imageLarge": "https://gratisography.com/wp-content/uploads/2024/11/gratisography-augmented-reality-800x525.jpg",
+        "description": "asd",
+        "rarity": "Special",
+        "defaultCount": 1,
+        "_id": "6870d3a0e3e6c2cd450706f6",
+        "createdAt": "2025-07-11T09:04:32.133Z",
+        "updatedAt": "2025-07-11T09:04:32.133Z",
+        "__v": 0
+    }
+}
+[INFO ] 2025-07-11 14:05:00.080 [main] BingoAutomation - PowerUp Created Successfully
+Name of test method sucessfully executed:testadminpowerupcreate
+]]></system-out>
+  </testcase>
+  <testcase name="testadminpowerupcreate[New Powerup2, New Powerup2, https://cdn.pixabay.com/photo/2024/05/26/10/15/bird-8788491_1280.jpg, https://cdn.pixabay.com/photo/2024/05/26/10/15/bird-8788491_1280.jpg, Rare, 1.0, sdas](2)" classname="api.testcases.Adminpoweruptestcase" time="0.672">
+    <system-out><![CDATA[Name of test method started:testadminpowerupcreate
+HTTP/1.1 201 Created
+Server: nginx/1.18.0 (Ubuntu)
+Date: Fri, 11 Jul 2025 09:04:32 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 436
+Connection: keep-alive
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+X-RateLimit-Limit-short: 10
+X-RateLimit-Remaining-short: 8
+X-RateLimit-Reset-short: 1
+X-RateLimit-Limit-long: 10000
+X-RateLimit-Remaining-long: 9998
+X-RateLimit-Reset-long: 10
+ETag: W/"1b4-G0VNatvMfWz3TO+hhe3SYRcN6Fc"
+
+{
+    "message": "PowerUp Created Successfully",
+    "data": {
+        "shortCode": "New Powerup2",
+        "name": "New Powerup2",
+        "image": "https://cdn.pixabay.com/photo/2024/05/26/10/15/bird-8788491_1280.jpg",
+        "imageLarge": "https://cdn.pixabay.com/photo/2024/05/26/10/15/bird-8788491_1280.jpg",
+        "description": "sdas",
+        "rarity": "Rare",
+        "defaultCount": 1,
+        "_id": "6870d3a0e3e6c2cd450706fa",
+        "createdAt": "2025-07-11T09:04:32.936Z",
+        "updatedAt": "2025-07-11T09:04:32.936Z",
+        "__v": 0
+    }
+}
+[INFO ] 2025-07-11 14:05:00.876 [main] BingoAutomation - PowerUp Created Successfully
+Name of test method sucessfully executed:testadminpowerupcreate
+]]></system-out>
+  </testcase>
+  <testcase name="testadminpowerupcreate[New Powerup3, New Powerup3, https://images.ctfassets.net/hrltx12pl8hq/28ECAQiPJZ78hxatLTa7Ts/2f695d869736ae3b0de3e56ceaca3958/free-nature-images.jpg?fit=fill&amp;w=1200&amp;h=630, https://images.ctfassets.net/hrltx12pl8hq/28ECAQiPJZ78hxatLTa7Ts/2f695d869736ae3b0de3e56ceaca3958/free-nature-images.jpg?fit=fill&amp;w=1200&amp;h=630, Common, 0.0, sdasdasddsa](3)" classname="api.testcases.Adminpoweruptestcase" time="0.801">
+    <system-out><![CDATA[Name of test method started:testadminpowerupcreate
+HTTP/1.1 201 Created
+Server: nginx/1.18.0 (Ubuntu)
+Date: Fri, 11 Jul 2025 09:04:33 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 593
+Connection: keep-alive
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+X-RateLimit-Limit-short: 10
+X-RateLimit-Remaining-short: 8
+X-RateLimit-Reset-short: 1
+X-RateLimit-Limit-long: 10000
+X-RateLimit-Remaining-long: 9997
+X-RateLimit-Reset-long: 9
+ETag: W/"251-Bx+o/+oZtYyFKWCTmTzHpLmgL34"
+
+{
+    "message": "PowerUp Created Successfully",
+    "data": {
+        "shortCode": "New Powerup3",
+        "name": "New Powerup3",
+        "image": "https://images.ctfassets.net/hrltx12pl8hq/28ECAQiPJZ78hxatLTa7Ts/2f695d869736ae3b0de3e56ceaca3958/free-nature-images.jpg?fit=fill&w=1200&h=630",
+        "imageLarge": "https://images.ctfassets.net/hrltx12pl8hq/28ECAQiPJZ78hxatLTa7Ts/2f695d869736ae3b0de3e56ceaca3958/free-nature-images.jpg?fit=fill&w=1200&h=630",
+        "description": "sdasdasddsa",
+        "rarity": "Common",
+        "defaultCount": 0,
+        "_id": "6870d3a1e3e6c2cd450706fe",
+        "createdAt": "2025-07-11T09:04:33.650Z",
+        "updatedAt": "2025-07-11T09:04:33.650Z",
+        "__v": 0
+    }
+}
+[INFO ] 2025-07-11 14:05:01.601 [main] BingoAutomation - PowerUp Created Successfully
+Name of test method sucessfully executed:testadminpowerupcreate
+]]></system-out>
+  </testcase>
+  <testcase name="testadminpowerupfetch" classname="api.testcases.Adminpoweruptestcase" time="0.644">
+    <system-out><![CDATA[Name of test method started:testadminpowerupfetch
+HTTP/1.1 200 OK
+Server: nginx/1.18.0 (Ubuntu)
+Date: Fri, 11 Jul 2025 09:04:34 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 4403
+Connection: keep-alive
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+X-RateLimit-Limit-short: 10
+X-RateLimit-Remaining-short: 9
+X-RateLimit-Reset-short: 1
+X-RateLimit-Limit-long: 10000
+X-RateLimit-Remaining-long: 9999
+X-RateLimit-Reset-long: 10
+ETag: W/"1133-6ulwGar7H8l6iwWSciFRB/Lez/g"
+
+{
+    "message": "PowerUps Fetched Successfully",
+    "data": [
+        {
+            "_id": "686bd803f2aadbe8dafe3c9e",
+            "shortCode": "SingleDaub",
+            "name": "Single Daub",
+            "image": "https://cubixco.s3.us-west-2.amazonaws.com/bingo-game-seeders/1750170301818_SingleDubSmall.png",
+            "imageLarge": "https://cubixco.s3.us-west-2.amazonaws.com/bingo-game-seeders/1750169631624_SingleDub.png",
+            "description": "Daub one square randomly on each card.",
+            "rarity": "Common",
+            "defaultCount": 1,
+            "__v": 0,
+            "createdAt": "2025-07-07T14:21:55.790Z",
+            "updatedAt": "2025-07-07T15:20:41.852Z"
+        },
+        {
+            "_id": "686bd803f2aadbe8dafe3c9f",
+            "shortCode": "MultipleDaub",
+            "name": "Multiple Daub",
+            "image": "https://cubixco.s3.us-west-2.amazonaws.com/bingo-game-seeders/1750170431937_MultiDubSmall.png",
+            "imageLarge": "https://cubixco.s3.us-west-2.amazonaws.com/bingo-game-seeders/1750169675033_MultiDub.png",
+            "description": "Daubs multiple squares randomly on each card.",
+            "rarity": "Common",
+            "defaultCount": 1,
+            "__v": 0,
+            "createdAt": "2025-07-07T14:21:55.790Z",
+            "updatedAt": "2025-07-07T14:21:55.790Z"
+        },
+        {
+            "_id": "686bd803f2aadbe8dafe3ca0",
+            "shortCode": "InstaBingo",
+            "name": "Insta Bingo",
+            "image": "https://cubixco.s3.us-west-2.amazonaws.com/bingo-game-seeders/1750170545181_InstaBingoSmall.png",
+            "imageLarge": "https://cubixco.s3.us-west-2.amazonaws.com/bingo-game-seeders/1750169719354_InstaBingo.png",
+            "description": "Automatically completes the bingo of that card.",
+            "rarity": "Special",
+            "defaultCount": 1,
+            "__v": 0,
+            "createdAt": "2025-07-07T14:21:55.790Z",
+            "updatedAt": "2025-07-07T14:21:55.790Z"
+        },
+        {
+            "_id": "686bd803f2aadbe8dafe3ca1",
+            "shortCode": "X2PointsMultiplier",
+            "name": "2x Points Multiplier",
+            "image": "https://cubixco.s3.us-west-2.amazonaws.com/bingo-game-seeders/1750170632609_2XMultiplierSmall.png",
+            "imageLarge": "https://cubixco.s3.us-west-2.amazonaws.com/bingo-game-seeders/1750169800224_2XMultiplier.png",
+            "description": "2X Points Multiplier (All Cards).",
+            "rarity": "Common",
+            "defaultCount": 1,
+            "__v": 0,
+            "createdAt": "2025-07-07T14:21:55.791Z",
+            "updatedAt": "2025-07-07T14:21:55.791Z"
+        },
+        {
+            "_id": "686bd803f2aadbe8dafe3ca2",
+            "shortCode": "X2PointsAll",
+            "name": "2x Points All",
+            "image": "https://cubixco.s3.us-west-2.amazonaws.com/bingo-game-seeders/1750170726969_2XAllSmall.png",
+            "imageLarge": "https://cubixco.s3.us-west-2.amazonaws.com/bingo-game-seeders/1750169852031_2XAll.png",
+            "description": "2X Points Multiplier + Rewards (All Cards & Rewards).",
+            "rarity": "Rare",
+            "defaultCount": 1,
+            "__v": 0,
+            "createdAt": "2025-07-07T14:21:55.791Z",
+            "updatedAt": "2025-07-07T14:21:55.791Z"
+        },
+        {
+            "_id": "686bd803f2aadbe8dafe3ca3",
+            "shortCode": "Gems",
+            "name": "Gems",
+            "image": "https://cubixco.s3.us-west-2.amazonaws.com/bingo-game-seeders/1750170796796_GemsSmall.png",
+            "imageLarge": "https://cubixco.s3.us-west-2.amazonaws.com/bingo-game-seeders/1750169893384_Gems.png",
+            "description": "Gems provide 10,000 points per card.",
+            "rarity": "Special",
+            "defaultCount": 1,
+            "__v": 0,
+            "createdAt": "2025-07-07T14:21:55.791Z",
+            "updatedAt": "2025-07-07T14:21:55.791Z"
+        },
+        {
+            "_id": "6870d3a0e3e6c2cd450706f6",
+            "shortCode": "New Powerup",
+            "name": "New Powerup",
+            "image": "https://gratisography.com/wp-content/uploads/2024/11/gratisography-augmented-reality-800x525.jpg",
+            "imageLarge": "https://gratisography.com/wp-content/uploads/2024/11/gratisography-augmented-reality-800x525.jpg",
+            "description": "asd",
+            "rarity": "Special",
+            "defaultCount": 1,
+            "createdAt": "2025-07-11T09:04:32.133Z",
+            "updatedAt": "2025-07-11T09:04:32.133Z",
+            "__v": 0
+        },
+        {
+            "_id": "6870d3a0e3e6c2cd450706fa",
+            "shortCode": "New Powerup2",
+            "name": "New Powerup2",
+            "image": "https://cdn.pixabay.com/photo/2024/05/26/10/15/bird-8788491_1280.jpg",
+            "imageLarge": "https://cdn.pixabay.com/photo/2024/05/26/10/15/bird-8788491_1280.jpg",
+            "description": "sdas",
+            "rarity": "Rare",
+            "defaultCount": 1,
+            "createdAt": "2025-07-11T09:04:32.936Z",
+            "updatedAt": "2025-07-11T09:04:32.936Z",
+            "__v": 0
+        },
+        {
+            "_id": "6870d3a1e3e6c2cd450706fe",
+            "shortCode": "New Powerup3",
+            "name": "New Powerup3",
+            "image": "https://images.ctfassets.net/hrltx12pl8hq/28ECAQiPJZ78hxatLTa7Ts/2f695d869736ae3b0de3e56ceaca3958/free-nature-images.jpg?fit=fill&w=1200&h=630",
+            "imageLarge": "https://images.ctfassets.net/hrltx12pl8hq/28ECAQiPJZ78hxatLTa7Ts/2f695d869736ae3b0de3e56ceaca3958/free-nature-images.jpg?fit=fill&w=1200&h=630",
+            "description": "sdasdasddsa",
+            "rarity": "Common",
+            "defaultCount": 0,
+            "createdAt": "2025-07-11T09:04:33.650Z",
+            "updatedAt": "2025-07-11T09:04:33.650Z",
+            "__v": 0
+        }
+    ],
+    "page": {
+        "totalDocs": 9,
+        "limit": 10,
+        "totalPages": 1,
+        "page": 1,
+        "pagingCounter": 1,
+        "hasPrevPage": false,
+        "hasNextPage": false,
+        "prevPage": 0,
+        "nextPage": 2,
+        "total": 9
+    }
+}
+[INFO ] 2025-07-11 14:05:02.312 [main] BingoAutomation - PowerUp Get Successfully
+Name of test method sucessfully executed:testadminpowerupfetch
+]]></system-out>
+  </testcase>
+  <testcase name="testadminpowerupupdate[New Powerup, https://gratisography.com/wp-content/uploads/2024/11/gratisography-augmented-reality-800x525.jpg, https://gratisography.com/wp-content/uploads/2024/11/gratisography-augmented-reality-800x525.jpg, lorem ipsum, Special, 1.0](1)" classname="api.testcases.Adminpoweruptestcase" time="1.361">
+    <system-out><![CDATA[[DEBUG] 2025-07-11 14:05:02.320 [main] PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+[DEBUG] 2025-07-11 14:05:02.321 [main] PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+[DEBUG] 2025-07-11 14:05:02.349 [main] PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+[DEBUG] 2025-07-11 14:05:02.350 [main] PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+[DEBUG] 2025-07-11 14:05:02.375 [main] PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+[DEBUG] 2025-07-11 14:05:02.377 [main] PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+[DEBUG] 2025-07-11 14:05:02.399 [main] PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+[DEBUG] 2025-07-11 14:05:02.400 [main] PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+[DEBUG] 2025-07-11 14:05:02.421 [main] PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+[DEBUG] 2025-07-11 14:05:02.423 [main] PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+[DEBUG] 2025-07-11 14:05:02.458 [main] PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+[DEBUG] 2025-07-11 14:05:02.460 [main] PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+[DEBUG] 2025-07-11 14:05:02.483 [main] PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+[DEBUG] 2025-07-11 14:05:02.484 [main] PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+[DEBUG] 2025-07-11 14:05:02.521 [main] PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+[DEBUG] 2025-07-11 14:05:02.522 [main] PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+Name of test method started:testadminpowerupupdate
+HTTP/1.1 200 OK
+Server: nginx/1.18.0 (Ubuntu)
+Date: Fri, 11 Jul 2025 09:04:36 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 501
+Connection: keep-alive
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+X-RateLimit-Limit-short: 10
+X-RateLimit-Remaining-short: 9
+X-RateLimit-Reset-short: 1
+X-RateLimit-Limit-long: 10000
+X-RateLimit-Remaining-long: 9999
+X-RateLimit-Reset-long: 10
+ETag: W/"1f5-hD/qTkchvY7Au/GNAVFgd6MTXGs"
+
+{
+    "message": "PowerUp Updated Successfully",
+    "data": {
+        "_id": "6870d3a1e3e6c2cd450706fe",
+        "shortCode": "New Powerup3",
+        "name": "New Powerup",
+        "image": "https://gratisography.com/wp-content/uploads/2024/11/gratisography-augmented-reality-800x525.jpg",
+        "imageLarge": "https://gratisography.com/wp-content/uploads/2024/11/gratisography-augmented-reality-800x525.jpg",
+        "description": "lorem ipsum",
+        "rarity": "Special",
+        "defaultCount": 1,
+        "createdAt": "2025-07-11T09:04:33.650Z",
+        "updatedAt": "2025-07-11T09:04:36.000Z",
+        "__v": 0
+    }
+}
+[INFO ] 2025-07-11 14:05:03.942 [main] BingoAutomation - PowerUp Updated Successfully
+Name of test method sucessfully executed:testadminpowerupupdate
+]]></system-out>
+  </testcase>
+  <testcase name="testadminpowerpdelete" classname="api.testcases.Adminpoweruptestcase" time="2.854">
+    <system-out><![CDATA[Name of test method started:testadminpowerpdelete
+HTTP/1.1 200 OK
+Server: nginx/1.18.0 (Ubuntu)
+Date: Fri, 11 Jul 2025 09:04:37 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 492
+Connection: keep-alive
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+X-RateLimit-Limit-short: 10
+X-RateLimit-Remaining-short: 9
+X-RateLimit-Reset-short: 1
+X-RateLimit-Limit-long: 10000
+X-RateLimit-Remaining-long: 9999
+X-RateLimit-Reset-long: 10
+ETag: W/"1ec-svlut41raErZTuYwOafdHQohBgg"
+
+{
+    "message": "PowerUp Deleted Successfully",
+    "data": {
+        "_id": "6870d3a0e3e6c2cd450706f6",
+        "shortCode": "New Powerup",
+        "name": "New Powerup",
+        "image": "https://gratisography.com/wp-content/uploads/2024/11/gratisography-augmented-reality-800x525.jpg",
+        "imageLarge": "https://gratisography.com/wp-content/uploads/2024/11/gratisography-augmented-reality-800x525.jpg",
+        "description": "asd",
+        "rarity": "Special",
+        "defaultCount": 1,
+        "createdAt": "2025-07-11T09:04:32.133Z",
+        "updatedAt": "2025-07-11T09:04:32.133Z",
+        "__v": 0
+    }
+}
+[INFO ] 2025-07-11 14:05:05.259 [main] BingoAutomation - PowerUp Deleted Successfully
+HTTP/1.1 200 OK
+Server: nginx/1.18.0 (Ubuntu)
+Date: Fri, 11 Jul 2025 09:04:38 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 436
+Connection: keep-alive
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+X-RateLimit-Limit-short: 10
+X-RateLimit-Remaining-short: 8
+X-RateLimit-Reset-short: 1
+X-RateLimit-Limit-long: 10000
+X-RateLimit-Remaining-long: 9998
+X-RateLimit-Reset-long: 10
+ETag: W/"1b4-abU2yy9rBpagM5zWY0UcerCiBPQ"
+
+{
+    "message": "PowerUp Deleted Successfully",
+    "data": {
+        "_id": "6870d3a0e3e6c2cd450706fa",
+        "shortCode": "New Powerup2",
+        "name": "New Powerup2",
+        "image": "https://cdn.pixabay.com/photo/2024/05/26/10/15/bird-8788491_1280.jpg",
+        "imageLarge": "https://cdn.pixabay.com/photo/2024/05/26/10/15/bird-8788491_1280.jpg",
+        "description": "sdas",
+        "rarity": "Rare",
+        "defaultCount": 1,
+        "createdAt": "2025-07-11T09:04:32.936Z",
+        "updatedAt": "2025-07-11T09:04:32.936Z",
+        "__v": 0
+    }
+}
+[INFO ] 2025-07-11 14:05:05.987 [main] BingoAutomation - PowerUp Deleted Successfully
+HTTP/1.1 200 OK
+Server: nginx/1.18.0 (Ubuntu)
+Date: Fri, 11 Jul 2025 09:04:38 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 501
+Connection: keep-alive
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+X-RateLimit-Limit-short: 10
+X-RateLimit-Remaining-short: 8
+X-RateLimit-Reset-short: 1
+X-RateLimit-Limit-long: 10000
+X-RateLimit-Remaining-long: 9997
+X-RateLimit-Reset-long: 9
+ETag: W/"1f5-990F997LIp1hRasCUxWKYAhrkAo"
+
+{
+    "message": "PowerUp Deleted Successfully",
+    "data": {
+        "_id": "6870d3a1e3e6c2cd450706fe",
+        "shortCode": "New Powerup3",
+        "name": "New Powerup",
+        "image": "https://gratisography.com/wp-content/uploads/2024/11/gratisography-augmented-reality-800x525.jpg",
+        "imageLarge": "https://gratisography.com/wp-content/uploads/2024/11/gratisography-augmented-reality-800x525.jpg",
+        "description": "lorem ipsum",
+        "rarity": "Special",
+        "defaultCount": 1,
+        "createdAt": "2025-07-11T09:04:33.650Z",
+        "updatedAt": "2025-07-11T09:04:36.000Z",
+        "__v": 0
+    }
+}
+[INFO ] 2025-07-11 14:05:06.801 [main] BingoAutomation - PowerUp Deleted Successfully
+Name of test method sucessfully executed:testadminpowerpdelete
+]]></system-out>
+  </testcase>
+  <testcase name="testadmindailyrewardcreate[38.0, PowerUp, Gems, 3.0](1)" classname="api.testcases.Admindailyrewardtestcase" time="0.865">
+    <system-out><![CDATA[HTTP/1.1 201 Created
+Server: nginx/1.18.0 (Ubuntu)
+Date: Fri, 11 Jul 2025 09:04:46 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 680
+Connection: keep-alive
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+X-RateLimit-Limit-short: 1
+X-RateLimit-Remaining-short: 0
+X-RateLimit-Reset-short: 3
+X-RateLimit-Limit-long: 5
+X-RateLimit-Remaining-long: 1
+X-RateLimit-Reset-long: 37
+ETag: W/"2a8-53aqkD/eN0CCtwAcahCawf1I474"
+
+{
+    "message": "Login Successfully",
+    "data": {
+        "_id": "6834761c8d7b62f1c97fe2c1",
+        "userName": "Admin",
+        "email": "admin@hpl.com",
+        "accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2ODM0NzYxYzhkN2I2MmYxYzk3ZmUyYzEiLCJzZXNzaW9uSWQiOiI2ODcwZDNhZWUzZTZjMmNkNDUwNzA3MTAiLCJ1c2VyVHlwZSI6IkFkbWluIiwiaWF0IjoxNzUyMjI0Njg2LCJleHAiOjE3NTIzMTEwODZ9.JWgJkj_Ekv3IqHql4eBn1pfnzJkX-W3NDJynT85VT7Q",
+        "refreshToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzZXNzaW9uSWQiOiI2ODcwZDNhZWUzZTZjMmNkNDUwNzA3MTAiLCJoYXNoIjoiMjUzNThhNDYzNDc1MjJjNzFjZGJkYmQ5NjJhNzAwNjFhZTNlNWE1MDlhMTc5M2U1YzI2NTAwYzcxMjYzNjRkNSIsImlhdCI6MTc1MjIyNDY4NiwiZXhwIjoxNzU0ODE2Njg2fQ.wImZ8RBr59aeJE_WT8ORYpxZ_MbcYeRkhUCz0LMkT8k"
+    }
+}
+[INFO ] 2025-07-11 14:05:14.526 [main] BingoAutomation - User Sign In Successfully
+[DEBUG] 2025-07-11 14:05:14.605 [main] PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+[DEBUG] 2025-07-11 14:05:14.621 [main] PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+[DEBUG] 2025-07-11 14:05:14.626 [main] PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+[DEBUG] 2025-07-11 14:05:14.675 [main] POIXMLFactory - using default POIXMLDocumentPart for http://schemas.openxmlformats.org/officeDocument/2006/relationships/printerSettings
+[DEBUG] 2025-07-11 14:05:14.712 [main] PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+[DEBUG] 2025-07-11 14:05:14.713 [main] PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+[DEBUG] 2025-07-11 14:05:14.715 [main] PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+[DEBUG] 2025-07-11 14:05:14.737 [main] POIXMLFactory - using default POIXMLDocumentPart for http://schemas.openxmlformats.org/officeDocument/2006/relationships/printerSettings
+[DEBUG] 2025-07-11 14:05:14.748 [main] PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+[DEBUG] 2025-07-11 14:05:14.750 [main] PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+[DEBUG] 2025-07-11 14:05:14.752 [main] PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+[DEBUG] 2025-07-11 14:05:14.762 [main] POIXMLFactory - using default POIXMLDocumentPart for http://schemas.openxmlformats.org/officeDocument/2006/relationships/printerSettings
+[DEBUG] 2025-07-11 14:05:14.774 [main] PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+[DEBUG] 2025-07-11 14:05:14.774 [main] PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+[DEBUG] 2025-07-11 14:05:14.775 [main] PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+[DEBUG] 2025-07-11 14:05:14.782 [main] POIXMLFactory - using default POIXMLDocumentPart for http://schemas.openxmlformats.org/officeDocument/2006/relationships/printerSettings
+[DEBUG] 2025-07-11 14:05:14.790 [main] PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+[DEBUG] 2025-07-11 14:05:14.791 [main] PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+[DEBUG] 2025-07-11 14:05:14.791 [main] PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+[DEBUG] 2025-07-11 14:05:14.798 [main] POIXMLFactory - using default POIXMLDocumentPart for http://schemas.openxmlformats.org/officeDocument/2006/relationships/printerSettings
+[DEBUG] 2025-07-11 14:05:14.805 [main] PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+[DEBUG] 2025-07-11 14:05:14.806 [main] PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+[DEBUG] 2025-07-11 14:05:14.806 [main] PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+[DEBUG] 2025-07-11 14:05:14.813 [main] POIXMLFactory - using default POIXMLDocumentPart for http://schemas.openxmlformats.org/officeDocument/2006/relationships/printerSettings
+[DEBUG] 2025-07-11 14:05:14.823 [main] PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+[DEBUG] 2025-07-11 14:05:14.824 [main] PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+[DEBUG] 2025-07-11 14:05:14.825 [main] PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+[DEBUG] 2025-07-11 14:05:14.839 [main] POIXMLFactory - using default POIXMLDocumentPart for http://schemas.openxmlformats.org/officeDocument/2006/relationships/printerSettings
+[DEBUG] 2025-07-11 14:05:14.851 [main] PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+[DEBUG] 2025-07-11 14:05:14.854 [main] PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+[DEBUG] 2025-07-11 14:05:14.855 [main] PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+[DEBUG] 2025-07-11 14:05:14.882 [main] POIXMLFactory - using default POIXMLDocumentPart for http://schemas.openxmlformats.org/officeDocument/2006/relationships/printerSettings
+[DEBUG] 2025-07-11 14:05:14.899 [main] PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+[DEBUG] 2025-07-11 14:05:14.900 [main] PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+[DEBUG] 2025-07-11 14:05:14.901 [main] PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+[DEBUG] 2025-07-11 14:05:14.918 [main] POIXMLFactory - using default POIXMLDocumentPart for http://schemas.openxmlformats.org/officeDocument/2006/relationships/printerSettings
+[DEBUG] 2025-07-11 14:05:14.933 [main] PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+[DEBUG] 2025-07-11 14:05:14.934 [main] PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+[DEBUG] 2025-07-11 14:05:14.935 [main] PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+[DEBUG] 2025-07-11 14:05:14.948 [main] POIXMLFactory - using default POIXMLDocumentPart for http://schemas.openxmlformats.org/officeDocument/2006/relationships/printerSettings
+[DEBUG] 2025-07-11 14:05:14.965 [main] PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+[DEBUG] 2025-07-11 14:05:14.966 [main] PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+[DEBUG] 2025-07-11 14:05:14.967 [main] PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+[DEBUG] 2025-07-11 14:05:14.975 [main] POIXMLFactory - using default POIXMLDocumentPart for http://schemas.openxmlformats.org/officeDocument/2006/relationships/printerSettings
+[DEBUG] 2025-07-11 14:05:14.983 [main] PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+[DEBUG] 2025-07-11 14:05:14.984 [main] PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+[DEBUG] 2025-07-11 14:05:14.985 [main] PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+[DEBUG] 2025-07-11 14:05:14.992 [main] POIXMLFactory - using default POIXMLDocumentPart for http://schemas.openxmlformats.org/officeDocument/2006/relationships/printerSettings
+[DEBUG] 2025-07-11 14:05:14.999 [main] PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+[DEBUG] 2025-07-11 14:05:15.000 [main] PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+[DEBUG] 2025-07-11 14:05:15.001 [main] PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+[DEBUG] 2025-07-11 14:05:15.008 [main] POIXMLFactory - using default POIXMLDocumentPart for http://schemas.openxmlformats.org/officeDocument/2006/relationships/printerSettings
+[DEBUG] 2025-07-11 14:05:15.017 [main] PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+[DEBUG] 2025-07-11 14:05:15.018 [main] PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+[DEBUG] 2025-07-11 14:05:15.019 [main] PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+[DEBUG] 2025-07-11 14:05:15.027 [main] POIXMLFactory - using default POIXMLDocumentPart for http://schemas.openxmlformats.org/officeDocument/2006/relationships/printerSettings
+Name of test method started:testadmindailyrewardcreate
+HTTP/1.1 201 Created
+Server: nginx/1.18.0 (Ubuntu)
+Date: Fri, 11 Jul 2025 09:04:47 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 246
+Connection: keep-alive
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+X-RateLimit-Limit-short: 10
+X-RateLimit-Remaining-short: 9
+X-RateLimit-Reset-short: 1
+X-RateLimit-Limit-long: 10000
+X-RateLimit-Remaining-long: 9999
+X-RateLimit-Reset-long: 10
+ETag: W/"f6-RMBFIYfp0bf0f4ODEgMKHSK5/DI"
+
+{
+    "message": "Daily rewards created successfully",
+    "data": {
+        "day": 38,
+        "rewardType": "PowerUp",
+        "rewardShortCode": "Gems",
+        "quantity": 3,
+        "_id": "6870d3afe3e6c2cd45070713",
+        "createdAt": "2025-07-11T09:04:47.880Z",
+        "updatedAt": "2025-07-11T09:04:47.880Z",
+        "__v": 0
+    }
+}
+[INFO ] 2025-07-11 14:05:15.917 [main] BingoAutomation - Daily Reward Created Successfully
+Name of test method sucessfully executed:testadmindailyrewardcreate
+]]></system-out>
+  </testcase>
+  <testcase name="testadmindailyrewardcreate[39.0, Ticket, Ticket, 500.0](2)" classname="api.testcases.Admindailyrewardtestcase" time="0.993">
+    <system-out><![CDATA[Name of test method started:testadmindailyrewardcreate
+HTTP/1.1 201 Created
+Server: nginx/1.18.0 (Ubuntu)
+Date: Fri, 11 Jul 2025 09:04:48 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 249
+Connection: keep-alive
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+X-RateLimit-Limit-short: 10
+X-RateLimit-Remaining-short: 8
+X-RateLimit-Reset-short: 1
+X-RateLimit-Limit-long: 10000
+X-RateLimit-Remaining-long: 9998
+X-RateLimit-Reset-long: 10
+ETag: W/"f9-dhOti1tE/+QyL9iZw0FIbXHJFnw"
+
+{
+    "message": "Daily rewards created successfully",
+    "data": {
+        "day": 39,
+        "rewardType": "Ticket",
+        "rewardShortCode": "Ticket",
+        "quantity": 500,
+        "_id": "6870d3b0e3e6c2cd45070716",
+        "createdAt": "2025-07-11T09:04:48.806Z",
+        "updatedAt": "2025-07-11T09:04:48.806Z",
+        "__v": 0
+    }
+}
+[INFO ] 2025-07-11 14:05:16.842 [main] BingoAutomation - Daily Reward Created Successfully
+Name of test method sucessfully executed:testadmindailyrewardcreate
+]]></system-out>
+  </testcase>
+  <testcase name="testadmindailyrewardcreate[40.0, Chest, T1Chest, 4.0](3)" classname="api.testcases.Admindailyrewardtestcase" time="0.716">
+    <system-out><![CDATA[Name of test method started:testadmindailyrewardcreate
+HTTP/1.1 201 Created
+Server: nginx/1.18.0 (Ubuntu)
+Date: Fri, 11 Jul 2025 09:04:49 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 247
+Connection: keep-alive
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+X-RateLimit-Limit-short: 10
+X-RateLimit-Remaining-short: 8
+X-RateLimit-Reset-short: 1
+X-RateLimit-Limit-long: 10000
+X-RateLimit-Remaining-long: 9997
+X-RateLimit-Reset-long: 9
+ETag: W/"f7-GTmitASg61rqLA6NwsM4a1qeoF8"
+
+{
+    "message": "Daily rewards created successfully",
+    "data": {
+        "day": 40,
+        "rewardType": "Chest",
+        "rewardShortCode": "T1Chest",
+        "quantity": 4,
+        "_id": "6870d3b1e3e6c2cd45070719",
+        "createdAt": "2025-07-11T09:04:49.649Z",
+        "updatedAt": "2025-07-11T09:04:49.649Z",
+        "__v": 0
+    }
+}
+[INFO ] 2025-07-11 14:05:17.595 [main] BingoAutomation - Daily Reward Created Successfully
+Name of test method sucessfully executed:testadmindailyrewardcreate
+]]></system-out>
+  </testcase>
+  <testcase name="testadmindailyrewardfetch" classname="api.testcases.Admindailyrewardtestcase" time="0.816">
+    <system-out><![CDATA[Name of test method started:testadmindailyrewardfetch
+HTTP/1.1 200 OK
+Server: nginx/1.18.0 (Ubuntu)
+Date: Fri, 11 Jul 2025 09:04:50 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 6639
+Connection: keep-alive
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+X-RateLimit-Limit-short: 10
+X-RateLimit-Remaining-short: 9
+X-RateLimit-Reset-short: 1
+X-RateLimit-Limit-long: 10000
+X-RateLimit-Remaining-long: 9999
+X-RateLimit-Reset-long: 10
+ETag: W/"19ef-WKfdUw1K2AbPAppZc9kIBtSz3x8"
+
+{
+    "message": "daily Rewards Fetched Successfully",
+    "data": [
+        {
+            "_id": "686bbca35f5dd9851fc61fe0",
+            "day": 1,
+            "rewardType": "PowerUp",
+            "rewardShortCode": "X2PointsAll",
+            "quantity": 6,
+            "__v": 0,
+            "createdAt": "2025-05-07T13:01:51.037Z",
+            "updatedAt": "2025-07-11T08:59:51.228Z"
+        },
+        {
+            "_id": "6834761c8d7b62f1c97fe2f1",
+            "day": 2,
+            "rewardType": "Chest",
+            "rewardShortCode": "T1Chest",
+            "quantity": 1,
+            "__v": 0,
+            "createdAt": "2025-05-26T14:09:32.956Z",
+            "updatedAt": "2025-06-24T12:43:32.912Z"
+        },
+        {
+            "_id": "6834761c8d7b62f1c97fe2f2",
+            "day": 3,
+            "rewardType": "PowerUp",
+            "rewardShortCode": "MultipleDaub",
+            "quantity": 1,
+            "__v": 0,
+            "createdAt": "2025-05-26T14:09:32.956Z",
+            "updatedAt": "2025-05-26T14:09:32.956Z"
+        },
+        {
+            "_id": "6834761c8d7b62f1c97fe2f3",
+            "day": 4,
+            "rewardType": "PowerUp",
+            "rewardShortCode": "InstaBingo",
+            "quantity": 1,
+            "__v": 0,
+            "createdAt": "2025-05-26T14:09:32.956Z",
+            "updatedAt": "2025-05-26T14:09:32.956Z"
+        },
+        {
+            "_id": "6834761c8d7b62f1c97fe2f4",
+            "day": 5,
+            "rewardType": "Chest",
+            "rewardShortCode": "T1Chest",
+            "quantity": 1,
+            "__v": 0,
+            "createdAt": "2025-05-26T14:09:32.956Z",
+            "updatedAt": "2025-05-26T14:09:32.956Z"
+        },
+        {
+            "_id": "6834761c8d7b62f1c97fe2f5",
+            "day": 6,
+            "rewardType": "Ticket",
+            "rewardShortCode": "Ticket",
+            "quantity": 2000,
+            "__v": 0,
+            "createdAt": "2025-05-26T14:09:32.956Z",
+            "updatedAt": "2025-05-26T14:09:32.956Z"
+        },
+        {
+            "_id": "6834761c8d7b62f1c97fe2f6",
+            "day": 7,
+            "rewardType": "Ticket",
+            "rewardShortCode": "Ticket",
+            "quantity": 500,
+            "__v": 0,
+            "createdAt": "2025-05-26T14:09:32.956Z",
+            "updatedAt": "2025-07-03T10:45:43.303Z"
+        },
+        {
+            "_id": "6834761c8d7b62f1c97fe2f7",
+            "day": 8,
+            "rewardType": "PowerUp",
+            "rewardShortCode": "X2PointsAll",
+            "quantity": 1,
+            "__v": 0,
+            "createdAt": "2025-05-26T14:09:32.956Z",
+            "updatedAt": "2025-05-26T14:09:32.956Z"
+        },
+        {
+            "_id": "6834761c8d7b62f1c97fe2f8",
+            "day": 9,
+            "rewardType": "PowerUp",
+            "rewardShortCode": "Gems",
+            "quantity": 1,
+            "__v": 0,
+            "createdAt": "2025-05-26T14:09:32.956Z",
+            "updatedAt": "2025-05-26T14:09:32.956Z"
+        },
+        {
+            "_id": "6834761c8d7b62f1c97fe2f9",
+            "day": 10,
+            "rewardType": "Chest",
+            "rewardShortCode": "T2Chest",
+            "quantity": 1,
+            "__v": 0,
+            "createdAt": "2025-05-26T14:09:32.956Z",
+            "updatedAt": "2025-05-26T14:09:32.956Z"
+        },
+        {
+            "_id": "6834761c8d7b62f1c97fe2fa",
+            "day": 11,
+            "rewardType": "Ticket",
+            "rewardShortCode": "Ticket",
+            "quantity": 3000,
+            "__v": 0,
+            "createdAt": "2025-05-26T14:09:32.956Z",
+            "updatedAt": "2025-05-26T14:09:32.956Z"
+        },
+        {
+            "_id": "6834761c8d7b62f1c97fe2fb",
+            "day": 12,
+            "rewardType": "Chest",
+            "rewardShortCode": "T3Chest",
+            "quantity": 1,
+            "__v": 0,
+            "createdAt": "2025-05-26T14:09:32.956Z",
+            "updatedAt": "2025-05-26T14:09:32.956Z"
+        },
+        {
+            "_id": "6834761c8d7b62f1c97fe2fc",
+            "day": 13,
+            "rewardType": "Ticket",
+            "rewardShortCode": "Ticket",
+            "quantity": 1000,
+            "__v": 0,
+            "createdAt": "2025-05-26T14:09:32.957Z",
+            "updatedAt": "2025-05-26T14:09:32.957Z"
+        },
+        {
+            "_id": "6834761c8d7b62f1c97fe2fd",
+            "day": 14,
+            "rewardType": "PowerUp",
+            "rewardShortCode": "SingleDaub",
+            "quantity": 1,
+            "__v": 0,
+            "createdAt": "2025-05-26T14:09:32.957Z",
+            "updatedAt": "2025-05-26T14:09:32.957Z"
+        },
+        {
+            "_id": "6834761c8d7b62f1c97fe2fe",
+            "day": 15,
+            "rewardType": "PowerUp",
+            "rewardShortCode": "MultipleDaub",
+            "quantity": 1,
+            "__v": 0,
+            "createdAt": "2025-05-26T14:09:32.957Z",
+            "updatedAt": "2025-05-26T14:09:32.957Z"
+        },
+        {
+            "_id": "6834761c8d7b62f1c97fe2ff",
+            "day": 16,
+            "rewardType": "PowerUp",
+            "rewardShortCode": "InstaBingo",
+            "quantity": 1,
+            "__v": 0,
+            "createdAt": "2025-05-26T14:09:32.957Z",
+            "updatedAt": "2025-05-26T14:09:32.957Z"
+        },
+        {
+            "_id": "6834761c8d7b62f1c97fe300",
+            "day": 17,
+            "rewardType": "Chest",
+            "rewardShortCode": "T1Chest",
+            "quantity": 1,
+            "__v": 0,
+            "createdAt": "2025-05-26T14:09:32.957Z",
+            "updatedAt": "2025-05-26T14:09:32.957Z"
+        },
+        {
+            "_id": "6834761c8d7b62f1c97fe301",
+            "day": 18,
+            "rewardType": "Ticket",
+            "rewardShortCode": "Ticket",
+            "quantity": 2000,
+            "__v": 0,
+            "createdAt": "2025-05-26T14:09:32.957Z",
+            "updatedAt": "2025-05-26T14:09:32.957Z"
+        },
+        {
+            "_id": "6834761c8d7b62f1c97fe302",
+            "day": 19,
+            "rewardType": "PowerUp",
+            "rewardShortCode": "X2PointsMultiplier",
+            "quantity": 1,
+            "__v": 0,
+            "createdAt": "2025-05-26T14:09:32.957Z",
+            "updatedAt": "2025-05-26T14:09:32.957Z"
+        },
+        {
+            "_id": "6834761c8d7b62f1c97fe303",
+            "day": 20,
+            "rewardType": "PowerUp",
+            "rewardShortCode": "X2PointsAll",
+            "quantity": 1,
+            "__v": 0,
+            "createdAt": "2025-05-26T14:09:32.957Z",
+            "updatedAt": "2025-05-26T14:09:32.957Z"
+        },
+        {
+            "_id": "6834761c8d7b62f1c97fe304",
+            "day": 21,
+            "rewardType": "PowerUp",
+            "rewardShortCode": "Gems",
+            "quantity": 1,
+            "__v": 0,
+            "createdAt": "2025-05-26T14:09:32.957Z",
+            "updatedAt": "2025-05-26T14:09:32.957Z"
+        },
+        {
+            "_id": "6834761c8d7b62f1c97fe305",
+            "day": 22,
+            "rewardType": "Chest",
+            "rewardShortCode": "T2Chest",
+            "quantity": 1,
+            "__v": 0,
+            "createdAt": "2025-05-26T14:09:32.957Z",
+            "updatedAt": "2025-05-26T14:09:32.957Z"
+        },
+        {
+            "_id": "6834761c8d7b62f1c97fe306",
+            "day": 23,
+            "rewardType": "Ticket",
+            "rewardShortCode": "Ticket",
+            "quantity": 3000,
+            "__v": 0,
+            "createdAt": "2025-05-26T14:09:32.957Z",
+            "updatedAt": "2025-05-26T14:09:32.957Z"
+        },
+        {
+            "_id": "6834761c8d7b62f1c97fe307",
+            "day": 24,
+            "rewardType": "Chest",
+            "rewardShortCode": "T3Chest",
+            "quantity": 1,
+            "__v": 0,
+            "createdAt": "2025-05-26T14:09:32.957Z",
+            "updatedAt": "2025-05-26T14:09:32.957Z"
+        },
+        {
+            "_id": "6834761c8d7b62f1c97fe308",
+            "day": 25,
+            "rewardType": "Ticket",
+            "rewardShortCode": "Ticket",
+            "quantity": 2000,
+            "__v": 0,
+            "createdAt": "2025-05-26T14:09:32.957Z",
+            "updatedAt": "2025-05-26T14:09:32.957Z"
+        },
+        {
+            "_id": "6834761c8d7b62f1c97fe309",
+            "day": 26,
+            "rewardType": "PowerUp",
+            "rewardShortCode": "X2PointsMultiplier",
+            "quantity": 1,
+            "__v": 0,
+            "createdAt": "2025-05-26T14:09:32.957Z",
+            "updatedAt": "2025-05-26T14:09:32.957Z"
+        },
+        {
+            "_id": "6834761c8d7b62f1c97fe30a",
+            "day": 27,
+            "rewardType": "PowerUp",
+            "rewardShortCode": "X2PointsAll",
+            "quantity": 1,
+            "__v": 0,
+            "createdAt": "2025-05-26T14:09:32.957Z",
+            "updatedAt": "2025-05-26T14:09:32.957Z"
+        },
+        {
+            "_id": "6834761c8d7b62f1c97fe30b",
+            "day": 28,
+            "rewardType": "PowerUp",
+            "rewardShortCode": "Gems",
+            "quantity": 1,
+            "__v": 0,
+            "createdAt": "2025-05-26T14:09:32.957Z",
+            "updatedAt": "2025-05-26T14:09:32.957Z"
+        },
+        {
+            "_id": "6834761c8d7b62f1c97fe30c",
+            "day": 29,
+            "rewardType": "Chest",
+            "rewardShortCode": "T2Chest",
+            "quantity": 1,
+            "__v": 0,
+            "createdAt": "2025-05-26T14:09:32.957Z",
+            "updatedAt": "2025-05-26T14:09:32.957Z"
+        },
+        {
+            "_id": "6834761c8d7b62f1c97fe30d",
+            "day": 30,
+            "rewardType": "Ticket",
+            "rewardShortCode": "Ticket",
+            "quantity": 3000,
+            "__v": 0,
+            "createdAt": "2025-05-26T14:09:32.957Z",
+            "updatedAt": "2025-05-26T14:09:32.957Z"
+        },
+        {
+            "_id": "6870d3afe3e6c2cd45070713",
+            "day": 38,
+            "rewardType": "PowerUp",
+            "rewardShortCode": "Gems",
+            "quantity": 3,
+            "createdAt": "2025-07-11T09:04:47.880Z",
+            "updatedAt": "2025-07-11T09:04:47.880Z",
+            "__v": 0
+        },
+        {
+            "_id": "6870d3b0e3e6c2cd45070716",
+            "day": 39,
+            "rewardType": "Ticket",
+            "rewardShortCode": "Ticket",
+            "quantity": 500,
+            "createdAt": "2025-07-11T09:04:48.806Z",
+            "updatedAt": "2025-07-11T09:04:48.806Z",
+            "__v": 0
+        },
+        {
+            "_id": "6870d3b1e3e6c2cd45070719",
+            "day": 40,
+            "rewardType": "Chest",
+            "rewardShortCode": "T1Chest",
+            "quantity": 4,
+            "createdAt": "2025-07-11T09:04:49.649Z",
+            "updatedAt": "2025-07-11T09:04:49.649Z",
+            "__v": 0
+        }
+    ],
+    "page": {
+        "totalDocs": 33,
+        "limit": 100,
+        "totalPages": 1,
+        "page": 1,
+        "pagingCounter": 1,
+        "hasPrevPage": false,
+        "hasNextPage": false,
+        "prevPage": 0,
+        "nextPage": 2,
+        "total": 33
+    }
+}
+[INFO ] 2025-07-11 14:05:18.302 [main] BingoAutomation - Daily Reward Get Successfully
+Name of test method sucessfully executed:testadmindailyrewardfetch
+]]></system-out>
+  </testcase>
+  <testcase name="testadmindailyrewardupdate[1.0, PowerUp, X2PointsAll, 6.0](1)" classname="api.testcases.Admindailyrewardtestcase" time="1.517">
+    <system-out><![CDATA[[DEBUG] 2025-07-11 14:05:18.338 [main] PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+[DEBUG] 2025-07-11 14:05:18.341 [main] PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+[DEBUG] 2025-07-11 14:05:18.343 [main] PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+[DEBUG] 2025-07-11 14:05:18.408 [main] POIXMLFactory - using default POIXMLDocumentPart for http://schemas.openxmlformats.org/officeDocument/2006/relationships/printerSettings
+[DEBUG] 2025-07-11 14:05:18.471 [main] PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+[DEBUG] 2025-07-11 14:05:18.474 [main] PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+[DEBUG] 2025-07-11 14:05:18.475 [main] PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+[DEBUG] 2025-07-11 14:05:18.484 [main] POIXMLFactory - using default POIXMLDocumentPart for http://schemas.openxmlformats.org/officeDocument/2006/relationships/printerSettings
+[DEBUG] 2025-07-11 14:05:18.511 [main] PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+[DEBUG] 2025-07-11 14:05:18.512 [main] PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+[DEBUG] 2025-07-11 14:05:18.513 [main] PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+[DEBUG] 2025-07-11 14:05:18.521 [main] POIXMLFactory - using default POIXMLDocumentPart for http://schemas.openxmlformats.org/officeDocument/2006/relationships/printerSettings
+[DEBUG] 2025-07-11 14:05:18.536 [main] PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+[DEBUG] 2025-07-11 14:05:18.537 [main] PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+[DEBUG] 2025-07-11 14:05:18.542 [main] PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+[DEBUG] 2025-07-11 14:05:18.556 [main] POIXMLFactory - using default POIXMLDocumentPart for http://schemas.openxmlformats.org/officeDocument/2006/relationships/printerSettings
+[DEBUG] 2025-07-11 14:05:18.565 [main] PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+[DEBUG] 2025-07-11 14:05:18.566 [main] PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+[DEBUG] 2025-07-11 14:05:18.567 [main] PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+[DEBUG] 2025-07-11 14:05:18.574 [main] POIXMLFactory - using default POIXMLDocumentPart for http://schemas.openxmlformats.org/officeDocument/2006/relationships/printerSettings
+[DEBUG] 2025-07-11 14:05:18.583 [main] PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+[DEBUG] 2025-07-11 14:05:18.584 [main] PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+[DEBUG] 2025-07-11 14:05:18.585 [main] PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+[DEBUG] 2025-07-11 14:05:18.591 [main] POIXMLFactory - using default POIXMLDocumentPart for http://schemas.openxmlformats.org/officeDocument/2006/relationships/printerSettings
+Name of test method started:testadmindailyrewardupdate
+HTTP/1.1 200 OK
+Server: nginx/1.18.0 (Ubuntu)
+Date: Fri, 11 Jul 2025 09:04:52 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 252
+Connection: keep-alive
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+X-RateLimit-Limit-short: 10
+X-RateLimit-Remaining-short: 9
+X-RateLimit-Reset-short: 1
+X-RateLimit-Limit-long: 10000
+X-RateLimit-Remaining-long: 9999
+X-RateLimit-Reset-long: 10
+ETag: W/"fc-LspbsOXUAdGZSYsGhvznnbElXPs"
+
+{
+    "message": "Daily rewards updated successfully",
+    "data": {
+        "_id": "686bbca35f5dd9851fc61fe0",
+        "day": 1,
+        "rewardType": "PowerUp",
+        "rewardShortCode": "X2PointsAll",
+        "quantity": 6,
+        "__v": 0,
+        "createdAt": "2025-05-07T13:01:51.037Z",
+        "updatedAt": "2025-07-11T09:04:52.102Z"
+    }
+}
+[INFO ] 2025-07-11 14:05:20.108 [main] BingoAutomation - Daily Reward Updated Successfully
+Name of test method sucessfully executed:testadmindailyrewardupdate
+]]></system-out>
+  </testcase>
+  <testcase name="testadmindailyrewarddelete" classname="api.testcases.Admindailyrewardtestcase" time="2.813">
+    <system-out><![CDATA[Name of test method started:testadmindailyrewarddelete
+HTTP/1.1 200 OK
+Server: nginx/1.18.0 (Ubuntu)
+Date: Fri, 11 Jul 2025 09:04:52 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 6639
+Connection: keep-alive
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+X-RateLimit-Limit-short: 10
+X-RateLimit-Remaining-short: 9
+X-RateLimit-Reset-short: 1
+X-RateLimit-Limit-long: 10000
+X-RateLimit-Remaining-long: 9997
+X-RateLimit-Reset-long: 8
+ETag: W/"19ef-4p/1of+8MRgXY530JhrN0RdESsE"
+
+{
+    "message": "daily Rewards Fetched Successfully",
+    "data": [
+        {
+            "_id": "686bbca35f5dd9851fc61fe0",
+            "day": 1,
+            "rewardType": "PowerUp",
+            "rewardShortCode": "X2PointsAll",
+            "quantity": 6,
+            "__v": 0,
+            "createdAt": "2025-05-07T13:01:51.037Z",
+            "updatedAt": "2025-07-11T09:04:52.102Z"
+        },
+        {
+            "_id": "6834761c8d7b62f1c97fe2f1",
+            "day": 2,
+            "rewardType": "Chest",
+            "rewardShortCode": "T1Chest",
+            "quantity": 1,
+            "__v": 0,
+            "createdAt": "2025-05-26T14:09:32.956Z",
+            "updatedAt": "2025-06-24T12:43:32.912Z"
+        },
+        {
+            "_id": "6834761c8d7b62f1c97fe2f2",
+            "day": 3,
+            "rewardType": "PowerUp",
+            "rewardShortCode": "MultipleDaub",
+            "quantity": 1,
+            "__v": 0,
+            "createdAt": "2025-05-26T14:09:32.956Z",
+            "updatedAt": "2025-05-26T14:09:32.956Z"
+        },
+        {
+            "_id": "6834761c8d7b62f1c97fe2f3",
+            "day": 4,
+            "rewardType": "PowerUp",
+            "rewardShortCode": "InstaBingo",
+            "quantity": 1,
+            "__v": 0,
+            "createdAt": "2025-05-26T14:09:32.956Z",
+            "updatedAt": "2025-05-26T14:09:32.956Z"
+        },
+        {
+            "_id": "6834761c8d7b62f1c97fe2f4",
+            "day": 5,
+            "rewardType": "Chest",
+            "rewardShortCode": "T1Chest",
+            "quantity": 1,
+            "__v": 0,
+            "createdAt": "2025-05-26T14:09:32.956Z",
+            "updatedAt": "2025-05-26T14:09:32.956Z"
+        },
+        {
+            "_id": "6834761c8d7b62f1c97fe2f5",
+            "day": 6,
+            "rewardType": "Ticket",
+            "rewardShortCode": "Ticket",
+            "quantity": 2000,
+            "__v": 0,
+            "createdAt": "2025-05-26T14:09:32.956Z",
+            "updatedAt": "2025-05-26T14:09:32.956Z"
+        },
+        {
+            "_id": "6834761c8d7b62f1c97fe2f6",
+            "day": 7,
+            "rewardType": "Ticket",
+            "rewardShortCode": "Ticket",
+            "quantity": 500,
+            "__v": 0,
+            "createdAt": "2025-05-26T14:09:32.956Z",
+            "updatedAt": "2025-07-03T10:45:43.303Z"
+        },
+        {
+            "_id": "6834761c8d7b62f1c97fe2f7",
+            "day": 8,
+            "rewardType": "PowerUp",
+            "rewardShortCode": "X2PointsAll",
+            "quantity": 1,
+            "__v": 0,
+            "createdAt": "2025-05-26T14:09:32.956Z",
+            "updatedAt": "2025-05-26T14:09:32.956Z"
+        },
+        {
+            "_id": "6834761c8d7b62f1c97fe2f8",
+            "day": 9,
+            "rewardType": "PowerUp",
+            "rewardShortCode": "Gems",
+            "quantity": 1,
+            "__v": 0,
+            "createdAt": "2025-05-26T14:09:32.956Z",
+            "updatedAt": "2025-05-26T14:09:32.956Z"
+        },
+        {
+            "_id": "6834761c8d7b62f1c97fe2f9",
+            "day": 10,
+            "rewardType": "Chest",
+            "rewardShortCode": "T2Chest",
+            "quantity": 1,
+            "__v": 0,
+            "createdAt": "2025-05-26T14:09:32.956Z",
+            "updatedAt": "2025-05-26T14:09:32.956Z"
+        },
+        {
+            "_id": "6834761c8d7b62f1c97fe2fa",
+            "day": 11,
+            "rewardType": "Ticket",
+            "rewardShortCode": "Ticket",
+            "quantity": 3000,
+            "__v": 0,
+            "createdAt": "2025-05-26T14:09:32.956Z",
+            "updatedAt": "2025-05-26T14:09:32.956Z"
+        },
+        {
+            "_id": "6834761c8d7b62f1c97fe2fb",
+            "day": 12,
+            "rewardType": "Chest",
+            "rewardShortCode": "T3Chest",
+            "quantity": 1,
+            "__v": 0,
+            "createdAt": "2025-05-26T14:09:32.956Z",
+            "updatedAt": "2025-05-26T14:09:32.956Z"
+        },
+        {
+            "_id": "6834761c8d7b62f1c97fe2fc",
+            "day": 13,
+            "rewardType": "Ticket",
+            "rewardShortCode": "Ticket",
+            "quantity": 1000,
+            "__v": 0,
+            "createdAt": "2025-05-26T14:09:32.957Z",
+            "updatedAt": "2025-05-26T14:09:32.957Z"
+        },
+        {
+            "_id": "6834761c8d7b62f1c97fe2fd",
+            "day": 14,
+            "rewardType": "PowerUp",
+            "rewardShortCode": "SingleDaub",
+            "quantity": 1,
+            "__v": 0,
+            "createdAt": "2025-05-26T14:09:32.957Z",
+            "updatedAt": "2025-05-26T14:09:32.957Z"
+        },
+        {
+            "_id": "6834761c8d7b62f1c97fe2fe",
+            "day": 15,
+            "rewardType": "PowerUp",
+            "rewardShortCode": "MultipleDaub",
+            "quantity": 1,
+            "__v": 0,
+            "createdAt": "2025-05-26T14:09:32.957Z",
+            "updatedAt": "2025-05-26T14:09:32.957Z"
+        },
+        {
+            "_id": "6834761c8d7b62f1c97fe2ff",
+            "day": 16,
+            "rewardType": "PowerUp",
+            "rewardShortCode": "InstaBingo",
+            "quantity": 1,
+            "__v": 0,
+            "createdAt": "2025-05-26T14:09:32.957Z",
+            "updatedAt": "2025-05-26T14:09:32.957Z"
+        },
+        {
+            "_id": "6834761c8d7b62f1c97fe300",
+            "day": 17,
+            "rewardType": "Chest",
+            "rewardShortCode": "T1Chest",
+            "quantity": 1,
+            "__v": 0,
+            "createdAt": "2025-05-26T14:09:32.957Z",
+            "updatedAt": "2025-05-26T14:09:32.957Z"
+        },
+        {
+            "_id": "6834761c8d7b62f1c97fe301",
+            "day": 18,
+            "rewardType": "Ticket",
+            "rewardShortCode": "Ticket",
+            "quantity": 2000,
+            "__v": 0,
+            "createdAt": "2025-05-26T14:09:32.957Z",
+            "updatedAt": "2025-05-26T14:09:32.957Z"
+        },
+        {
+            "_id": "6834761c8d7b62f1c97fe302",
+            "day": 19,
+            "rewardType": "PowerUp",
+            "rewardShortCode": "X2PointsMultiplier",
+            "quantity": 1,
+            "__v": 0,
+            "createdAt": "2025-05-26T14:09:32.957Z",
+            "updatedAt": "2025-05-26T14:09:32.957Z"
+        },
+        {
+            "_id": "6834761c8d7b62f1c97fe303",
+            "day": 20,
+            "rewardType": "PowerUp",
+            "rewardShortCode": "X2PointsAll",
+            "quantity": 1,
+            "__v": 0,
+            "createdAt": "2025-05-26T14:09:32.957Z",
+            "updatedAt": "2025-05-26T14:09:32.957Z"
+        },
+        {
+            "_id": "6834761c8d7b62f1c97fe304",
+            "day": 21,
+            "rewardType": "PowerUp",
+            "rewardShortCode": "Gems",
+            "quantity": 1,
+            "__v": 0,
+            "createdAt": "2025-05-26T14:09:32.957Z",
+            "updatedAt": "2025-05-26T14:09:32.957Z"
+        },
+        {
+            "_id": "6834761c8d7b62f1c97fe305",
+            "day": 22,
+            "rewardType": "Chest",
+            "rewardShortCode": "T2Chest",
+            "quantity": 1,
+            "__v": 0,
+            "createdAt": "2025-05-26T14:09:32.957Z",
+            "updatedAt": "2025-05-26T14:09:32.957Z"
+        },
+        {
+            "_id": "6834761c8d7b62f1c97fe306",
+            "day": 23,
+            "rewardType": "Ticket",
+            "rewardShortCode": "Ticket",
+            "quantity": 3000,
+            "__v": 0,
+            "createdAt": "2025-05-26T14:09:32.957Z",
+            "updatedAt": "2025-05-26T14:09:32.957Z"
+        },
+        {
+            "_id": "6834761c8d7b62f1c97fe307",
+            "day": 24,
+            "rewardType": "Chest",
+            "rewardShortCode": "T3Chest",
+            "quantity": 1,
+            "__v": 0,
+            "createdAt": "2025-05-26T14:09:32.957Z",
+            "updatedAt": "2025-05-26T14:09:32.957Z"
+        },
+        {
+            "_id": "6834761c8d7b62f1c97fe308",
+            "day": 25,
+            "rewardType": "Ticket",
+            "rewardShortCode": "Ticket",
+            "quantity": 2000,
+            "__v": 0,
+            "createdAt": "2025-05-26T14:09:32.957Z",
+            "updatedAt": "2025-05-26T14:09:32.957Z"
+        },
+        {
+            "_id": "6834761c8d7b62f1c97fe309",
+            "day": 26,
+            "rewardType": "PowerUp",
+            "rewardShortCode": "X2PointsMultiplier",
+            "quantity": 1,
+            "__v": 0,
+            "createdAt": "2025-05-26T14:09:32.957Z",
+            "updatedAt": "2025-05-26T14:09:32.957Z"
+        },
+        {
+            "_id": "6834761c8d7b62f1c97fe30a",
+            "day": 27,
+            "rewardType": "PowerUp",
+            "rewardShortCode": "X2PointsAll",
+            "quantity": 1,
+            "__v": 0,
+            "createdAt": "2025-05-26T14:09:32.957Z",
+            "updatedAt": "2025-05-26T14:09:32.957Z"
+        },
+        {
+            "_id": "6834761c8d7b62f1c97fe30b",
+            "day": 28,
+            "rewardType": "PowerUp",
+            "rewardShortCode": "Gems",
+            "quantity": 1,
+            "__v": 0,
+            "createdAt": "2025-05-26T14:09:32.957Z",
+            "updatedAt": "2025-05-26T14:09:32.957Z"
+        },
+        {
+            "_id": "6834761c8d7b62f1c97fe30c",
+            "day": 29,
+            "rewardType": "Chest",
+            "rewardShortCode": "T2Chest",
+            "quantity": 1,
+            "__v": 0,
+            "createdAt": "2025-05-26T14:09:32.957Z",
+            "updatedAt": "2025-05-26T14:09:32.957Z"
+        },
+        {
+            "_id": "6834761c8d7b62f1c97fe30d",
+            "day": 30,
+            "rewardType": "Ticket",
+            "rewardShortCode": "Ticket",
+            "quantity": 3000,
+            "__v": 0,
+            "createdAt": "2025-05-26T14:09:32.957Z",
+            "updatedAt": "2025-05-26T14:09:32.957Z"
+        },
+        {
+            "_id": "6870d3afe3e6c2cd45070713",
+            "day": 38,
+            "rewardType": "PowerUp",
+            "rewardShortCode": "Gems",
+            "quantity": 3,
+            "createdAt": "2025-07-11T09:04:47.880Z",
+            "updatedAt": "2025-07-11T09:04:47.880Z",
+            "__v": 0
+        },
+        {
+            "_id": "6870d3b0e3e6c2cd45070716",
+            "day": 39,
+            "rewardType": "Ticket",
+            "rewardShortCode": "Ticket",
+            "quantity": 500,
+            "createdAt": "2025-07-11T09:04:48.806Z",
+            "updatedAt": "2025-07-11T09:04:48.806Z",
+            "__v": 0
+        },
+        {
+            "_id": "6870d3b1e3e6c2cd45070719",
+            "day": 40,
+            "rewardType": "Chest",
+            "rewardShortCode": "T1Chest",
+            "quantity": 4,
+            "createdAt": "2025-07-11T09:04:49.649Z",
+            "updatedAt": "2025-07-11T09:04:49.649Z",
+            "__v": 0
+        }
+    ],
+    "page": {
+        "totalDocs": 33,
+        "limit": 100,
+        "totalPages": 1,
+        "page": 1,
+        "pagingCounter": 1,
+        "hasPrevPage": false,
+        "hasNextPage": false,
+        "prevPage": 0,
+        "nextPage": 2,
+        "total": 33
+    }
+}
+HTTP/1.1 200 OK
+Server: nginx/1.18.0 (Ubuntu)
+Date: Fri, 11 Jul 2025 09:04:53 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 246
+Connection: keep-alive
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+X-RateLimit-Limit-short: 10
+X-RateLimit-Remaining-short: 9
+X-RateLimit-Reset-short: 1
+X-RateLimit-Limit-long: 10000
+X-RateLimit-Remaining-long: 9999
+X-RateLimit-Reset-long: 10
+ETag: W/"f6-c3y2siU5903iyDhQU2rt9thpKUk"
+
+{
+    "message": "Daily rewards deleted successfully",
+    "data": {
+        "_id": "6870d3afe3e6c2cd45070713",
+        "day": 38,
+        "rewardType": "PowerUp",
+        "rewardShortCode": "Gems",
+        "quantity": 3,
+        "createdAt": "2025-07-11T09:04:47.880Z",
+        "updatedAt": "2025-07-11T09:04:47.880Z",
+        "__v": 0
+    }
+}
+HTTP/1.1 200 OK
+Server: nginx/1.18.0 (Ubuntu)
+Date: Fri, 11 Jul 2025 09:04:54 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 249
+Connection: keep-alive
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+X-RateLimit-Limit-short: 10
+X-RateLimit-Remaining-short: 8
+X-RateLimit-Reset-short: 1
+X-RateLimit-Limit-long: 10000
+X-RateLimit-Remaining-long: 9998
+X-RateLimit-Reset-long: 10
+ETag: W/"f9-n6GGfpSujfV5XwoQOdOch66qN5M"
+
+{
+    "message": "Daily rewards deleted successfully",
+    "data": {
+        "_id": "6870d3b0e3e6c2cd45070716",
+        "day": 39,
+        "rewardType": "Ticket",
+        "rewardShortCode": "Ticket",
+        "quantity": 500,
+        "createdAt": "2025-07-11T09:04:48.806Z",
+        "updatedAt": "2025-07-11T09:04:48.806Z",
+        "__v": 0
+    }
+}
+HTTP/1.1 200 OK
+Server: nginx/1.18.0 (Ubuntu)
+Date: Fri, 11 Jul 2025 09:04:54 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 247
+Connection: keep-alive
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+X-RateLimit-Limit-short: 10
+X-RateLimit-Remaining-short: 8
+X-RateLimit-Reset-short: 1
+X-RateLimit-Limit-long: 10000
+X-RateLimit-Remaining-long: 9997
+X-RateLimit-Reset-long: 9
+ETag: W/"f7-Od8E+OOiTmZ/VcXGv01T4UT81ms"
+
+{
+    "message": "Daily rewards deleted successfully",
+    "data": {
+        "_id": "6870d3b1e3e6c2cd45070719",
+        "day": 40,
+        "rewardType": "Chest",
+        "rewardShortCode": "T1Chest",
+        "quantity": 4,
+        "createdAt": "2025-07-11T09:04:49.649Z",
+        "updatedAt": "2025-07-11T09:04:49.649Z",
+        "__v": 0
+    }
+}
+[INFO ] 2025-07-11 14:05:22.892 [main] BingoAutomation - Daily Reward Deleted Successfully
+Name of test method sucessfully executed:testadmindailyrewarddelete
+]]></system-out>
+  </testcase>
+  <testcase name="testadminleaderboard" classname="api.testcases.Adminleaderboardtestcase" time="1.548">
+    <system-out><![CDATA[Name of test method started:testadminleaderboard
+HTTP/1.1 201 Created
+Server: nginx/1.18.0 (Ubuntu)
+Date: Fri, 11 Jul 2025 09:05:02 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 680
+Connection: keep-alive
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+X-RateLimit-Limit-short: 1
+X-RateLimit-Remaining-short: 0
+X-RateLimit-Reset-short: 3
+X-RateLimit-Limit-long: 5
+X-RateLimit-Remaining-long: 1
+X-RateLimit-Reset-long: 20
+ETag: W/"2a8-nqokxUAjqHEsjdAm3aP38gyWP1k"
+
+{
+    "message": "Login Successfully",
+    "data": {
+        "_id": "6834761c8d7b62f1c97fe2c1",
+        "userName": "Admin",
+        "email": "admin@hpl.com",
+        "accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2ODM0NzYxYzhkN2I2MmYxYzk3ZmUyYzEiLCJzZXNzaW9uSWQiOiI2ODcwZDNiZWUzZTZjMmNkNDUwNzA3MjciLCJ1c2VyVHlwZSI6IkFkbWluIiwiaWF0IjoxNzUyMjI0NzAyLCJleHAiOjE3NTIzMTExMDJ9.Z7WIR2aAMvW3QGqSSWdh7NL32lWjSFFelIWV2x491ZM",
+        "refreshToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzZXNzaW9uSWQiOiI2ODcwZDNiZWUzZTZjMmNkNDUwNzA3MjciLCJoYXNoIjoiY2I3YzMxMTA2MGUwZGZiZmY0ZWRiNzIyYTdkNDI5NmM5YWZhNWM5ZDY4NTUzMTM0NmJjYmEzZmViYWY1MzFhMyIsImlhdCI6MTc1MjIyNDcwMiwiZXhwIjoxNzU0ODE2NzAyfQ.XkYU2DNwJA-RjeXUn_QvVSdu0T6OXrIp_tKaJfnqSjA"
+    }
+}
+[INFO ] 2025-07-11 14:05:30.663 [main] BingoAutomation - User Sign In Successfully
+HTTP/1.1 200 OK
+Server: nginx/1.18.0 (Ubuntu)
+Date: Fri, 11 Jul 2025 09:05:03 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 1868
+Connection: keep-alive
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+X-RateLimit-Limit-short: 10
+X-RateLimit-Remaining-short: 9
+X-RateLimit-Reset-short: 1
+X-RateLimit-Limit-long: 10000
+X-RateLimit-Remaining-long: 9999
+X-RateLimit-Reset-long: 10
+ETag: W/"74c-bOAIjvBM9UedSEaH0sSmCqhlqSs"
+
+{
+    "message": "leaderboard items fetched successfully",
+    "data": [
+        {
+            "_id": "68359e2e1e01dc4e2965ba6a",
+            "userName": "A4",
+            "gameStats": {
+                "roundPlayed": 82,
+                "tournamentsPlayed": 122,
+                "bingos": 33,
+                "bestRanking": 0,
+                "totalScore": 1386400
+            },
+            "rank": 1
+        },
+        {
+            "_id": "68496c6805e16b4df4609f57",
+            "userName": "A401",
+            "gameStats": {
+                "roundPlayed": 25,
+                "tournamentsPlayed": 33,
+                "bingos": 25,
+                "bestRanking": 0,
+                "totalScore": 468300
+            },
+            "rank": 2
+        },
+        {
+            "_id": "685bb619edbafc3d6c97ec17",
+            "userName": "A4002",
+            "gameStats": {
+                "roundPlayed": 25,
+                "tournamentsPlayed": 33,
+                "bingos": 25,
+                "bestRanking": 0,
+                "totalScore": 468300
+            },
+            "rank": 2
+        },
+        {
+            "_id": "68359e131e01dc4e2965ba68",
+            "userName": "A2",
+            "gameStats": {
+                "roundPlayed": 31,
+                "tournamentsPlayed": 46,
+                "bingos": 25,
+                "bestRanking": 0,
+                "totalScore": 418000
+            },
+            "rank": 3
+        },
+        {
+            "_id": "686b958156692c7a45857f82",
+            "gameStats": {
+                "roundPlayed": 26,
+                "tournamentsPlayed": 28,
+                "bingos": 2,
+                "bestRanking": 0,
+                "totalScore": 261250
+            },
+            "userName": "tanveer3333",
+            "rank": 4
+        },
+        {
+            "_id": "68359d791e01dc4e2965ba67",
+            "userName": "A1",
+            "gameStats": {
+                "roundPlayed": 10,
+                "tournamentsPlayed": 29,
+                "bingos": 8,
+                "bestRanking": 0,
+                "totalScore": 111800
+            },
+            "rank": 5
+        },
+        {
+            "_id": "6835662827dea4dea95d913f",
+            "gameStats": {
+                "roundPlayed": 1,
+                "tournamentsPlayed": 3,
+                "bingos": 0,
+                "bestRanking": 0,
+                "totalScore": 72500
+            },
+            "userName": "DONE",
+            "rank": 6
+        },
+        {
+            "_id": "685bba805a2324ec120ead8d",
+            "gameStats": {
+                "roundPlayed": 9,
+                "tournamentsPlayed": 19,
+                "bingos": 2,
+                "bestRanking": 0,
+                "totalScore": 44260.000061035156
+            },
+            "userName": "tanveer331",
+            "rank": 7
+        },
+        {
+            "_id": "685aa201f6aa6e7f2ddf40cd",
+            "gameStats": {
+                "roundPlayed": 3,
+                "tournamentsPlayed": 6,
+                "bingos": 0,
+                "bestRanking": 0,
+                "totalScore": 5380
+            },
+            "userName": "tanveer33",
+            "rank": 8
+        },
+        {
+            "_id": "685959a3f6aa6e7f2ddf40bf",
+            "gameStats": {
+                "roundPlayed": 2,
+                "tournamentsPlayed": 4,
+                "bingos": 0,
+                "bestRanking": 0,
+                "totalScore": 2900
+            },
+            "userName": "tanveer12",
+            "rank": 9
+        }
+    ],
+    "page": {
+        "totalDocs": 11,
+        "limit": 10,
+        "totalPages": 2,
+        "page": 1,
+        "pagingCounter": 1,
+        "hasPrevPage": false,
+        "hasNextPage": true,
+        "prevPage": 0,
+        "nextPage": 2,
+        "total": 11
+    }
+}
+[INFO ] 2025-07-11 14:05:31.412 [main] BingoAutomation - Leaderboard Get Successfully
+Name of test method sucessfully executed:testadminleaderboard
+]]></system-out>
+  </testcase>
+  <testcase name="testadminspinrewardcreate[13.0, Ticket, Ticket, 500.0](1)" classname="api.testcases.Adminspinrewardtestcase" time="0.82">
+    <system-out><![CDATA[HTTP/1.1 201 Created
+Server: nginx/1.18.0 (Ubuntu)
+Date: Fri, 11 Jul 2025 09:05:11 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 680
+Connection: keep-alive
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+X-RateLimit-Limit-short: 1
+X-RateLimit-Remaining-short: 0
+X-RateLimit-Reset-short: 3
+X-RateLimit-Limit-long: 5
+X-RateLimit-Remaining-long: 0
+X-RateLimit-Reset-long: 12
+ETag: W/"2a8-McFO8lhJ3AK7Erk5eiEZQU57eUU"
+
+{
+    "message": "Login Successfully",
+    "data": {
+        "_id": "6834761c8d7b62f1c97fe2c1",
+        "userName": "Admin",
+        "email": "admin@hpl.com",
+        "accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2ODM0NzYxYzhkN2I2MmYxYzk3ZmUyYzEiLCJzZXNzaW9uSWQiOiI2ODcwZDNjN2UzZTZjMmNkNDUwNzA3MmQiLCJ1c2VyVHlwZSI6IkFkbWluIiwiaWF0IjoxNzUyMjI0NzExLCJleHAiOjE3NTIzMTExMTF9.CZvDBOPcXtHUENOldeoDVm6O1rL2lvfZ_OuJDesPges",
+        "refreshToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzZXNzaW9uSWQiOiI2ODcwZDNjN2UzZTZjMmNkNDUwNzA3MmQiLCJoYXNoIjoiNzBkMzgzNGJiYTIxOTQ0ZTg2OGQyMWUyMDYwZTljMjQzZmE2YTE4ODRkNDdlYjdmMDM1ODZmYTM3MTJkYTE5NyIsImlhdCI6MTc1MjIyNDcxMSwiZXhwIjoxNzU0ODE2NzExfQ.xiTW-SlLnmR0fWBdrFAR9gPg14x83rZ8C8Is-slSloY"
+    }
+}
+[INFO ] 2025-07-11 14:05:39.158 [main] BingoAutomation - User Sign In Successfully
+[DEBUG] 2025-07-11 14:05:39.209 [main] PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+[DEBUG] 2025-07-11 14:05:39.212 [main] PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+[DEBUG] 2025-07-11 14:05:39.265 [main] PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+[DEBUG] 2025-07-11 14:05:39.267 [main] PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+[DEBUG] 2025-07-11 14:05:39.342 [main] PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+[DEBUG] 2025-07-11 14:05:39.344 [main] PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+[DEBUG] 2025-07-11 14:05:39.375 [main] PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+[DEBUG] 2025-07-11 14:05:39.375 [main] PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+[DEBUG] 2025-07-11 14:05:39.399 [main] PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+[DEBUG] 2025-07-11 14:05:39.400 [main] PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+[DEBUG] 2025-07-11 14:05:39.420 [main] PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+[DEBUG] 2025-07-11 14:05:39.421 [main] PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+[DEBUG] 2025-07-11 14:05:39.437 [main] PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+[DEBUG] 2025-07-11 14:05:39.438 [main] PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+[DEBUG] 2025-07-11 14:05:39.456 [main] PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+[DEBUG] 2025-07-11 14:05:39.457 [main] PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+[DEBUG] 2025-07-11 14:05:39.473 [main] PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+[DEBUG] 2025-07-11 14:05:39.474 [main] PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+[DEBUG] 2025-07-11 14:05:39.502 [main] PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+[DEBUG] 2025-07-11 14:05:39.503 [main] PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+[DEBUG] 2025-07-11 14:05:39.515 [main] PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+[DEBUG] 2025-07-11 14:05:39.516 [main] PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+[DEBUG] 2025-07-11 14:05:39.534 [main] PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+[DEBUG] 2025-07-11 14:05:39.536 [main] PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+[DEBUG] 2025-07-11 14:05:39.553 [main] PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+[DEBUG] 2025-07-11 14:05:39.554 [main] PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+[DEBUG] 2025-07-11 14:05:39.568 [main] PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+[DEBUG] 2025-07-11 14:05:39.569 [main] PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+Name of test method started:testadminspinrewardcreate
+HTTP/1.1 201 Created
+Server: nginx/1.18.0 (Ubuntu)
+Date: Fri, 11 Jul 2025 09:05:12 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 257
+Connection: keep-alive
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+X-RateLimit-Limit-short: 10
+X-RateLimit-Remaining-short: 9
+X-RateLimit-Reset-short: 1
+X-RateLimit-Limit-long: 10000
+X-RateLimit-Remaining-long: 9999
+X-RateLimit-Reset-long: 10
+ETag: W/"101-xH40qIg966H9s1Kr0mmyCyuNFtY"
+
+{
+    "message": "SpinRewards Created Successfully",
+    "data": {
+        "sectionNumber": 13,
+        "rewardType": "Ticket",
+        "rewardShortCode": "Ticket",
+        "quantity": 500,
+        "_id": "6870d3c8e3e6c2cd45070730",
+        "createdAt": "2025-07-11T09:05:12.375Z",
+        "updatedAt": "2025-07-11T09:05:12.375Z",
+        "__v": 0
+    }
+}
+[INFO ] 2025-07-11 14:05:40.392 [main] BingoAutomation - Spin Reward Created Successfully
+Name of test method sucessfully executed:testadminspinrewardcreate
+]]></system-out>
+  </testcase>
+  <testcase name="testadminspinrewardcreate[14.0, Ticket, Ticket, 60.0](2)" classname="api.testcases.Adminspinrewardtestcase" time="0.704">
+    <system-out><![CDATA[Name of test method started:testadminspinrewardcreate
+HTTP/1.1 201 Created
+Server: nginx/1.18.0 (Ubuntu)
+Date: Fri, 11 Jul 2025 09:05:13 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 256
+Connection: keep-alive
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+X-RateLimit-Limit-short: 10
+X-RateLimit-Remaining-short: 8
+X-RateLimit-Reset-short: 1
+X-RateLimit-Limit-long: 10000
+X-RateLimit-Remaining-long: 9998
+X-RateLimit-Reset-long: 10
+ETag: W/"100-UGXJmC6v7fVrlzzEIXX/yAfZ+Mg"
+
+{
+    "message": "SpinRewards Created Successfully",
+    "data": {
+        "sectionNumber": 14,
+        "rewardType": "Ticket",
+        "rewardShortCode": "Ticket",
+        "quantity": 60,
+        "_id": "6870d3c9e3e6c2cd45070733",
+        "createdAt": "2025-07-11T09:05:13.144Z",
+        "updatedAt": "2025-07-11T09:05:13.144Z",
+        "__v": 0
+    }
+}
+[INFO ] 2025-07-11 14:05:41.108 [main] BingoAutomation - Spin Reward Created Successfully
+Name of test method sucessfully executed:testadminspinrewardcreate
+]]></system-out>
+  </testcase>
+  <testcase name="testadminspinrewardcreate[15.0, PowerUp, SingleDaub, 5.0](3)" classname="api.testcases.Adminspinrewardtestcase" time="0.809">
+    <system-out><![CDATA[Name of test method started:testadminspinrewardcreate
+HTTP/1.1 201 Created
+Server: nginx/1.18.0 (Ubuntu)
+Date: Fri, 11 Jul 2025 09:05:13 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 260
+Connection: keep-alive
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+X-RateLimit-Limit-short: 10
+X-RateLimit-Remaining-short: 8
+X-RateLimit-Reset-short: 1
+X-RateLimit-Limit-long: 10000
+X-RateLimit-Remaining-long: 9997
+X-RateLimit-Reset-long: 9
+ETag: W/"104-knhnu3W1e+03XYs0fu4E8bbmSVo"
+
+{
+    "message": "SpinRewards Created Successfully",
+    "data": {
+        "sectionNumber": 15,
+        "rewardType": "PowerUp",
+        "rewardShortCode": "SingleDaub",
+        "quantity": 5,
+        "_id": "6870d3c9e3e6c2cd45070736",
+        "createdAt": "2025-07-11T09:05:13.924Z",
+        "updatedAt": "2025-07-11T09:05:13.924Z",
+        "__v": 0
+    }
+}
+[INFO ] 2025-07-11 14:05:41.915 [main] BingoAutomation - Spin Reward Created Successfully
+Name of test method sucessfully executed:testadminspinrewardcreate
+]]></system-out>
+  </testcase>
+  <testcase name="testadminspinrewardfetch" classname="api.testcases.Adminspinrewardtestcase" time="0.771">
+    <system-out><![CDATA[Name of test method started:testadminspinrewardfetch
+HTTP/1.1 200 OK
+Server: nginx/1.18.0 (Ubuntu)
+Date: Fri, 11 Jul 2025 09:05:14 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 3071
+Connection: keep-alive
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+X-RateLimit-Limit-short: 10
+X-RateLimit-Remaining-short: 9
+X-RateLimit-Reset-short: 1
+X-RateLimit-Limit-long: 10000
+X-RateLimit-Remaining-long: 9999
+X-RateLimit-Reset-long: 10
+ETag: W/"bff-8qevkOUzzibKWj2pvuBpMMjVHFo"
+
+{
+    "message": "Spin Rewards Fetched Successfully",
+    "data": [
+        {
+            "_id": "6834761c8d7b62f1c97fe310",
+            "sectionNumber": 1,
+            "rewardType": "Chest",
+            "rewardShortCode": "T1Chest",
+            "quantity": 1000,
+            "__v": 0,
+            "createdAt": "2025-05-26T14:09:32.981Z",
+            "updatedAt": "2025-06-24T12:45:09.698Z"
+        },
+        {
+            "_id": "6834761c8d7b62f1c97fe311",
+            "sectionNumber": 2,
+            "rewardType": "PowerUp",
+            "rewardShortCode": "SingleDaub",
+            "quantity": 1,
+            "__v": 0,
+            "createdAt": "2025-05-26T14:09:32.981Z",
+            "updatedAt": "2025-06-24T12:46:29.293Z"
+        },
+        {
+            "_id": "6834761c8d7b62f1c97fe312",
+            "sectionNumber": 3,
+            "rewardType": "PowerUp",
+            "rewardShortCode": "MultipleDaub",
+            "quantity": 1,
+            "__v": 0,
+            "createdAt": "2025-05-26T14:09:32.981Z",
+            "updatedAt": "2025-05-26T14:09:32.981Z"
+        },
+        {
+            "_id": "6834761c8d7b62f1c97fe313",
+            "sectionNumber": 4,
+            "rewardType": "PowerUp",
+            "rewardShortCode": "InstaBingo",
+            "quantity": 1,
+            "__v": 0,
+            "createdAt": "2025-05-26T14:09:32.981Z",
+            "updatedAt": "2025-05-26T14:09:32.981Z"
+        },
+        {
+            "_id": "6834761c8d7b62f1c97fe314",
+            "sectionNumber": 5,
+            "rewardType": "Chest",
+            "rewardShortCode": "T1Chest",
+            "quantity": 1,
+            "__v": 0,
+            "createdAt": "2025-05-26T14:09:32.981Z",
+            "updatedAt": "2025-05-26T14:09:32.981Z"
+        },
+        {
+            "_id": "6834761c8d7b62f1c97fe315",
+            "sectionNumber": 6,
+            "rewardType": "Ticket",
+            "rewardShortCode": "Ticket",
+            "quantity": 2000,
+            "__v": 0,
+            "createdAt": "2025-05-26T14:09:32.981Z",
+            "updatedAt": "2025-05-26T14:09:32.981Z"
+        },
+        {
+            "_id": "686b967a981e19fd53548111",
+            "sectionNumber": 7,
+            "rewardType": "Ticket",
+            "rewardShortCode": "Ticket",
+            "quantity": 1500,
+            "createdAt": "2025-07-07T09:42:18.028Z",
+            "updatedAt": "2025-07-07T09:42:18.028Z",
+            "__v": 0
+        },
+        {
+            "_id": "686b9680981e19fd53548119",
+            "sectionNumber": 8,
+            "rewardType": "Ticket",
+            "rewardShortCode": "Ticket",
+            "quantity": 1700,
+            "createdAt": "2025-07-07T09:42:24.909Z",
+            "updatedAt": "2025-07-07T09:42:24.909Z",
+            "__v": 0
+        },
+        {
+            "_id": "6834761c8d7b62f1c97fe319",
+            "sectionNumber": 10,
+            "rewardType": "Chest",
+            "rewardShortCode": "T2Chest",
+            "quantity": 1,
+            "__v": 0,
+            "createdAt": "2025-05-26T14:09:32.981Z",
+            "updatedAt": "2025-05-26T14:09:32.981Z"
+        },
+        {
+            "_id": "6834761c8d7b62f1c97fe31a",
+            "sectionNumber": 11,
+            "rewardType": "Ticket",
+            "rewardShortCode": "Ticket",
+            "quantity": 3000,
+            "__v": 0,
+            "createdAt": "2025-05-26T14:09:32.982Z",
+            "updatedAt": "2025-05-26T14:09:32.982Z"
+        },
+        {
+            "_id": "6834761c8d7b62f1c97fe31b",
+            "sectionNumber": 12,
+            "rewardType": "Chest",
+            "rewardShortCode": "T3Chest",
+            "quantity": 1,
+            "__v": 0,
+            "createdAt": "2025-05-26T14:09:32.982Z",
+            "updatedAt": "2025-05-26T14:09:32.982Z"
+        },
+        {
+            "_id": "6870d3c8e3e6c2cd45070730",
+            "sectionNumber": 13,
+            "rewardType": "Ticket",
+            "rewardShortCode": "Ticket",
+            "quantity": 500,
+            "createdAt": "2025-07-11T09:05:12.375Z",
+            "updatedAt": "2025-07-11T09:05:12.375Z",
+            "__v": 0
+        },
+        {
+            "_id": "6870d3c9e3e6c2cd45070733",
+            "sectionNumber": 14,
+            "rewardType": "Ticket",
+            "rewardShortCode": "Ticket",
+            "quantity": 60,
+            "createdAt": "2025-07-11T09:05:13.144Z",
+            "updatedAt": "2025-07-11T09:05:13.144Z",
+            "__v": 0
+        },
+        {
+            "_id": "6870d3c9e3e6c2cd45070736",
+            "sectionNumber": 15,
+            "rewardType": "PowerUp",
+            "rewardShortCode": "SingleDaub",
+            "quantity": 5,
+            "createdAt": "2025-07-11T09:05:13.924Z",
+            "updatedAt": "2025-07-11T09:05:13.924Z",
+            "__v": 0
+        }
+    ],
+    "page": {
+        "totalDocs": 14,
+        "limit": 100,
+        "totalPages": 1,
+        "page": 1,
+        "pagingCounter": 1,
+        "hasPrevPage": false,
+        "hasNextPage": false,
+        "prevPage": 0,
+        "nextPage": 2,
+        "total": 14
+    }
+}
+[INFO ] 2025-07-11 14:05:42.680 [main] BingoAutomation - Spin Reward Get Successfully
+Name of test method sucessfully executed:testadminspinrewardfetch
+]]></system-out>
+  </testcase>
+  <testcase name="testadminspinrewardupdate[15.0, Ticket, Ticket, 100.0](1)" classname="api.testcases.Adminspinrewardtestcase" time="1.525">
+    <system-out><![CDATA[[DEBUG] 2025-07-11 14:05:42.699 [main] PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+[DEBUG] 2025-07-11 14:05:42.702 [main] PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+[DEBUG] 2025-07-11 14:05:42.759 [main] PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+[DEBUG] 2025-07-11 14:05:42.761 [main] PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+[DEBUG] 2025-07-11 14:05:42.813 [main] PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+[DEBUG] 2025-07-11 14:05:42.815 [main] PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+[DEBUG] 2025-07-11 14:05:42.856 [main] PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+[DEBUG] 2025-07-11 14:05:42.858 [main] PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+[DEBUG] 2025-07-11 14:05:42.934 [main] PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+[DEBUG] 2025-07-11 14:05:42.938 [main] PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+[DEBUG] 2025-07-11 14:05:42.957 [main] PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+[DEBUG] 2025-07-11 14:05:42.958 [main] PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+Name of test method started:testadminspinrewardupdate
+HTTP/1.1 200 OK
+Server: nginx/1.18.0 (Ubuntu)
+Date: Fri, 11 Jul 2025 09:05:16 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 257
+Connection: keep-alive
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+X-RateLimit-Limit-short: 10
+X-RateLimit-Remaining-short: 9
+X-RateLimit-Reset-short: 1
+X-RateLimit-Limit-long: 10000
+X-RateLimit-Remaining-long: 9999
+X-RateLimit-Reset-long: 10
+ETag: W/"101-R8Lk2EGEI/JNfP9LM45OPQ7gfTg"
+
+{
+    "message": "SpinRewards Updated Successfully",
+    "data": {
+        "_id": "6870d3c9e3e6c2cd45070736",
+        "sectionNumber": 15,
+        "rewardType": "Ticket",
+        "rewardShortCode": "Ticket",
+        "quantity": 100,
+        "createdAt": "2025-07-11T09:05:13.924Z",
+        "updatedAt": "2025-07-11T09:05:16.450Z",
+        "__v": 0
+    }
+}
+[INFO ] 2025-07-11 14:05:44.470 [main] BingoAutomation - Spin Reward Updated Successfully
+Name of test method sucessfully executed:testadminspinrewardupdate
+]]></system-out>
+  </testcase>
+  <testcase name="testadminspinrewarddelete" classname="api.testcases.Adminspinrewardtestcase" time="21.055">
+    <failure message="Connection timed out: connect" type="java.net.ConnectException"><![CDATA[java.net.ConnectException: Connection timed out: connect
+	at java.base/sun.nio.ch.Net.connect0(Native Method)
+	at java.base/sun.nio.ch.Net.connect(Net.java:579)
+	at java.base/sun.nio.ch.Net.connect(Net.java:568)
+	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:593)
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327)
+	at java.base/java.net.Socket.connect(Socket.java:633)
+	at org.apache.http.conn.ssl.SSLSocketFactory.connectSocket(SSLSocketFactory.java:543)
+	at org.apache.http.conn.ssl.SSLSocketFactory.connectSocket(SSLSocketFactory.java:415)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:180)
+	at org.apache.http.impl.conn.ManagedClientConnectionImpl.open(ManagedClientConnectionImpl.java:326)
+	at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:605)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:440)
+	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:835)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
+	at io.restassured.internal.RestAssuredHttpBuilder.doRequest(RestAssuredHttpBuilder.java:141)
+	at io.restassured.internal.http.HTTPBuilder.doRequest(HTTPBuilder.java:496)
+	at io.restassured.internal.http.HTTPBuilder.request(HTTPBuilder.java:453)
+	at io.restassured.internal.http.HTTPBuilder$request$3.call(Unknown Source)
+	at io.restassured.internal.RequestSpecificationImpl.sendHttpRequest(RequestSpecificationImpl.groovy:1480)
+	at io.restassured.internal.RequestSpecificationImpl.this$2$sendHttpRequest(RequestSpecificationImpl.groovy)
+	at jdk.internal.reflect.GeneratedMethodAccessor121.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:343)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:328)
+	at groovy.lang.MetaClassImpl.doInvokeMethod(MetaClassImpl.java:1333)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1088)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1007)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:790)
+	at io.restassured.internal.RequestSpecificationImpl.invokeMethod(RequestSpecificationImpl.groovy)
+	at org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.call(PogoInterceptableSite.java:46)
+	at org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.callCurrent(PogoInterceptableSite.java:57)
+	at io.restassured.internal.RequestSpecificationImpl.sendRequest(RequestSpecificationImpl.groovy:1229)
+	at io.restassured.internal.RequestSpecificationImpl.this$2$sendRequest(RequestSpecificationImpl.groovy)
+	at jdk.internal.reflect.GeneratedMethodAccessor80.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:343)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:328)
+	at groovy.lang.MetaClassImpl.doInvokeMethod(MetaClassImpl.java:1333)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1088)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1007)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:790)
+	at io.restassured.internal.RequestSpecificationImpl.invokeMethod(RequestSpecificationImpl.groovy)
+	at org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.call(PogoInterceptableSite.java:46)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:166)
+	at io.restassured.internal.filter.SendRequestFilter.filter(SendRequestFilter.groovy:30)
+	at io.restassured.filter.Filter$filter.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:45)
+	at io.restassured.filter.Filter$filter$0.call(Unknown Source)
+	at io.restassured.internal.filter.FilterContextImpl.next(FilterContextImpl.groovy:72)
+	at io.restassured.filter.time.TimingFilter.filter(TimingFilter.java:56)
+	at io.restassured.filter.Filter$filter$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:45)
+	at io.restassured.filter.Filter$filter.call(Unknown Source)
+	at io.restassured.internal.filter.FilterContextImpl.next(FilterContextImpl.groovy:72)
+	at io.restassured.filter.FilterContext$next.call(Unknown Source)
+	at io.restassured.internal.filter.CsrfFilter.filter(CsrfFilter.groovy:70)
+	at io.restassured.filter.Filter$filter.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:45)
+	at io.restassured.filter.Filter$filter.call(Unknown Source)
+	at io.restassured.internal.filter.FilterContextImpl.next(FilterContextImpl.groovy:72)
+	at io.restassured.filter.FilterContext$next.call(Unknown Source)
+	at io.restassured.internal.RequestSpecificationImpl.applyPathParamsAndSendRequest(RequestSpecificationImpl.groovy:1704)
+	at io.restassured.internal.RequestSpecificationImpl.this$2$applyPathParamsAndSendRequest(RequestSpecificationImpl.groovy)
+	at jdk.internal.reflect.GeneratedMethodAccessor69.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:343)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:328)
+	at groovy.lang.MetaClassImpl.doInvokeMethod(MetaClassImpl.java:1333)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1088)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1007)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:790)
+	at io.restassured.internal.RequestSpecificationImpl.invokeMethod(RequestSpecificationImpl.groovy)
+	at org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.call(PogoInterceptableSite.java:46)
+	at org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.callCurrent(PogoInterceptableSite.java:57)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:203)
+	at io.restassured.internal.RequestSpecificationImpl.applyPathParamsAndSendRequest(RequestSpecificationImpl.groovy:1710)
+	at io.restassured.internal.RequestSpecificationImpl.this$2$applyPathParamsAndSendRequest(RequestSpecificationImpl.groovy)
+	at jdk.internal.reflect.GeneratedMethodAccessor68.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:343)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:328)
+	at groovy.lang.MetaClassImpl.doInvokeMethod(MetaClassImpl.java:1333)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1088)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1007)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:790)
+	at io.restassured.internal.RequestSpecificationImpl.invokeMethod(RequestSpecificationImpl.groovy)
+	at org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.call(PogoInterceptableSite.java:46)
+	at org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.callCurrent(PogoInterceptableSite.java:57)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:203)
+	at io.restassured.internal.RequestSpecificationImpl.get(RequestSpecificationImpl.groovy:172)
+	at io.restassured.internal.RequestSpecificationImpl.get(RequestSpecificationImpl.groovy)
+	at api.endpoints.Adminspinrewardendpoint.spinrewarddatafetch(Adminspinrewardendpoint.java:45)
+	at api.testcases.Adminspinrewardtestcase.testadminspinrewarddelete(Adminspinrewardtestcase.java:119)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:819)
+	at org.testng.TestRunner.run(TestRunner.java:619)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
+	at org.testng.TestNG.runSuites(TestNG.java:1134)
+	at org.testng.TestNG.run(TestNG.java:1101)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]></failure>
+    <system-out><![CDATA[Name of test method started:testadminspinrewarddelete
+Name of test method failed:testadminspinrewarddelete
+]]></system-out>
+  </testcase>
+</testsuite>

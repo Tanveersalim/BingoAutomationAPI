@@ -1,0 +1,473 @@
+<html>
+<head>
+<title>TestNG:  BingoAdminPanel</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>BingoAdminPanel</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>33/1/0</td>
+</tr><tr>
+<td>Started on:</td><td>Fri Jul 11 14:03:20 PKT 2025</td>
+</tr>
+<tr><td>Total time:</td><td>164 seconds (164784 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='api.testcases.Adminspinrewardtestcase.testadminspinrewarddelete()'><b>testadminspinrewarddelete</b><br>Test class: api.testcases.Adminspinrewardtestcase</td>
+<td><div><pre>java.net.ConnectException: Connection timed out: connect
+	at java.base/sun.nio.ch.Net.connect0(Native Method)
+	at java.base/sun.nio.ch.Net.connect(Net.java:579)
+	at java.base/sun.nio.ch.Net.connect(Net.java:568)
+	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:593)
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327)
+	at java.base/java.net.Socket.connect(Socket.java:633)
+	at org.apache.http.conn.ssl.SSLSocketFactory.connectSocket(SSLSocketFactory.java:543)
+	at org.apache.http.conn.ssl.SSLSocketFactory.connectSocket(SSLSocketFactory.java:415)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:180)
+	at org.apache.http.impl.conn.ManagedClientConnectionImpl.open(ManagedClientConnectionImpl.java:326)
+	at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:605)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:440)
+	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:835)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
+	at io.restassured.internal.RestAssuredHttpBuilder.doRequest(RestAssuredHttpBuilder.java:141)
+	at io.restassured.internal.http.HTTPBuilder.doRequest(HTTPBuilder.java:496)
+	at io.restassured.internal.http.HTTPBuilder.request(HTTPBuilder.java:453)
+	at io.restassured.internal.http.HTTPBuilder$request$3.call(Unknown Source)
+	at io.restassured.internal.RequestSpecificationImpl.sendHttpRequest(RequestSpecificationImpl.groovy:1480)
+	at io.restassured.internal.RequestSpecificationImpl.this$2$sendHttpRequest(RequestSpecificationImpl.groovy)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:328)
+	at groovy.lang.MetaClassImpl.doInvokeMethod(MetaClassImpl.java:1333)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1088)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1007)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:790)
+	at io.restassured.internal.RequestSpecificationImpl.invokeMethod(RequestSpecificationImpl.groovy)
+	at org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.call(PogoInterceptableSite.java:46)
+	at org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.callCurrent(PogoInterceptableSite.java:57)
+	at io.restassured.internal.RequestSpecificationImpl.sendRequest(RequestSpecificationImpl.groovy:1229)
+	at io.restassured.internal.RequestSpecificationImpl.this$2$sendRequest(RequestSpecificationImpl.groovy)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:328)
+	at groovy.lang.MetaClassImpl.doInvokeMethod(MetaClassImpl.java:1333)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1088)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1007)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:790)
+	at io.restassured.internal.RequestSpecificationImpl.invokeMethod(RequestSpecificationImpl.groovy)
+	at org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.call(PogoInterceptableSite.java:46)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:166)
+	at io.restassured.internal.filter.SendRequestFilter.filter(SendRequestFilter.groovy:30)
+	at io.restassured.filter.Filter$filter.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:45)
+	at io.restassured.filter.Filter$filter$0.call(Unknown Source)
+	at io.restassured.internal.filter.FilterContextImpl.next(FilterContextImpl.groovy:72)
+	at io.restassured.filter.time.TimingFilter.filter(TimingFilter.java:56)
+	at io.restassured.filter.Filter$filter$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:45)
+	at io.restassured.filter.Filter$filter.call(Unknown Source)
+	at io.restassured.internal.filter.FilterContextImpl.next(FilterContextImpl.groovy:72)
+	at io.restassured.filter.FilterContext$next.call(Unknown Source)
+	at io.restassured.internal.filter.CsrfFilter.filter(CsrfFilter.groovy:70)
+	at io.restassured.filter.Filter$filter.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:45)
+	at io.restassured.filter.Filter$filter.call(Unknown Source)
+	at io.restassured.internal.filter.FilterContextImpl.next(FilterContextImpl.groovy:72)
+	at io.restassured.filter.FilterContext$next.call(Unknown Source)
+	at io.restassured.internal.RequestSpecificationImpl.applyPathParamsAndSendRequest(RequestSpecificationImpl.groovy:1704)
+	at io.restassured.internal.RequestSpecificationImpl.this$2$applyPathParamsAndSendRequest(RequestSpecificationImpl.groovy)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:328)
+	at groovy.lang.MetaClassImpl.doInvokeMethod(MetaClassImpl.java:1333)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1088)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1007)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:790)
+	at io.restassured.internal.RequestSpecificationImpl.invokeMethod(RequestSpecificationImpl.groovy)
+	at org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.call(PogoInterceptableSite.java:46)
+	at org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.callCurrent(PogoInterceptableSite.java:57)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:203)
+	at io.restassured.internal.RequestSpecificationImpl.applyPathParamsAndSendRequest(RequestSpecificationImpl.groovy:1710)
+	at io.restassured.internal.RequestSpecificationImpl.this$2$applyPathParamsAndSendRequest(RequestSpecificationImpl.groovy)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:328)
+	at groovy.lang.MetaClassImpl.doInvokeMethod(MetaClassImpl.java:1333)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1088)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1007)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:790)
+	at io.restassured.internal.RequestSpecificationImpl.invokeMethod(RequestSpecificationImpl.groovy)
+	at org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.call(PogoInterceptableSite.java:46)
+	at org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.callCurrent(PogoInterceptableSite.java:57)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:203)
+	at io.restassured.internal.RequestSpecificationImpl.get(RequestSpecificationImpl.groovy:172)
+	at io.restassured.internal.RequestSpecificationImpl.get(RequestSpecificationImpl.groovy)
+	at api.endpoints.Adminspinrewardendpoint.spinrewarddatafetch(Adminspinrewardendpoint.java:45)
+	at api.testcases.Adminspinrewardtestcase.testadminspinrewarddelete(Adminspinrewardtestcase.java:119)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 47 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace873546358", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace873546358'><pre>java.net.ConnectException: Connection timed out: connect
+	at java.base/sun.nio.ch.Net.connect0(Native Method)
+	at java.base/sun.nio.ch.Net.connect(Net.java:579)
+	at java.base/sun.nio.ch.Net.connect(Net.java:568)
+	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:593)
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327)
+	at java.base/java.net.Socket.connect(Socket.java:633)
+	at org.apache.http.conn.ssl.SSLSocketFactory.connectSocket(SSLSocketFactory.java:543)
+	at org.apache.http.conn.ssl.SSLSocketFactory.connectSocket(SSLSocketFactory.java:415)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:180)
+	at org.apache.http.impl.conn.ManagedClientConnectionImpl.open(ManagedClientConnectionImpl.java:326)
+	at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:605)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:440)
+	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:835)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
+	at io.restassured.internal.RestAssuredHttpBuilder.doRequest(RestAssuredHttpBuilder.java:141)
+	at io.restassured.internal.http.HTTPBuilder.doRequest(HTTPBuilder.java:496)
+	at io.restassured.internal.http.HTTPBuilder.request(HTTPBuilder.java:453)
+	at io.restassured.internal.http.HTTPBuilder$request$3.call(Unknown Source)
+	at io.restassured.internal.RequestSpecificationImpl.sendHttpRequest(RequestSpecificationImpl.groovy:1480)
+	at io.restassured.internal.RequestSpecificationImpl.this$2$sendHttpRequest(RequestSpecificationImpl.groovy)
+	at jdk.internal.reflect.GeneratedMethodAccessor121.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:343)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:328)
+	at groovy.lang.MetaClassImpl.doInvokeMethod(MetaClassImpl.java:1333)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1088)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1007)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:790)
+	at io.restassured.internal.RequestSpecificationImpl.invokeMethod(RequestSpecificationImpl.groovy)
+	at org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.call(PogoInterceptableSite.java:46)
+	at org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.callCurrent(PogoInterceptableSite.java:57)
+	at io.restassured.internal.RequestSpecificationImpl.sendRequest(RequestSpecificationImpl.groovy:1229)
+	at io.restassured.internal.RequestSpecificationImpl.this$2$sendRequest(RequestSpecificationImpl.groovy)
+	at jdk.internal.reflect.GeneratedMethodAccessor80.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:343)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:328)
+	at groovy.lang.MetaClassImpl.doInvokeMethod(MetaClassImpl.java:1333)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1088)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1007)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:790)
+	at io.restassured.internal.RequestSpecificationImpl.invokeMethod(RequestSpecificationImpl.groovy)
+	at org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.call(PogoInterceptableSite.java:46)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:166)
+	at io.restassured.internal.filter.SendRequestFilter.filter(SendRequestFilter.groovy:30)
+	at io.restassured.filter.Filter$filter.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:45)
+	at io.restassured.filter.Filter$filter$0.call(Unknown Source)
+	at io.restassured.internal.filter.FilterContextImpl.next(FilterContextImpl.groovy:72)
+	at io.restassured.filter.time.TimingFilter.filter(TimingFilter.java:56)
+	at io.restassured.filter.Filter$filter$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:45)
+	at io.restassured.filter.Filter$filter.call(Unknown Source)
+	at io.restassured.internal.filter.FilterContextImpl.next(FilterContextImpl.groovy:72)
+	at io.restassured.filter.FilterContext$next.call(Unknown Source)
+	at io.restassured.internal.filter.CsrfFilter.filter(CsrfFilter.groovy:70)
+	at io.restassured.filter.Filter$filter.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:45)
+	at io.restassured.filter.Filter$filter.call(Unknown Source)
+	at io.restassured.internal.filter.FilterContextImpl.next(FilterContextImpl.groovy:72)
+	at io.restassured.filter.FilterContext$next.call(Unknown Source)
+	at io.restassured.internal.RequestSpecificationImpl.applyPathParamsAndSendRequest(RequestSpecificationImpl.groovy:1704)
+	at io.restassured.internal.RequestSpecificationImpl.this$2$applyPathParamsAndSendRequest(RequestSpecificationImpl.groovy)
+	at jdk.internal.reflect.GeneratedMethodAccessor69.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:343)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:328)
+	at groovy.lang.MetaClassImpl.doInvokeMethod(MetaClassImpl.java:1333)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1088)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1007)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:790)
+	at io.restassured.internal.RequestSpecificationImpl.invokeMethod(RequestSpecificationImpl.groovy)
+	at org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.call(PogoInterceptableSite.java:46)
+	at org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.callCurrent(PogoInterceptableSite.java:57)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:203)
+	at io.restassured.internal.RequestSpecificationImpl.applyPathParamsAndSendRequest(RequestSpecificationImpl.groovy:1710)
+	at io.restassured.internal.RequestSpecificationImpl.this$2$applyPathParamsAndSendRequest(RequestSpecificationImpl.groovy)
+	at jdk.internal.reflect.GeneratedMethodAccessor68.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:343)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:328)
+	at groovy.lang.MetaClassImpl.doInvokeMethod(MetaClassImpl.java:1333)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1088)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1007)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:790)
+	at io.restassured.internal.RequestSpecificationImpl.invokeMethod(RequestSpecificationImpl.groovy)
+	at org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.call(PogoInterceptableSite.java:46)
+	at org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.callCurrent(PogoInterceptableSite.java:57)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:203)
+	at io.restassured.internal.RequestSpecificationImpl.get(RequestSpecificationImpl.groovy:172)
+	at io.restassured.internal.RequestSpecificationImpl.get(RequestSpecificationImpl.groovy)
+	at api.endpoints.Adminspinrewardendpoint.spinrewarddatafetch(Adminspinrewardendpoint.java:45)
+	at api.testcases.Adminspinrewardtestcase.testadminspinrewarddelete(Adminspinrewardtestcase.java:119)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:819)
+	at org.testng.TestRunner.run(TestRunner.java:619)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
+	at org.testng.TestNG.runSuites(TestNG.java:1134)
+	at org.testng.TestNG.run(TestNG.java:1101)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+</pre></div></td>
+<td>21</td>
+<td>api.testcases.Adminspinrewardtestcase@3e58a80e</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='api.testcases.Adminspinrewardtestcase.testadminspinrewardfetch()'><b>testadminspinrewardfetch</b><br>Test class: api.testcases.Adminspinrewardtestcase</td>
+<td></td>
+<td>0</td>
+<td>api.testcases.Adminspinrewardtestcase@3e58a80e</td></tr>
+<tr>
+<td title='api.testcases.Admindailyrewardtestcase.testadmindailyrewardfetch()'><b>testadmindailyrewardfetch</b><br>Test class: api.testcases.Admindailyrewardtestcase</td>
+<td></td>
+<td>0</td>
+<td>api.testcases.Admindailyrewardtestcase@a514af7</td></tr>
+<tr>
+<td title='api.testcases.Adminusertestcase.testadminuserfetch()'><b>testadminuserfetch</b><br>Test class: api.testcases.Adminusertestcase</td>
+<td></td>
+<td>0</td>
+<td>api.testcases.Adminusertestcase@4f18837a</td></tr>
+<tr>
+<td title='api.testcases.Adminavatartestcase.testadminavatarcreate()'><b>testadminavatarcreate</b><br>Test class: api.testcases.Adminavatartestcase<br>Parameters: https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ1zwhySGCEBxRRFYIcQgvOLOpRGqrT3d7Qng&s, true</td>
+<td></td>
+<td>0</td>
+<td>api.testcases.Adminavatartestcase@3bb9a3ff</td></tr>
+<tr>
+<td title='api.testcases.Adminpointswagertestcase.testadminpointwagerupdate()'><b>testadminpointwagerupdate</b><br>Test class: api.testcases.Adminpointswagertestcase<br>Parameters: 666765.0, 5.0, Ticket</td>
+<td></td>
+<td>1</td>
+<td>api.testcases.Adminpointswagertestcase@1fa268de</td></tr>
+<tr>
+<td title='api.testcases.Adminsignintestcase.testadminsignin()'><b>testadminsignin</b><br>Test class: api.testcases.Adminsignintestcase<br>Parameters: admin@hpl.com, Ali12345?!</td>
+<td></td>
+<td>20</td>
+<td>api.testcases.Adminsignintestcase@4f6ee6e4</td></tr>
+<tr>
+<td title='api.testcases.Adminpointswagertestcase.testadminpointwagerdelete()'><b>testadminpointwagerdelete</b><br>Test class: api.testcases.Adminpointswagertestcase</td>
+<td></td>
+<td>3</td>
+<td>api.testcases.Adminpointswagertestcase@1fa268de</td></tr>
+<tr>
+<td title='api.testcases.Adminpoweruptestcase.testadminpowerupcreate()'><b>testadminpowerupcreate</b><br>Test class: api.testcases.Adminpoweruptestcase<br>Parameters: New Powerup, New Powerup, https://gratisography.com/wp-content/uploads/2024/11/gratisography-augmented-reality-800x525.jpg, https://gratisography.com/wp-content/uploads/2024/11/gratisography-augmented-reality-800x525.jpg, Special, 1.0, asd</td>
+<td></td>
+<td>0</td>
+<td>api.testcases.Adminpoweruptestcase@4466af20</td></tr>
+<tr>
+<td title='api.testcases.Adminspinrewardtestcase.testadminspinrewardcreate()'><b>testadminspinrewardcreate</b><br>Test class: api.testcases.Adminspinrewardtestcase<br>Parameters: 14.0, Ticket, Ticket, 60.0</td>
+<td></td>
+<td>0</td>
+<td>api.testcases.Adminspinrewardtestcase@3e58a80e</td></tr>
+<tr>
+<td title='api.testcases.Adminusertestcase.testadminuserfetchbyid()'><b>testadminuserfetchbyid</b><br>Test class: api.testcases.Adminusertestcase</td>
+<td></td>
+<td>1</td>
+<td>api.testcases.Adminusertestcase@4f18837a</td></tr>
+<tr>
+<td title='api.testcases.Adminavatartestcase.testadminavatarcreate()'><b>testadminavatarcreate</b><br>Test class: api.testcases.Adminavatartestcase<br>Parameters: https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR9SRRmhH4X5N2e4QalcoxVbzYsD44C-sQv-w&s, false</td>
+<td></td>
+<td>0</td>
+<td>api.testcases.Adminavatartestcase@3bb9a3ff</td></tr>
+<tr>
+<td title='api.testcases.Adminavatartestcase.testadminavatarupdate()'><b>testadminavatarupdate</b><br>Test class: api.testcases.Adminavatartestcase<br>Parameters: https://cdn.pixabay.com/photo/2018/08/04/11/30/draw-3583548_1280.png, true</td>
+<td></td>
+<td>1</td>
+<td>api.testcases.Adminavatartestcase@3bb9a3ff</td></tr>
+<tr>
+<td title='api.testcases.Adminpoweruptestcase.testadminpowerupfetch()'><b>testadminpowerupfetch</b><br>Test class: api.testcases.Adminpoweruptestcase</td>
+<td></td>
+<td>0</td>
+<td>api.testcases.Adminpoweruptestcase@4466af20</td></tr>
+<tr>
+<td title='api.testcases.Admincurrencytestcase.testadmincurrencyfetch()'><b>testadmincurrencyfetch</b><br>Test class: api.testcases.Admincurrencytestcase</td>
+<td></td>
+<td>0</td>
+<td>api.testcases.Admincurrencytestcase@359f7cdf</td></tr>
+<tr>
+<td title='api.testcases.Admindailyrewardtestcase.testadmindailyrewardcreate()'><b>testadmindailyrewardcreate</b><br>Test class: api.testcases.Admindailyrewardtestcase<br>Parameters: 39.0, Ticket, Ticket, 500.0</td>
+<td></td>
+<td>0</td>
+<td>api.testcases.Admindailyrewardtestcase@a514af7</td></tr>
+<tr>
+<td title='api.testcases.Adminpoweruptestcase.testadminpowerupcreate()'><b>testadminpowerupcreate</b><br>Test class: api.testcases.Adminpoweruptestcase<br>Parameters: New Powerup2, New Powerup2, https://cdn.pixabay.com/photo/2024/05/26/10/15/bird-8788491_1280.jpg, https://cdn.pixabay.com/photo/2024/05/26/10/15/bird-8788491_1280.jpg, Rare, 1.0, sdas</td>
+<td></td>
+<td>0</td>
+<td>api.testcases.Adminpoweruptestcase@4466af20</td></tr>
+<tr>
+<td title='api.testcases.Admindailyrewardtestcase.testadmindailyrewarddelete()'><b>testadmindailyrewarddelete</b><br>Test class: api.testcases.Admindailyrewardtestcase</td>
+<td></td>
+<td>2</td>
+<td>api.testcases.Admindailyrewardtestcase@a514af7</td></tr>
+<tr>
+<td title='api.testcases.Adminavatartestcase.testadminavatardelete()'><b>testadminavatardelete</b><br>Test class: api.testcases.Adminavatartestcase</td>
+<td></td>
+<td>2</td>
+<td>api.testcases.Adminavatartestcase@3bb9a3ff</td></tr>
+<tr>
+<td title='api.testcases.Admincurrencytestcase.testadmicurrencyupdate()'><b>testadmicurrencyupdate</b><br>Test class: api.testcases.Admincurrencytestcase<br>Parameters: https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ1zwhySGCEBxRRFYIcQgvOLOpRGqrT3d7Qng&s, https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ1zwhySGCEBxRRFYIcQgvOLOpRGqrT3d7Qng&s, lorem ipsum3sdas, Ticket, 0.0</td>
+<td></td>
+<td>1</td>
+<td>api.testcases.Admincurrencytestcase@359f7cdf</td></tr>
+<tr>
+<td title='api.testcases.Admindailyrewardtestcase.testadmindailyrewardcreate()'><b>testadmindailyrewardcreate</b><br>Test class: api.testcases.Admindailyrewardtestcase<br>Parameters: 38.0, PowerUp, Gems, 3.0</td>
+<td></td>
+<td>0</td>
+<td>api.testcases.Admindailyrewardtestcase@a514af7</td></tr>
+<tr>
+<td title='api.testcases.Adminspinrewardtestcase.testadminspinrewardcreate()'><b>testadminspinrewardcreate</b><br>Test class: api.testcases.Adminspinrewardtestcase<br>Parameters: 13.0, Ticket, Ticket, 500.0</td>
+<td></td>
+<td>0</td>
+<td>api.testcases.Adminspinrewardtestcase@3e58a80e</td></tr>
+<tr>
+<td title='api.testcases.Adminleaderboardtestcase.testadminleaderboard()'><b>testadminleaderboard</b><br>Test class: api.testcases.Adminleaderboardtestcase</td>
+<td></td>
+<td>1</td>
+<td>api.testcases.Adminleaderboardtestcase@6b927fb</td></tr>
+<tr>
+<td title='api.testcases.Admindailyrewardtestcase.testadmindailyrewardcreate()'><b>testadmindailyrewardcreate</b><br>Test class: api.testcases.Admindailyrewardtestcase<br>Parameters: 40.0, Chest, T1Chest, 4.0</td>
+<td></td>
+<td>0</td>
+<td>api.testcases.Admindailyrewardtestcase@a514af7</td></tr>
+<tr>
+<td title='api.testcases.Adminpoweruptestcase.testadminpowerupcreate()'><b>testadminpowerupcreate</b><br>Test class: api.testcases.Adminpoweruptestcase<br>Parameters: New Powerup3, New Powerup3, https://images.ctfassets.net/hrltx12pl8hq/28ECAQiPJZ78hxatLTa7Ts/2f695d869736ae3b0de3e56ceaca3958/free-nature-images.jpg?fit=fill&w=1200&h=630, https://images.ctfassets.net/hrltx12pl8hq/28ECAQiPJZ78hxatLTa7Ts/2f695d869736ae3b0de3e56ceaca3958/free-nature-images.jpg?fit=fill&w=1200&h=630, Common, 0.0, sdasdasddsa</td>
+<td></td>
+<td>0</td>
+<td>api.testcases.Adminpoweruptestcase@4466af20</td></tr>
+<tr>
+<td title='api.testcases.Adminpointswagertestcase.testadminpointwagercreate()'><b>testadminpointwagercreate</b><br>Test class: api.testcases.Adminpointswagertestcase<br>Parameters: 666765.0, 2.0, Ticket</td>
+<td></td>
+<td>0</td>
+<td>api.testcases.Adminpointswagertestcase@1fa268de</td></tr>
+<tr>
+<td title='api.testcases.Adminspinrewardtestcase.testadminspinrewardupdate()'><b>testadminspinrewardupdate</b><br>Test class: api.testcases.Adminspinrewardtestcase<br>Parameters: 15.0, Ticket, Ticket, 100.0</td>
+<td></td>
+<td>1</td>
+<td>api.testcases.Adminspinrewardtestcase@3e58a80e</td></tr>
+<tr>
+<td title='api.testcases.Adminpoweruptestcase.testadminpowerupupdate()'><b>testadminpowerupupdate</b><br>Test class: api.testcases.Adminpoweruptestcase<br>Parameters: New Powerup, https://gratisography.com/wp-content/uploads/2024/11/gratisography-augmented-reality-800x525.jpg, https://gratisography.com/wp-content/uploads/2024/11/gratisography-augmented-reality-800x525.jpg, lorem ipsum, Special, 1.0</td>
+<td></td>
+<td>1</td>
+<td>api.testcases.Adminpoweruptestcase@4466af20</td></tr>
+<tr>
+<td title='api.testcases.Adminspinrewardtestcase.testadminspinrewardcreate()'><b>testadminspinrewardcreate</b><br>Test class: api.testcases.Adminspinrewardtestcase<br>Parameters: 15.0, PowerUp, SingleDaub, 5.0</td>
+<td></td>
+<td>0</td>
+<td>api.testcases.Adminspinrewardtestcase@3e58a80e</td></tr>
+<tr>
+<td title='api.testcases.Admindailyrewardtestcase.testadmindailyrewardupdate()'><b>testadmindailyrewardupdate</b><br>Test class: api.testcases.Admindailyrewardtestcase<br>Parameters: 1.0, PowerUp, X2PointsAll, 6.0</td>
+<td></td>
+<td>1</td>
+<td>api.testcases.Admindailyrewardtestcase@a514af7</td></tr>
+<tr>
+<td title='api.testcases.Adminavatartestcase.testadminavatarfetch()'><b>testadminavatarfetch</b><br>Test class: api.testcases.Adminavatartestcase</td>
+<td></td>
+<td>0</td>
+<td>api.testcases.Adminavatartestcase@3bb9a3ff</td></tr>
+<tr>
+<td title='api.testcases.Adminpoweruptestcase.testadminpowerpdelete()'><b>testadminpowerpdelete</b><br>Test class: api.testcases.Adminpoweruptestcase</td>
+<td></td>
+<td>2</td>
+<td>api.testcases.Adminpoweruptestcase@4466af20</td></tr>
+<tr>
+<td title='api.testcases.Admindashboardtestcase.testadmindashboard()'><b>testadmindashboard</b><br>Test class: api.testcases.Admindashboardtestcase</td>
+<td></td>
+<td>1</td>
+<td>api.testcases.Admindashboardtestcase@6356695f</td></tr>
+<tr>
+<td title='api.testcases.Adminpointswagertestcase.testadminpointwagerfetch()'><b>testadminpointwagerfetch</b><br>Test class: api.testcases.Adminpointswagertestcase</td>
+<td></td>
+<td>0</td>
+<td>api.testcases.Adminpointswagertestcase@1fa268de</td></tr>
+</table><p>
+</body>
+</html>

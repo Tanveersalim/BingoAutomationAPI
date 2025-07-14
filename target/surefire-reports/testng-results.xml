@@ -1,0 +1,769 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="34" passed="33" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-07-11T14:03:20 PKT" name="Suite" finished-at="2025-07-11T14:06:05 PKT" duration-ms="164784">
+    <groups>
+    </groups>
+    <test started-at="2025-07-11T14:03:20 PKT" name="BingoAdminPanel" finished-at="2025-07-11T14:06:05 PKT" duration-ms="164784">
+      <class name="api.testcases.Adminspinrewardtestcase">
+        <test-method is-config="true" signature="generateusertestdata()[pri:0, instance:api.testcases.Adminspinrewardtestcase@3e58a80e]" started-at="2025-07-11T14:05:31 PKT" name="generateusertestdata" finished-at="2025-07-11T14:05:39 PKT" duration-ms="7781" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- generateusertestdata -->
+        <test-method signature="testadminspinrewardcreate(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:api.testcases.Adminspinrewardtestcase@3e58a80e]" started-at="2025-07-11T14:05:39 PKT" name="testadminspinrewardcreate" data-provider="Spinrewarddata" finished-at="2025-07-11T14:05:40 PKT" duration-ms="811" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[13.0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Ticket]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Ticket]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[500.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testadminspinrewardcreate -->
+        <test-method signature="testadminspinrewardcreate(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:api.testcases.Adminspinrewardtestcase@3e58a80e]" started-at="2025-07-11T14:05:40 PKT" name="testadminspinrewardcreate" data-provider="Spinrewarddata" finished-at="2025-07-11T14:05:41 PKT" duration-ms="713" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[14.0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Ticket]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Ticket]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[60.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testadminspinrewardcreate -->
+        <test-method signature="testadminspinrewardcreate(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:api.testcases.Adminspinrewardtestcase@3e58a80e]" started-at="2025-07-11T14:05:41 PKT" name="testadminspinrewardcreate" data-provider="Spinrewarddata" finished-at="2025-07-11T14:05:41 PKT" duration-ms="806" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[15.0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[PowerUp]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[SingleDaub]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[5.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testadminspinrewardcreate -->
+        <test-method signature="testadminspinrewardfetch()[pri:2, instance:api.testcases.Adminspinrewardtestcase@3e58a80e]" started-at="2025-07-11T14:05:41 PKT" name="testadminspinrewardfetch" finished-at="2025-07-11T14:05:42 PKT" duration-ms="762" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testadminspinrewardfetch -->
+        <test-method signature="testadminspinrewardupdate(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:3, instance:api.testcases.Adminspinrewardtestcase@3e58a80e]" started-at="2025-07-11T14:05:42 PKT" name="testadminspinrewardupdate" data-provider="Spinrewardupdatedata" finished-at="2025-07-11T14:05:44 PKT" duration-ms="1501" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[15.0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Ticket]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Ticket]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[100.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testadminspinrewardupdate -->
+        <test-method signature="testadminspinrewarddelete()[pri:4, instance:api.testcases.Adminspinrewardtestcase@3e58a80e]" started-at="2025-07-11T14:05:44 PKT" name="testadminspinrewarddelete" finished-at="2025-07-11T14:06:05 PKT" duration-ms="21065" status="FAIL">
+          <exception class="java.net.ConnectException">
+            <message>
+              <![CDATA[Connection timed out: connect]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.net.ConnectException: Connection timed out: connect
+at java.base/sun.nio.ch.Net.connect0(Native Method)
+at java.base/sun.nio.ch.Net.connect(Net.java:579)
+at java.base/sun.nio.ch.Net.connect(Net.java:568)
+at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:593)
+at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327)
+at java.base/java.net.Socket.connect(Socket.java:633)
+at org.apache.http.conn.ssl.SSLSocketFactory.connectSocket(SSLSocketFactory.java:543)
+at org.apache.http.conn.ssl.SSLSocketFactory.connectSocket(SSLSocketFactory.java:415)
+at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:180)
+at org.apache.http.impl.conn.ManagedClientConnectionImpl.open(ManagedClientConnectionImpl.java:326)
+at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:605)
+at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:440)
+at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:835)
+at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
+at io.restassured.internal.RestAssuredHttpBuilder.doRequest(RestAssuredHttpBuilder.java:141)
+at io.restassured.internal.http.HTTPBuilder.doRequest(HTTPBuilder.java:496)
+at io.restassured.internal.http.HTTPBuilder.request(HTTPBuilder.java:453)
+at io.restassured.internal.http.HTTPBuilder$request$3.call(Unknown Source)
+at io.restassured.internal.RequestSpecificationImpl.sendHttpRequest(RequestSpecificationImpl.groovy:1480)
+at io.restassured.internal.RequestSpecificationImpl.this$2$sendHttpRequest(RequestSpecificationImpl.groovy)
+at jdk.internal.reflect.GeneratedMethodAccessor121.invoke(Unknown Source)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:343)
+at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:328)
+at groovy.lang.MetaClassImpl.doInvokeMethod(MetaClassImpl.java:1333)
+at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1088)
+at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1007)
+at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:790)
+at io.restassured.internal.RequestSpecificationImpl.invokeMethod(RequestSpecificationImpl.groovy)
+at org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.call(PogoInterceptableSite.java:46)
+at org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.callCurrent(PogoInterceptableSite.java:57)
+at io.restassured.internal.RequestSpecificationImpl.sendRequest(RequestSpecificationImpl.groovy:1229)
+at io.restassured.internal.RequestSpecificationImpl.this$2$sendRequest(RequestSpecificationImpl.groovy)
+at jdk.internal.reflect.GeneratedMethodAccessor80.invoke(Unknown Source)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:343)
+at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:328)
+at groovy.lang.MetaClassImpl.doInvokeMethod(MetaClassImpl.java:1333)
+at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1088)
+at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1007)
+at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:790)
+at io.restassured.internal.RequestSpecificationImpl.invokeMethod(RequestSpecificationImpl.groovy)
+at org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.call(PogoInterceptableSite.java:46)
+at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:166)
+at io.restassured.internal.filter.SendRequestFilter.filter(SendRequestFilter.groovy:30)
+at io.restassured.filter.Filter$filter.call(Unknown Source)
+at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:45)
+at io.restassured.filter.Filter$filter$0.call(Unknown Source)
+at io.restassured.internal.filter.FilterContextImpl.next(FilterContextImpl.groovy:72)
+at io.restassured.filter.time.TimingFilter.filter(TimingFilter.java:56)
+at io.restassured.filter.Filter$filter$0.call(Unknown Source)
+at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:45)
+at io.restassured.filter.Filter$filter.call(Unknown Source)
+at io.restassured.internal.filter.FilterContextImpl.next(FilterContextImpl.groovy:72)
+at io.restassured.filter.FilterContext$next.call(Unknown Source)
+at io.restassured.internal.filter.CsrfFilter.filter(CsrfFilter.groovy:70)
+at io.restassured.filter.Filter$filter.call(Unknown Source)
+at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:45)
+at io.restassured.filter.Filter$filter.call(Unknown Source)
+at io.restassured.internal.filter.FilterContextImpl.next(FilterContextImpl.groovy:72)
+at io.restassured.filter.FilterContext$next.call(Unknown Source)
+at io.restassured.internal.RequestSpecificationImpl.applyPathParamsAndSendRequest(RequestSpecificationImpl.groovy:1704)
+at io.restassured.internal.RequestSpecificationImpl.this$2$applyPathParamsAndSendRequest(RequestSpecificationImpl.groovy)
+at jdk.internal.reflect.GeneratedMethodAccessor69.invoke(Unknown Source)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:343)
+at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:328)
+at groovy.lang.MetaClassImpl.doInvokeMethod(MetaClassImpl.java:1333)
+at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1088)
+at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1007)
+at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:790)
+at io.restassured.internal.RequestSpecificationImpl.invokeMethod(RequestSpecificationImpl.groovy)
+at org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.call(PogoInterceptableSite.java:46)
+at org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.callCurrent(PogoInterceptableSite.java:57)
+at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:203)
+at io.restassured.internal.RequestSpecificationImpl.applyPathParamsAndSendRequest(RequestSpecificationImpl.groovy:1710)
+at io.restassured.internal.RequestSpecificationImpl.this$2$applyPathParamsAndSendRequest(RequestSpecificationImpl.groovy)
+at jdk.internal.reflect.GeneratedMethodAccessor68.invoke(Unknown Source)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:343)
+at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:328)
+at groovy.lang.MetaClassImpl.doInvokeMethod(MetaClassImpl.java:1333)
+at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1088)
+at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1007)
+at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:790)
+at io.restassured.internal.RequestSpecificationImpl.invokeMethod(RequestSpecificationImpl.groovy)
+at org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.call(PogoInterceptableSite.java:46)
+at org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.callCurrent(PogoInterceptableSite.java:57)
+at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:203)
+at io.restassured.internal.RequestSpecificationImpl.get(RequestSpecificationImpl.groovy:172)
+at io.restassured.internal.RequestSpecificationImpl.get(RequestSpecificationImpl.groovy)
+at api.endpoints.Adminspinrewardendpoint.spinrewarddatafetch(Adminspinrewardendpoint.java:45)
+at api.testcases.Adminspinrewardtestcase.testadminspinrewarddelete(Adminspinrewardtestcase.java:119)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:819)
+at org.testng.TestRunner.run(TestRunner.java:619)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
+at org.testng.TestNG.runSuites(TestNG.java:1134)
+at org.testng.TestNG.run(TestNG.java:1101)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.net.ConnectException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testadminspinrewarddelete -->
+      </class> <!-- api.testcases.Adminspinrewardtestcase -->
+      <class name="api.testcases.Adminpointswagertestcase">
+        <test-method is-config="true" signature="generateusertestdata()[pri:0, instance:api.testcases.Adminpointswagertestcase@1fa268de]" started-at="2025-07-11T14:04:07 PKT" name="generateusertestdata" finished-at="2025-07-11T14:04:22 PKT" duration-ms="15728" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- generateusertestdata -->
+        <test-method signature="testadminpointwagercreate(java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:api.testcases.Adminpointswagertestcase@1fa268de]" started-at="2025-07-11T14:04:22 PKT" name="testadminpointwagercreate" data-provider="pointswagerdata" finished-at="2025-07-11T14:04:23 PKT" duration-ms="735" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[666765.0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[2.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Ticket]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testadminpointwagercreate -->
+        <test-method signature="testadminpointwagerfetch()[pri:2, instance:api.testcases.Adminpointswagertestcase@1fa268de]" started-at="2025-07-11T14:04:23 PKT" name="testadminpointwagerfetch" finished-at="2025-07-11T14:04:24 PKT" duration-ms="719" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testadminpointwagerfetch -->
+        <test-method signature="testadminpointwagerupdate(java.lang.String,java.lang.String,java.lang.String)[pri:3, instance:api.testcases.Adminpointswagertestcase@1fa268de]" started-at="2025-07-11T14:04:24 PKT" name="testadminpointwagerupdate" data-provider="pointswagerupdatedata" finished-at="2025-07-11T14:04:26 PKT" duration-ms="1549" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[666765.0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[5.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Ticket]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testadminpointwagerupdate -->
+        <test-method signature="testadminpointwagerdelete()[pri:4, instance:api.testcases.Adminpointswagertestcase@1fa268de]" started-at="2025-07-11T14:04:26 PKT" name="testadminpointwagerdelete" finished-at="2025-07-11T14:04:29 PKT" duration-ms="3356" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testadminpointwagerdelete -->
+      </class> <!-- api.testcases.Adminpointswagertestcase -->
+      <class name="api.testcases.Adminavatartestcase">
+        <test-method is-config="true" signature="generateusertestdata()[pri:0, instance:api.testcases.Adminavatartestcase@3bb9a3ff]" started-at="2025-07-11T14:03:21 PKT" name="generateusertestdata" finished-at="2025-07-11T14:03:31 PKT" duration-ms="10617" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- generateusertestdata -->
+        <test-method signature="testadminavatarcreate(java.lang.String,java.lang.String)[pri:1, instance:api.testcases.Adminavatartestcase@3bb9a3ff]" started-at="2025-07-11T14:03:33 PKT" name="testadminavatarcreate" data-provider="Avatardata" finished-at="2025-07-11T14:03:34 PKT" duration-ms="689" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ1zwhySGCEBxRRFYIcQgvOLOpRGqrT3d7Qng&s]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[true]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testadminavatarcreate -->
+        <test-method signature="testadminavatarcreate(java.lang.String,java.lang.String)[pri:1, instance:api.testcases.Adminavatartestcase@3bb9a3ff]" started-at="2025-07-11T14:03:34 PKT" name="testadminavatarcreate" data-provider="Avatardata" finished-at="2025-07-11T14:03:34 PKT" duration-ms="723" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR9SRRmhH4X5N2e4QalcoxVbzYsD44C-sQv-w&s]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testadminavatarcreate -->
+        <test-method signature="testadminavatarfetch()[pri:2, instance:api.testcases.Adminavatartestcase@3bb9a3ff]" started-at="2025-07-11T14:03:34 PKT" name="testadminavatarfetch" finished-at="2025-07-11T14:03:35 PKT" duration-ms="729" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testadminavatarfetch -->
+        <test-method signature="testadminavatarupdate(java.lang.String,java.lang.String)[pri:3, instance:api.testcases.Adminavatartestcase@3bb9a3ff]" started-at="2025-07-11T14:03:35 PKT" name="testadminavatarupdate" data-provider="Avatarupdatedata" finished-at="2025-07-11T14:03:37 PKT" duration-ms="1630" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://cdn.pixabay.com/photo/2018/08/04/11/30/draw-3583548_1280.png]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[true]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testadminavatarupdate -->
+        <test-method signature="testadminavatardelete()[pri:4, instance:api.testcases.Adminavatartestcase@3bb9a3ff]" started-at="2025-07-11T14:03:37 PKT" name="testadminavatardelete" finished-at="2025-07-11T14:03:39 PKT" duration-ms="2373" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testadminavatardelete -->
+      </class> <!-- api.testcases.Adminavatartestcase -->
+      <class name="api.testcases.Admindailyrewardtestcase">
+        <test-method is-config="true" signature="generateusertestdata()[pri:0, instance:api.testcases.Admindailyrewardtestcase@a514af7]" started-at="2025-07-11T14:05:06 PKT" name="generateusertestdata" finished-at="2025-07-11T14:05:14 PKT" duration-ms="7775" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- generateusertestdata -->
+        <test-method signature="testadmindailyrewardcreate(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:api.testcases.Admindailyrewardtestcase@a514af7]" started-at="2025-07-11T14:05:15 PKT" name="testadmindailyrewardcreate" data-provider="Dailyrewarddata" finished-at="2025-07-11T14:05:15 PKT" duration-ms="885" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[38.0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[PowerUp]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Gems]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[3.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testadmindailyrewardcreate -->
+        <test-method signature="testadmindailyrewardcreate(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:api.testcases.Admindailyrewardtestcase@a514af7]" started-at="2025-07-11T14:05:15 PKT" name="testadmindailyrewardcreate" data-provider="Dailyrewarddata" finished-at="2025-07-11T14:05:16 PKT" duration-ms="924" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[39.0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Ticket]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Ticket]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[500.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testadmindailyrewardcreate -->
+        <test-method signature="testadmindailyrewardcreate(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:api.testcases.Admindailyrewardtestcase@a514af7]" started-at="2025-07-11T14:05:16 PKT" name="testadmindailyrewardcreate" data-provider="Dailyrewarddata" finished-at="2025-07-11T14:05:17 PKT" duration-ms="750" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[40.0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Chest]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[T1Chest]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[4.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testadmindailyrewardcreate -->
+        <test-method signature="testadmindailyrewardfetch()[pri:2, instance:api.testcases.Admindailyrewardtestcase@a514af7]" started-at="2025-07-11T14:05:17 PKT" name="testadmindailyrewardfetch" finished-at="2025-07-11T14:05:18 PKT" duration-ms="704" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testadmindailyrewardfetch -->
+        <test-method signature="testadmindailyrewardupdate(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:3, instance:api.testcases.Admindailyrewardtestcase@a514af7]" started-at="2025-07-11T14:05:18 PKT" name="testadmindailyrewardupdate" data-provider="Dailyrewardupdatedata" finished-at="2025-07-11T14:05:20 PKT" duration-ms="1514" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1.0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[PowerUp]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[X2PointsAll]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[6.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testadmindailyrewardupdate -->
+        <test-method signature="testadmindailyrewarddelete()[pri:4, instance:api.testcases.Admindailyrewardtestcase@a514af7]" started-at="2025-07-11T14:05:20 PKT" name="testadmindailyrewarddelete" finished-at="2025-07-11T14:05:22 PKT" duration-ms="2779" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testadmindailyrewarddelete -->
+      </class> <!-- api.testcases.Admindailyrewardtestcase -->
+      <class name="api.testcases.Admincurrencytestcase">
+        <test-method is-config="true" signature="generateusertestdata()[pri:0, instance:api.testcases.Admincurrencytestcase@359f7cdf]" started-at="2025-07-11T14:03:59 PKT" name="generateusertestdata" finished-at="2025-07-11T14:04:03 PKT" duration-ms="4807" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- generateusertestdata -->
+        <test-method signature="testadmincurrencyfetch()[pri:1, instance:api.testcases.Admincurrencytestcase@359f7cdf]" started-at="2025-07-11T14:04:03 PKT" name="testadmincurrencyfetch" finished-at="2025-07-11T14:04:04 PKT" duration-ms="822" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testadmincurrencyfetch -->
+        <test-method signature="testadmicurrencyupdate(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:2, instance:api.testcases.Admincurrencytestcase@359f7cdf]" started-at="2025-07-11T14:04:05 PKT" name="testadmicurrencyupdate" data-provider="Currencydata" finished-at="2025-07-11T14:04:07 PKT" duration-ms="1864" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ1zwhySGCEBxRRFYIcQgvOLOpRGqrT3d7Qng&s]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ1zwhySGCEBxRRFYIcQgvOLOpRGqrT3d7Qng&s]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[lorem ipsum3sdas]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Ticket]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[0.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testadmicurrencyupdate -->
+      </class> <!-- api.testcases.Admincurrencytestcase -->
+      <class name="api.testcases.Adminpoweruptestcase">
+        <test-method is-config="true" signature="generateusertestdata()[pri:0, instance:api.testcases.Adminpoweruptestcase@4466af20]" started-at="2025-07-11T14:04:50 PKT" name="generateusertestdata" finished-at="2025-07-11T14:04:58 PKT" duration-ms="7819" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- generateusertestdata -->
+        <test-method signature="testadminpowerupcreate(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:api.testcases.Adminpoweruptestcase@4466af20]" started-at="2025-07-11T14:04:59 PKT" name="testadminpowerupcreate" data-provider="Powerupsdata" finished-at="2025-07-11T14:05:00 PKT" duration-ms="857" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[New Powerup]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[New Powerup]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[https://gratisography.com/wp-content/uploads/2024/11/gratisography-augmented-reality-800x525.jpg]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[https://gratisography.com/wp-content/uploads/2024/11/gratisography-augmented-reality-800x525.jpg]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Special]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[1.0]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[asd]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testadminpowerupcreate -->
+        <test-method signature="testadminpowerupcreate(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:api.testcases.Adminpoweruptestcase@4466af20]" started-at="2025-07-11T14:05:00 PKT" name="testadminpowerupcreate" data-provider="Powerupsdata" finished-at="2025-07-11T14:05:00 PKT" duration-ms="790" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[New Powerup2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[New Powerup2]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[https://cdn.pixabay.com/photo/2024/05/26/10/15/bird-8788491_1280.jpg]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[https://cdn.pixabay.com/photo/2024/05/26/10/15/bird-8788491_1280.jpg]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Rare]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[1.0]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[sdas]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testadminpowerupcreate -->
+        <test-method signature="testadminpowerupcreate(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:api.testcases.Adminpoweruptestcase@4466af20]" started-at="2025-07-11T14:05:00 PKT" name="testadminpowerupcreate" data-provider="Powerupsdata" finished-at="2025-07-11T14:05:01 PKT" duration-ms="725" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[New Powerup3]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[New Powerup3]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[https://images.ctfassets.net/hrltx12pl8hq/28ECAQiPJZ78hxatLTa7Ts/2f695d869736ae3b0de3e56ceaca3958/free-nature-images.jpg?fit=fill&w=1200&h=630]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[https://images.ctfassets.net/hrltx12pl8hq/28ECAQiPJZ78hxatLTa7Ts/2f695d869736ae3b0de3e56ceaca3958/free-nature-images.jpg?fit=fill&w=1200&h=630]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Common]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[0.0]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[sdasdasddsa]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testadminpowerupcreate -->
+        <test-method signature="testadminpowerupfetch()[pri:2, instance:api.testcases.Adminpoweruptestcase@4466af20]" started-at="2025-07-11T14:05:01 PKT" name="testadminpowerupfetch" finished-at="2025-07-11T14:05:02 PKT" duration-ms="704" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testadminpowerupfetch -->
+        <test-method signature="testadminpowerupupdate(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:3, instance:api.testcases.Adminpoweruptestcase@4466af20]" started-at="2025-07-11T14:05:02 PKT" name="testadminpowerupupdate" data-provider="Powerupsupdatedata" finished-at="2025-07-11T14:05:03 PKT" duration-ms="1398" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[New Powerup]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://gratisography.com/wp-content/uploads/2024/11/gratisography-augmented-reality-800x525.jpg]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[https://gratisography.com/wp-content/uploads/2024/11/gratisography-augmented-reality-800x525.jpg]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[lorem ipsum]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Special]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[1.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testadminpowerupupdate -->
+        <test-method signature="testadminpowerpdelete()[pri:4, instance:api.testcases.Adminpoweruptestcase@4466af20]" started-at="2025-07-11T14:05:03 PKT" name="testadminpowerpdelete" finished-at="2025-07-11T14:05:06 PKT" duration-ms="2857" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testadminpowerpdelete -->
+      </class> <!-- api.testcases.Adminpoweruptestcase -->
+      <class name="api.testcases.Adminsignintestcase">
+        <test-method signature="testadminsignin(java.lang.String,java.lang.String)[pri:0, instance:api.testcases.Adminsignintestcase@4f6ee6e4]" started-at="2025-07-11T14:04:29 PKT" name="testadminsignin" data-provider="Signindata" finished-at="2025-07-11T14:04:50 PKT" duration-ms="20919" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin@hpl.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Ali12345?!]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testadminsignin -->
+      </class> <!-- api.testcases.Adminsignintestcase -->
+      <class name="api.testcases.Admindashboardtestcase">
+        <test-method is-config="true" signature="generateusertestdata()[pri:0, instance:api.testcases.Admindashboardtestcase@6356695f]" started-at="2025-07-11T14:03:39 PKT" name="generateusertestdata" finished-at="2025-07-11T14:03:49 PKT" duration-ms="10018" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- generateusertestdata -->
+        <test-method signature="testadmindashboard()[pri:0, instance:api.testcases.Admindashboardtestcase@6356695f]" started-at="2025-07-11T14:03:49 PKT" name="testadmindashboard" finished-at="2025-07-11T14:03:51 PKT" duration-ms="1646" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testadmindashboard -->
+      </class> <!-- api.testcases.Admindashboardtestcase -->
+      <class name="api.testcases.Adminleaderboardtestcase">
+        <test-method is-config="true" signature="generateusertestdata()[pri:0, instance:api.testcases.Adminleaderboardtestcase@6b927fb]" started-at="2025-07-11T14:05:22 PKT" name="generateusertestdata" finished-at="2025-07-11T14:05:29 PKT" duration-ms="7003" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- generateusertestdata -->
+        <test-method signature="testadminleaderboard()[pri:0, instance:api.testcases.Adminleaderboardtestcase@6b927fb]" started-at="2025-07-11T14:05:29 PKT" name="testadminleaderboard" finished-at="2025-07-11T14:05:31 PKT" duration-ms="1514" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testadminleaderboard -->
+      </class> <!-- api.testcases.Adminleaderboardtestcase -->
+      <class name="api.testcases.Adminusertestcase">
+        <test-method is-config="true" signature="generateusertestdata()[pri:0, instance:api.testcases.Adminusertestcase@4f18837a]" started-at="2025-07-11T14:03:51 PKT" name="generateusertestdata" finished-at="2025-07-11T14:03:56 PKT" duration-ms="4849" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- generateusertestdata -->
+        <test-method signature="testadminuserfetch()[pri:1, instance:api.testcases.Adminusertestcase@4f18837a]" started-at="2025-07-11T14:03:56 PKT" name="testadminuserfetch" finished-at="2025-07-11T14:03:57 PKT" duration-ms="901" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testadminuserfetch -->
+        <test-method signature="testadminuserfetchbyid()[pri:2, instance:api.testcases.Adminusertestcase@4f18837a]" started-at="2025-07-11T14:03:57 PKT" name="testadminuserfetchbyid" finished-at="2025-07-11T14:03:59 PKT" duration-ms="1803" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testadminuserfetchbyid -->
+      </class> <!-- api.testcases.Adminusertestcase -->
+    </test> <!-- BingoAdminPanel -->
+  </suite> <!-- Suite -->
+</testng-results>

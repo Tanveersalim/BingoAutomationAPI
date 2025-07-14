@@ -1,0 +1,341 @@
+<html>
+<head>
+<title>TestNG:  BingoAdminPanel</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>BingoAdminPanel</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>32/2/0</td>
+</tr><tr>
+<td>Started on:</td><td>Mon Jul 14 13:45:45 PKT 2025</td>
+</tr>
+<tr><td>Total time:</td><td>138 seconds (138234 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='api.testcases.Admindashboardtestcase.testadmindashboard()'><b>testadmindashboard</b><br>Test class: api.testcases.Admindashboardtestcase</td>
+<td><div><pre>java.lang.AssertionError: expected [200] but found [400]
+	at api.testcases.Admindashboardtestcase.testadmindashboard(Admindashboardtestcase.java:49)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 34 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace959718932", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace959718932'><pre>java.lang.AssertionError: expected [200] but found [400]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+	at org.testng.Assert.assertEquals(Assert.java:132)
+	at org.testng.Assert.assertEquals(Assert.java:1419)
+	at org.testng.Assert.assertEquals(Assert.java:1383)
+	at org.testng.Assert.assertEquals(Assert.java:1429)
+	at api.testcases.Admindashboardtestcase.testadmindashboard(Admindashboardtestcase.java:49)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:819)
+	at org.testng.TestRunner.run(TestRunner.java:619)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
+	at org.testng.TestNG.runSuites(TestNG.java:1134)
+	at org.testng.TestNG.run(TestNG.java:1101)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+</pre></div></td>
+<td>1</td>
+<td>api.testcases.Admindashboardtestcase@408d971b</td></tr>
+<tr>
+<td title='api.testcases.Adminsignintestcase.testadminsignin()'><b>testadminsignin</b><br>Test class: api.testcases.Adminsignintestcase<br>Parameters: admin@hpl.com, Ali12345?!</td>
+<td><div><pre>java.lang.AssertionError: expected [201] but found [200]
+	at api.testcases.Adminsignintestcase.testadminsignin(Adminsignintestcase.java:36)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 34 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace262929529", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace262929529'><pre>java.lang.AssertionError: expected [201] but found [200]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+	at org.testng.Assert.assertEquals(Assert.java:132)
+	at org.testng.Assert.assertEquals(Assert.java:1419)
+	at org.testng.Assert.assertEquals(Assert.java:1383)
+	at org.testng.Assert.assertEquals(Assert.java:1429)
+	at api.testcases.Adminsignintestcase.testadminsignin(Adminsignintestcase.java:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:819)
+	at org.testng.TestRunner.run(TestRunner.java:619)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
+	at org.testng.TestNG.runSuites(TestNG.java:1134)
+	at org.testng.TestNG.run(TestNG.java:1101)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+</pre></div></td>
+<td>20</td>
+<td>api.testcases.Adminsignintestcase@206a70ef</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='api.testcases.Adminpointswagertestcase.testadminpointwagerupdate()'><b>testadminpointwagerupdate</b><br>Test class: api.testcases.Adminpointswagertestcase<br>Parameters: 666765.0, 5.0, Ticket</td>
+<td></td>
+<td>1</td>
+<td>api.testcases.Adminpointswagertestcase@c730b35</td></tr>
+<tr>
+<td title='api.testcases.Adminpoweruptestcase.testadminpowerpdelete()'><b>testadminpowerpdelete</b><br>Test class: api.testcases.Adminpoweruptestcase</td>
+<td></td>
+<td>2</td>
+<td>api.testcases.Adminpoweruptestcase@292b08d6</td></tr>
+<tr>
+<td title='api.testcases.Admindailyrewardtestcase.testadmindailyrewarddelete()'><b>testadmindailyrewarddelete</b><br>Test class: api.testcases.Admindailyrewardtestcase</td>
+<td></td>
+<td>2</td>
+<td>api.testcases.Admindailyrewardtestcase@22555ebf</td></tr>
+<tr>
+<td title='api.testcases.Admindailyrewardtestcase.testadmindailyrewardfetch()'><b>testadmindailyrewardfetch</b><br>Test class: api.testcases.Admindailyrewardtestcase</td>
+<td></td>
+<td>0</td>
+<td>api.testcases.Admindailyrewardtestcase@22555ebf</td></tr>
+<tr>
+<td title='api.testcases.Adminspinrewardtestcase.testadminspinrewardfetch()'><b>testadminspinrewardfetch</b><br>Test class: api.testcases.Adminspinrewardtestcase</td>
+<td></td>
+<td>0</td>
+<td>api.testcases.Adminspinrewardtestcase@45752059</td></tr>
+<tr>
+<td title='api.testcases.Admindailyrewardtestcase.testadmindailyrewardupdate()'><b>testadmindailyrewardupdate</b><br>Test class: api.testcases.Admindailyrewardtestcase<br>Parameters: 1.0, PowerUp, X2PointsAll, 6.0</td>
+<td></td>
+<td>1</td>
+<td>api.testcases.Admindailyrewardtestcase@22555ebf</td></tr>
+<tr>
+<td title='api.testcases.Adminavatartestcase.testadminavatarfetch()'><b>testadminavatarfetch</b><br>Test class: api.testcases.Adminavatartestcase</td>
+<td></td>
+<td>0</td>
+<td>api.testcases.Adminavatartestcase@4afcd809</td></tr>
+<tr>
+<td title='api.testcases.Adminspinrewardtestcase.testadminspinrewardcreate()'><b>testadminspinrewardcreate</b><br>Test class: api.testcases.Adminspinrewardtestcase<br>Parameters: 15.0, PowerUp, SingleDaub, 5.0</td>
+<td></td>
+<td>0</td>
+<td>api.testcases.Adminspinrewardtestcase@45752059</td></tr>
+<tr>
+<td title='api.testcases.Admindailyrewardtestcase.testadmindailyrewardcreate()'><b>testadmindailyrewardcreate</b><br>Test class: api.testcases.Admindailyrewardtestcase<br>Parameters: 40.0, Chest, T1Chest, 4.0</td>
+<td></td>
+<td>0</td>
+<td>api.testcases.Admindailyrewardtestcase@22555ebf</td></tr>
+<tr>
+<td title='api.testcases.Admincurrencytestcase.testadmincurrencyfetch()'><b>testadmincurrencyfetch</b><br>Test class: api.testcases.Admincurrencytestcase</td>
+<td></td>
+<td>0</td>
+<td>api.testcases.Admincurrencytestcase@3c46e67a</td></tr>
+<tr>
+<td title='api.testcases.Adminpointswagertestcase.testadminpointwagercreate()'><b>testadminpointwagercreate</b><br>Test class: api.testcases.Adminpointswagertestcase<br>Parameters: 666765.0, 2.0, Ticket</td>
+<td></td>
+<td>0</td>
+<td>api.testcases.Adminpointswagertestcase@c730b35</td></tr>
+<tr>
+<td title='api.testcases.Adminpoweruptestcase.testadminpowerupcreate()'><b>testadminpowerupcreate</b><br>Test class: api.testcases.Adminpoweruptestcase<br>Parameters: New Powerup2, New Powerup2, https://cdn.pixabay.com/photo/2024/05/26/10/15/bird-8788491_1280.jpg, https://cdn.pixabay.com/photo/2024/05/26/10/15/bird-8788491_1280.jpg, Rare, 1.0, sdas</td>
+<td></td>
+<td>0</td>
+<td>api.testcases.Adminpoweruptestcase@292b08d6</td></tr>
+<tr>
+<td title='api.testcases.Adminusertestcase.testadminuserfetchbyid()'><b>testadminuserfetchbyid</b><br>Test class: api.testcases.Adminusertestcase</td>
+<td></td>
+<td>1</td>
+<td>api.testcases.Adminusertestcase@6c6cb480</td></tr>
+<tr>
+<td title='api.testcases.Adminspinrewardtestcase.testadminspinrewardcreate()'><b>testadminspinrewardcreate</b><br>Test class: api.testcases.Adminspinrewardtestcase<br>Parameters: 13.0, Ticket, Ticket, 500.0</td>
+<td></td>
+<td>0</td>
+<td>api.testcases.Adminspinrewardtestcase@45752059</td></tr>
+<tr>
+<td title='api.testcases.Adminspinrewardtestcase.testadminspinrewarddelete()'><b>testadminspinrewarddelete</b><br>Test class: api.testcases.Adminspinrewardtestcase</td>
+<td></td>
+<td>2</td>
+<td>api.testcases.Adminspinrewardtestcase@45752059</td></tr>
+<tr>
+<td title='api.testcases.Adminpointswagertestcase.testadminpointwagerfetch()'><b>testadminpointwagerfetch</b><br>Test class: api.testcases.Adminpointswagertestcase</td>
+<td></td>
+<td>0</td>
+<td>api.testcases.Adminpointswagertestcase@c730b35</td></tr>
+<tr>
+<td title='api.testcases.Admindailyrewardtestcase.testadmindailyrewardcreate()'><b>testadmindailyrewardcreate</b><br>Test class: api.testcases.Admindailyrewardtestcase<br>Parameters: 39.0, Ticket, Ticket, 500.0</td>
+<td></td>
+<td>0</td>
+<td>api.testcases.Admindailyrewardtestcase@22555ebf</td></tr>
+<tr>
+<td title='api.testcases.Admindailyrewardtestcase.testadmindailyrewardcreate()'><b>testadmindailyrewardcreate</b><br>Test class: api.testcases.Admindailyrewardtestcase<br>Parameters: 38.0, PowerUp, Gems, 3.0</td>
+<td></td>
+<td>0</td>
+<td>api.testcases.Admindailyrewardtestcase@22555ebf</td></tr>
+<tr>
+<td title='api.testcases.Adminavatartestcase.testadminavatarupdate()'><b>testadminavatarupdate</b><br>Test class: api.testcases.Adminavatartestcase<br>Parameters: https://cdn.pixabay.com/photo/2018/08/04/11/30/draw-3583548_1280.png, true</td>
+<td></td>
+<td>1</td>
+<td>api.testcases.Adminavatartestcase@4afcd809</td></tr>
+<tr>
+<td title='api.testcases.Adminavatartestcase.testadminavatarcreate()'><b>testadminavatarcreate</b><br>Test class: api.testcases.Adminavatartestcase<br>Parameters: https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ1zwhySGCEBxRRFYIcQgvOLOpRGqrT3d7Qng&s, true</td>
+<td></td>
+<td>0</td>
+<td>api.testcases.Adminavatartestcase@4afcd809</td></tr>
+<tr>
+<td title='api.testcases.Adminspinrewardtestcase.testadminspinrewardupdate()'><b>testadminspinrewardupdate</b><br>Test class: api.testcases.Adminspinrewardtestcase<br>Parameters: 15.0, Ticket, Ticket, 100.0</td>
+<td></td>
+<td>1</td>
+<td>api.testcases.Adminspinrewardtestcase@45752059</td></tr>
+<tr>
+<td title='api.testcases.Adminpointswagertestcase.testadminpointwagerdelete()'><b>testadminpointwagerdelete</b><br>Test class: api.testcases.Adminpointswagertestcase</td>
+<td></td>
+<td>1</td>
+<td>api.testcases.Adminpointswagertestcase@c730b35</td></tr>
+<tr>
+<td title='api.testcases.Adminpoweruptestcase.testadminpowerupfetch()'><b>testadminpowerupfetch</b><br>Test class: api.testcases.Adminpoweruptestcase</td>
+<td></td>
+<td>0</td>
+<td>api.testcases.Adminpoweruptestcase@292b08d6</td></tr>
+<tr>
+<td title='api.testcases.Adminpoweruptestcase.testadminpowerupupdate()'><b>testadminpowerupupdate</b><br>Test class: api.testcases.Adminpoweruptestcase<br>Parameters: New Powerup, https://gratisography.com/wp-content/uploads/2024/11/gratisography-augmented-reality-800x525.jpg, https://gratisography.com/wp-content/uploads/2024/11/gratisography-augmented-reality-800x525.jpg, lorem ipsum, Special, 1.0</td>
+<td></td>
+<td>1</td>
+<td>api.testcases.Adminpoweruptestcase@292b08d6</td></tr>
+<tr>
+<td title='api.testcases.Admincurrencytestcase.testadmicurrencyupdate()'><b>testadmicurrencyupdate</b><br>Test class: api.testcases.Admincurrencytestcase<br>Parameters: https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ1zwhySGCEBxRRFYIcQgvOLOpRGqrT3d7Qng&s, https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ1zwhySGCEBxRRFYIcQgvOLOpRGqrT3d7Qng&s, lorem ipsum3sdas, Ticket, 0.0</td>
+<td></td>
+<td>1</td>
+<td>api.testcases.Admincurrencytestcase@3c46e67a</td></tr>
+<tr>
+<td title='api.testcases.Adminavatartestcase.testadminavatarcreate()'><b>testadminavatarcreate</b><br>Test class: api.testcases.Adminavatartestcase<br>Parameters: https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR9SRRmhH4X5N2e4QalcoxVbzYsD44C-sQv-w&s, false</td>
+<td></td>
+<td>0</td>
+<td>api.testcases.Adminavatartestcase@4afcd809</td></tr>
+<tr>
+<td title='api.testcases.Adminspinrewardtestcase.testadminspinrewardcreate()'><b>testadminspinrewardcreate</b><br>Test class: api.testcases.Adminspinrewardtestcase<br>Parameters: 14.0, Ticket, Ticket, 60.0</td>
+<td></td>
+<td>0</td>
+<td>api.testcases.Adminspinrewardtestcase@45752059</td></tr>
+<tr>
+<td title='api.testcases.Adminusertestcase.testadminuserfetch()'><b>testadminuserfetch</b><br>Test class: api.testcases.Adminusertestcase</td>
+<td></td>
+<td>0</td>
+<td>api.testcases.Adminusertestcase@6c6cb480</td></tr>
+<tr>
+<td title='api.testcases.Adminpoweruptestcase.testadminpowerupcreate()'><b>testadminpowerupcreate</b><br>Test class: api.testcases.Adminpoweruptestcase<br>Parameters: New Powerup, New Powerup, https://gratisography.com/wp-content/uploads/2024/11/gratisography-augmented-reality-800x525.jpg, https://gratisography.com/wp-content/uploads/2024/11/gratisography-augmented-reality-800x525.jpg, Special, 1.0, asd</td>
+<td></td>
+<td>0</td>
+<td>api.testcases.Adminpoweruptestcase@292b08d6</td></tr>
+<tr>
+<td title='api.testcases.Adminpoweruptestcase.testadminpowerupcreate()'><b>testadminpowerupcreate</b><br>Test class: api.testcases.Adminpoweruptestcase<br>Parameters: New Powerup3, New Powerup3, https://images.ctfassets.net/hrltx12pl8hq/28ECAQiPJZ78hxatLTa7Ts/2f695d869736ae3b0de3e56ceaca3958/free-nature-images.jpg?fit=fill&w=1200&h=630, https://images.ctfassets.net/hrltx12pl8hq/28ECAQiPJZ78hxatLTa7Ts/2f695d869736ae3b0de3e56ceaca3958/free-nature-images.jpg?fit=fill&w=1200&h=630, Common, 0.0, sdasdasddsa</td>
+<td></td>
+<td>0</td>
+<td>api.testcases.Adminpoweruptestcase@292b08d6</td></tr>
+<tr>
+<td title='api.testcases.Adminavatartestcase.testadminavatardelete()'><b>testadminavatardelete</b><br>Test class: api.testcases.Adminavatartestcase</td>
+<td></td>
+<td>2</td>
+<td>api.testcases.Adminavatartestcase@4afcd809</td></tr>
+<tr>
+<td title='api.testcases.Adminleaderboardtestcase.testadminleaderboard()'><b>testadminleaderboard</b><br>Test class: api.testcases.Adminleaderboardtestcase</td>
+<td></td>
+<td>1</td>
+<td>api.testcases.Adminleaderboardtestcase@36ebc363</td></tr>
+</table><p>
+</body>
+</html>

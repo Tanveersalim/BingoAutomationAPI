@@ -1,0 +1,58 @@
+[INFO ] 2025-07-14 12:46:56.819 [main] BingoAutomation - User Sign In Successfully
+[INFO ] 2025-07-14 12:47:43.617 [main] BingoAutomation - User Sign In Successfully
+[INFO ] 2025-07-14 12:49:03.974 [main] BingoAutomation - User Sign In Successfully
+[INFO ] 2025-07-14 13:13:58.820 [main] BingoAutomation - User Sign In Successfully
+[INFO ] 2025-07-14 13:14:00.893 [main] BingoAutomation - Avatar Created Successfully
+[INFO ] 2025-07-14 13:14:01.584 [main] BingoAutomation - Avatar Created Successfully
+[INFO ] 2025-07-14 13:14:02.236 [main] BingoAutomation - Avatar Get Successfully
+[INFO ] 2025-07-14 13:14:03.832 [main] BingoAutomation - Avatar Updated Successfully
+[INFO ] 2025-07-14 13:14:05.990 [main] BingoAutomation - Avatar Deleted Successfully
+[INFO ] 2025-07-14 13:14:47.695 [main] BingoAutomation - User Sign In Successfully
+[INFO ] 2025-07-14 13:14:49.670 [main] BingoAutomation - Avatar Created Successfully
+[INFO ] 2025-07-14 13:14:50.398 [main] BingoAutomation - Avatar Created Successfully
+[INFO ] 2025-07-14 13:14:51.099 [main] BingoAutomation - Avatar Get Successfully
+[INFO ] 2025-07-14 13:14:52.635 [main] BingoAutomation - Avatar Updated Successfully
+[INFO ] 2025-07-14 13:14:54.689 [main] BingoAutomation - Avatar Deleted Successfully
+[INFO ] 2025-07-14 13:45:55.533 [main] BingoAutomation - User Sign In Successfully
+[INFO ] 2025-07-14 13:45:57.278 [main] BingoAutomation - Avatar Created Successfully
+[INFO ] 2025-07-14 13:45:57.955 [main] BingoAutomation - Avatar Created Successfully
+[INFO ] 2025-07-14 13:45:58.734 [main] BingoAutomation - Avatar Get Successfully
+[INFO ] 2025-07-14 13:46:00.506 [main] BingoAutomation - Avatar Updated Successfully
+[INFO ] 2025-07-14 13:46:02.520 [main] BingoAutomation - Avatar Deleted Successfully
+[INFO ] 2025-07-14 13:46:13.278 [main] BingoAutomation - User Sign In Successfully
+[INFO ] 2025-07-14 13:46:18.663 [main] BingoAutomation - User Sign In Successfully
+[INFO ] 2025-07-14 13:46:19.425 [main] BingoAutomation - User Data Get Successfully
+[INFO ] 2025-07-14 13:46:20.788 [main] BingoAutomation - User Data GetbyID Successfully
+[INFO ] 2025-07-14 13:46:25.536 [main] BingoAutomation - User Sign In Successfully
+[INFO ] 2025-07-14 13:46:26.238 [main] BingoAutomation - Currency Get Successfully
+[INFO ] 2025-07-14 13:46:27.863 [main] BingoAutomation - Currency Updated Successfully
+[INFO ] 2025-07-14 13:46:43.638 [main] BingoAutomation - User Sign In Successfully
+[INFO ] 2025-07-14 13:46:44.482 [main] BingoAutomation - Points Wager Created Successfully
+[INFO ] 2025-07-14 13:46:45.232 [main] BingoAutomation - Points Wager Get Successfully
+[INFO ] 2025-07-14 13:46:46.687 [main] BingoAutomation - Points Wager Updated Successfully
+[INFO ] 2025-07-14 13:46:48.107 [main] BingoAutomation - Points Wager Deleted Successfully
+[INFO ] 2025-07-14 13:47:16.790 [main] BingoAutomation - User Sign In Successfully
+[INFO ] 2025-07-14 13:47:19.138 [main] BingoAutomation - PowerUp Created Successfully
+[INFO ] 2025-07-14 13:47:19.768 [main] BingoAutomation - PowerUp Created Successfully
+[INFO ] 2025-07-14 13:47:20.409 [main] BingoAutomation - PowerUp Created Successfully
+[INFO ] 2025-07-14 13:47:21.076 [main] BingoAutomation - PowerUp Get Successfully
+[INFO ] 2025-07-14 13:47:22.822 [main] BingoAutomation - PowerUp Updated Successfully
+[INFO ] 2025-07-14 13:47:24.173 [main] BingoAutomation - PowerUp Deleted Successfully
+[INFO ] 2025-07-14 13:47:24.810 [main] BingoAutomation - PowerUp Deleted Successfully
+[INFO ] 2025-07-14 13:47:25.471 [main] BingoAutomation - PowerUp Deleted Successfully
+[INFO ] 2025-07-14 13:47:33.221 [main] BingoAutomation - User Sign In Successfully
+[INFO ] 2025-07-14 13:47:34.642 [main] BingoAutomation - Daily Reward Created Successfully
+[INFO ] 2025-07-14 13:47:35.291 [main] BingoAutomation - Daily Reward Created Successfully
+[INFO ] 2025-07-14 13:47:35.924 [main] BingoAutomation - Daily Reward Created Successfully
+[INFO ] 2025-07-14 13:47:36.579 [main] BingoAutomation - Daily Reward Get Successfully
+[INFO ] 2025-07-14 13:47:38.308 [main] BingoAutomation - Daily Reward Updated Successfully
+[INFO ] 2025-07-14 13:47:40.955 [main] BingoAutomation - Daily Reward Deleted Successfully
+[INFO ] 2025-07-14 13:47:48.669 [main] BingoAutomation - User Sign In Successfully
+[INFO ] 2025-07-14 13:47:49.361 [main] BingoAutomation - Leaderboard Get Successfully
+[INFO ] 2025-07-14 13:47:57.084 [main] BingoAutomation - User Sign In Successfully
+[INFO ] 2025-07-14 13:47:58.083 [main] BingoAutomation - Spin Reward Created Successfully
+[INFO ] 2025-07-14 13:47:58.775 [main] BingoAutomation - Spin Reward Created Successfully
+[INFO ] 2025-07-14 13:47:59.427 [main] BingoAutomation - Spin Reward Created Successfully
+[INFO ] 2025-07-14 13:48:00.090 [main] BingoAutomation - Spin Reward Get Successfully
+[INFO ] 2025-07-14 13:48:01.492 [main] BingoAutomation - Spin Reward Updated Successfully
+[INFO ] 2025-07-14 13:48:04.091 [main] BingoAutomation - Spin Reward Deleted Successfully
